@@ -1,4 +1,6 @@
-*Af: Emil Thranholm* *Senest opdateret: 30-10-2020*
+*Af: Emil Thranholm.*
+
+*Senest opdateret: 30-10-2020*
 
 Denne rapport følger udviklingen i corona-situationen på baggrund af
 udvalgte tabeller med nøgletal og figurer. Det primære fokus i denne
@@ -67,22 +69,22 @@ nedenfor.
 
 ##### Figur 1: Graf over nye smittetilfælde nordisk lande og udvalgte europæiske lande, 7 dages rullende gennemsnit
 
+![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-4-1.png)
 Vær opmærksom på at y-aksen af logaritme transformert. X-aksen viser
 antal dage siden 3 smittetilfælde.
-![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-4-1.png)
 
 ##### Figur 2: Graf over nye tilfælde store lande, 7 dages rullende gennemsnit
 
+![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-5-1.png)
 Denne figur viser de store europæiske lande samt USA og Brasilien.
 Y-aksen er logaritme transformeret og x-aksen er dage siden 3
 smittetilfælde
-![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-5-1.png)
 
 ##### Figur 3: Graf over nye tilfælde lande med 10 flest nye tilfælde, 7 dages rullende gennemsnit
 
+![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-6-1.png)
 Denne figur viser et 7 dages rullende gennemsnit af nye tilfælde for de
 10 lande med flest nye smittetilfælde 30-10-2020.
-![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-6-1.png)
 
 #### Smitteudvikling i hele Europa
 
@@ -114,3 +116,16 @@ Følgende kort viser smittetrykket i de europæiske lande.
 ##### Kort 1: Smittetryk i Europa, smittede per 100.000 per uge målt som gennemsnit over 14 dage
 
 ![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-9-1.png)
+
+Nedenstående kort viser udviklingen i smittetrykket. Smittetrykket er
+forsinket en uge og så fratrukket det nuværende smittetryk. Derfor kan
+det en indikation om smitten stiger eller falder og med hvilken
+hastighed. Tal over 0 betyder en stigende smitte, tal under 0 er en
+aftagende smitte. Dette siger dog ikke noget om det totale smitteniveau,
+eksempelvis kan man godt have aftagende smitte, men stadig et højt
+smittetryk. Det kort kan mere bruges til vurdere og det går i en positiv
+eller negativ retning.
+
+##### Kort 2: udvikling i smittetryk
+
+![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-10-1.png)
