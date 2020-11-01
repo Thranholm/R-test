@@ -294,7 +294,7 @@ max(big_ones$date)
 ```
 *Af: Emil Thranholm*
 
-_Senest opdateret: `r strftime(max(big_ones$date), "%d-%m-%Y")`_
+_Tallene viser de registerende tal per `r strftime(max(big_ones$date), "%d-%m-%Y")`_
 
 Denne rapport følger udviklingen i corona-situationen på baggrund
 af udvalgte tabeller med nøgletal og figurer. Det primære fokus i 
@@ -306,7 +306,6 @@ Denne tabel præsenterer antallet af smittede og vigtigere nye
 smittefilfælde registret: `r strftime(max(big_ones$date), "%d-%m-%Y")`. I denne første tabel er fokus på de nordiske lande samt udvalge mindre europæiske land. Ønsker til tilføjelse af specifikke lande kan skrives til: [ethranholm@hotmail.com](mailto:ethranholm@hotmail.com).
 
 ##### Tabel 1: Nordiske og udvalgte europæiske lande smittetilfælde
-
 ```{r echo=FALSE}
 corona %>% 
   group_by(land) %>% 
@@ -317,6 +316,8 @@ corona %>%
   dplyr::arrange(desc(udv_confirmed)) %>% 
   top_n(7, udv_confirmed)
 ```
+
+
 Confirmed er antallet af smittetilfælde i alt siden januar. Udv_confirmed er antallet af nye smittetilfælde `r strftime(max(big_ones$date), "%d-%m-%Y")`.
 
 Følgende tabel viser de 15 lande med det højeste registrede nye tilfælde:
@@ -344,6 +345,8 @@ ggplot(corona_nordic, aes(x = days_3_case, y=ny_roll_7)) +
   labs(title="Nordic rolling average 7 days new cases") +
   theme_light() 
 ```
+
+
 Vær opmærksom på at y-aksen af logaritme transformert. X-aksen viser antal dage siden 3 smittetilfælde.
 
 
@@ -356,6 +359,8 @@ ggplot(big_ones, aes(x = days_3_case, y=ny_roll_7)) +
   labs(title="Big 6 rolling average 7 days new cases") +
   theme_light()
 ```
+
+
 Denne figur viser de store europæiske lande samt USA og Brasilien. Y-aksen er logaritme transformeret og x-aksen er dage siden 3 smittetilfælde
 
 
@@ -378,13 +383,14 @@ ggplot(top10, aes(x = days_3_case, y=ny_roll_7)) +
   labs(title="Top 10 rolling average 7 days new cases") +
   theme_light()
 ```
+
+
 Denne figur viser et 7 dages rullende gennemsnit af nye tilfælde for de 10 lande med flest nye smittetilfælde `r strftime(max(big_ones$date), "%d-%m-%Y")`.
 
 #### Smitteudvikling i hele Europa
 I følgende figur er y-aksen logaritme transformere, mens x-aksen er antal dage siden 1000 registrerede smittetilfælde
 
 ##### Figur 4: Hele Europa, 7 dages rullende gennemsnit
-
 ```{r echo=FALSE, warning=FALSE}
 europa <- corona %>% 
   filter(Continent_Name=="Europe") %>% 
@@ -487,7 +493,8 @@ ggplot(eu_map_data, aes(x=long, y=lat)) +
   ditch_the_axes
 ```
 
-Nedenstående kort viser udviklingen i smittetrykket. Smittetrykket er forsinket en uge og så fratrukket det nuværende smittetryk. Derfor kan det en indikation om smitten stiger eller falder og med hvilken hastighed. Tal over 0 betyder en stigende smitte, tal under 0 er en aftagende smitte. Dette siger dog ikke noget om det totale smitteniveau, eksempelvis kan man godt have aftagende smitte, men stadig et højt smittetryk. Det kort kan mere bruges til vurdere og det går i en positiv eller negativ retning.
+
+Nedenstående kort viser udviklingen i smittetrykket. Tallene er forskellen mellem det nuværende smittetryk og smittetrykket for en uge siden. Derfor kan det en indikation om smitten stiger eller falder og med hvilken hastighed. Tal over 0 betyder en stigende smitte, tal under 0 er en aftagende smitte. Dette siger dog ikke noget om det totale smitteniveau, eksempelvis kan man godt have aftagende smitte, men stadig et højt smittetryk. Det kort kan mere bruges til vurdere og det går i en positiv eller negativ retning.
 
 ##### Kort 2: udvikling i smittetryk
 ```{r warning=FALSE, echo=FALSE}
