@@ -292,7 +292,7 @@ big_ones <- corona %>%
            land=="Brazil")
 max(big_ones$date)
 ```
-*Af: Emil Thranholm.*
+*Af: Emil Thranholm*
 
 _Senest opdateret: `r strftime(max(big_ones$date), "%d-%m-%Y")`_
 
