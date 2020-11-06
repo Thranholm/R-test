@@ -1,6 +1,6 @@
 *Af: Emil Thranholm*
 
-*Tallene viser de registerende tal per 04-11-2020*
+*Tallene viser de registerende tal per 05-11-2020*
 
 Denne rapport følger udviklingen i corona-situationen på baggrund af
 udvalgte tabeller med nøgletal og figurer. Det primære fokus i denne
@@ -12,7 +12,7 @@ Udvikling i antal smittede
 ### Nøgletal
 
 Denne tabel præsenterer antallet af smittede og vigtigere nye
-smittefilfælde registret: 04-11-2020. I denne første tabel er fokus på
+smittefilfælde registret: 05-11-2020. I denne første tabel er fokus på
 de nordiske lande samt udvalge mindre europæiske land. Ønsker til
 tilføjelse af specifikke lande kan skrives til:
 <ethranholm@hotmail.com>.
@@ -23,18 +23,18 @@ tilføjelse af specifikke lande kan skrives til:
     ## # Groups:   land [9]
     ##   land        confirmed udv_confirmed roll_7_tot roll_3_tot ny_roll_7 ny_roll_3
     ##   <chr>           <int>         <int>      <dbl>      <dbl>     <dbl>     <dbl>
-    ## 1 Czechia        378716         15731    343298.    364199    11672.     12357.
-    ## 2 Belgium        468213         15672    434704     456036.   14268       9065 
-    ## 3 Switzerland    192376         10073    165522.    183619.    8103.     12708.
-    ## 4 Netherlands    390120          7680    365092     382408.    9116       7923 
-    ## 5 Sweden         137730          3198    127264.    132206.    2831       4458.
-    ## 6 Denmark         51042           936     47837.     49967     1051       1077 
-    ## 7 Norway          22578           622     20924.     21958.     501.       648.
-    ## 8 Finland         16930           293     16264.     16656.     222.       213 
-    ## 9 Iceland          4989            32      4878.      4959       45.4       33
+    ## 1 Czechia        391945         13229    354994.    377882    11697.    13683  
+    ## 2 Belgium        479341         11128    447144.    466698.   12440.    10662  
+    ## 3 Switzerland    202504         10128    173730.    192394.    8209.     8776. 
+    ## 4 Netherlands    397112          6992    373732.    389891.    8640.     7483  
+    ## 5 Sweden         141764          4034    130207.    138009.    2942.     5803  
+    ## 6 Denmark         52265          1223     48939.     51138.    1103.     1171. 
+    ## 7 Norway          23229           651     21447.     22588.     524.      630  
+    ## 8 Finland         17119           189     16486.     16895.     222.      240. 
+    ## 9 Iceland          5017            28      4921.      4988.      42.6      28.7
 
 Confirmed er antallet af smittetilfælde i alt siden januar.
-Udv\_confirmed er antallet af nye smittetilfælde 04-11-2020.
+Udv\_confirmed er antallet af nye smittetilfælde 05-11-2020.
 
 Følgende tabel viser de 15 lande med det højeste registrede nye
 tilfælde:
@@ -45,21 +45,21 @@ tilfælde:
     ## # Groups:   land [15]
     ##    land  confirmed udv_confirmed per_cap100k_tot rejse_vej per_cap100k
     ##    <chr>     <int>         <int>           <dbl>     <dbl>       <dbl>
-    ##  1 Fran…   1591152        129761           2376.     393.       194.  
-    ##  2 US      9485448        102831           2904.     161.        31.5 
-    ##  3 India   8364086         50210            618.      25.3        3.71
-    ##  4 Germ…    608611         31480            734.     107.        38.0 
-    ##  5 Italy    790377         30548           1308.     241.        50.6 
-    ##  6 Unit…   1102305         25206           1659.     231.        37.9 
-    ##  7 Spain   1284408         25042           2745.     275.        53.5 
-    ##  8 Pola…    439536         24692           1157.     268.        65.0 
-    ##  9 Braz…   5590025         23976           2669.      73.7       11.4 
-    ## 10 Russ…   1680579         19483           1163.      80.7       13.5 
-    ## 11 Czec…    378716         15731           3563.     784.       148.  
-    ## 12 Belg…    468213         15672           4095.     931.       137.  
-    ## 13 Arge…   1205928         10652           2710.     206.        23.9 
-    ## 14 Swit…    192376         10073           2260.     506.       118.  
-    ## 15 Ukra…    433492          9809            971.     112.        22.0 
+    ##  1 US      9607336        121888           2941.     166.        37.3 
+    ##  2 Fran…   1648989         57837           2462.     422.        86.4 
+    ##  3 India   8411724         47638            622.      24.9        3.52
+    ##  4 Italy    824879         34502           1365.     256.        57.1 
+    ##  5 Pola…    466679         27143           1229.     283.        71.5 
+    ##  6 Unit…   1126469         24164           1695.     233.        36.4 
+    ##  7 Germ…    631172         22561            761.     114.        27.2 
+    ##  8 Spain   1306316         21908           2791.     281.        46.8 
+    ##  9 Russ…   1699695         19116           1176.      81.8       13.2 
+    ## 10 Czec…    391945         13229           3687.     789.       124.  
+    ## 11 Belg…    479341         11128           4193.     936.        97.3 
+    ## 12 Arge…   1217028         11100           2735.     201.        24.9 
+    ## 13 Ukra…    443630         10138            994.     115.        22.7 
+    ## 14 Swit…    202504         10128           2379.     533.       119.  
+    ## 15 Colo…   1117977          9891           2252.     125.        19.9 
     ## # … with 1 more variable: per_cap_roll7 <dbl>
 
 ### Grafer og kort
@@ -87,7 +87,7 @@ smittetilfælde
 ![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-6-1.png)
 
 Denne figur viser et 7 dages rullende gennemsnit af nye tilfælde for de
-10 lande med flest nye smittetilfælde 04-11-2020.
+10 lande med flest nye smittetilfælde 05-11-2020.
 
 #### Smitteudvikling i hele Europa
 
