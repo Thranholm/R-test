@@ -409,6 +409,7 @@ ggplot(europa, aes(x = days_1000_case, y=ny_roll_7)) +
 ```
 
 Følgende figur er samme som ovenstående men med fokus på øverste højre hjørne.
+
 ##### Figur 5: Hele Europa fokuseret, 7 dages rullende gennemsnit
 
 ```{r echo=FALSE, warning=FALSE}
