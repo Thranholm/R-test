@@ -424,11 +424,34 @@ ggplot(europa, aes(x = days_1000_case, y=ny_roll_7)) +
   theme(legend.position = "none") +
   coord_cartesian(xlim = c(max(europa$days_1000_case, na.rm = TRUE)-70,
                            max(europa$days_1000_case, na.rm = TRUE)+1),
-                  ylim = c(50,35000))
+                  ylim = c(50,45000))
 ```
 
 ### Den danske rejsevejledning
 Danmarks rejsevejledninger bliver lavet på baggrund af en vurdering af smittetrykket i de enkelte lande (og om andre lande har restriktioner mod Danmark). Her fokuseres udelukkende på smittetrykket. Smittetrykket måles som antallet af smittede pr. 100.000 indbyggere per uge målt som gennemsnit over 14 dage. Er smittetrykket over 30 frarådes alle ikke-nødvendige rejser, mens landet "åbnes" igen ved et smittetryk på 20 eller under.
+
+Følgende graf viser udviklingen i smittetrykket i de europæiske lande. Notér, at x-aksen er dage efter 1000 cases, mens y-aksen er logaritme transformeret. Den røde linje markerer et smittetryk på 30, som er den danske grænse for at der frarådes ikke-nødvendige rejser til landet. Mens den grønne linje ved smittetryk 20 markerer den grænse landet skal være under for at der igen åbnes for rejser.
+
+##### Figur 6: Udvikling i smittetrykket i Europa, smittede per 100.000 per uge målt som gennemsnit over 14 dage
+
+```{r echo=FALSE, warning=FALSE}
+ggplot(europa, aes(x = days_1000_case, y=rejse_vej)) +
+  geom_line(aes(colour = land)) +
+  scale_y_log10() +
+  scale_colour_hue(h=c(0,360)+30, c=30, l=80, h.start = 0, direction = 1) +
+  labs(title="Europe cases per 100.000 capita as average over 2 weeks, focus") +
+  theme_light() +
+  geom_dl(aes(label = land), method = list("last.points", 
+                                           cex = 0.5, rot=-35)) +
+  geom_hline(yintercept = c(20, 30), colour = c("green", "red"), 
+             alpha=c(0.35,0.35), size=c(0.35,0.35)) +
+  theme(legend.position = "none") +
+  coord_cartesian(xlim = c(max(europa$days_1000_case, na.rm = TRUE)-70,
+                           max(europa$days_1000_case, na.rm = TRUE)+1),
+                  ylim = c(10,1000))
+```
+
+
 
 Følgende kort viser smittetrykket i de europæiske lande.
 
