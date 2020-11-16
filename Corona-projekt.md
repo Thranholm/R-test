@@ -145,6 +145,9 @@ positiv eller negativ retning.
 
 ![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-11-1.png)
 
+\*Obs. note 16. november: udviklingen i smittede i Frankrig laver et
+mærkeligt knæk. Deres tal er muligvis ikke retvisende længere.
+
 Udvikling i dødsfald
 ====================
 

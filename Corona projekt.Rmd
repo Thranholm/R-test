@@ -532,6 +532,8 @@ ggplot(eu_map_data, aes(x=long, y=lat)) +
   ditch_the_axes
 ```
 
+*Obs. note 16. november: udviklingen i smittede i Frankrig laver et mærkeligt knæk. Deres tal er muligvis ikke retvisende længere.
+
 # Udvikling i dødsfald
 
 ```{r warning=FALSE, echo=FALSE, results="hide"}
