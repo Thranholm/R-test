@@ -292,9 +292,12 @@ big_ones <- corona %>%
            land=="Brazil")
 max(big_ones$date)
 ```
-*Af: Emil Thranholm*
+
+# Corona blog med primært europæisk fokus
 
 _Tallene viser de registerende tal per `r strftime(max(big_ones$date), "%d-%m-%Y")`_
+
+_kilde: https://github.com/pomber/covid19_
 
 Denne rapport følger udviklingen i corona-situationen på baggrund
 af udvalgte tabeller med nøgletal og figurer. Det primære fokus i 
