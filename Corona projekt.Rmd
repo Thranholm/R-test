@@ -297,7 +297,7 @@ max(big_ones$date)
 
 _Tallene viser de registerende tal per `r strftime(max(big_ones$date), "%d-%m-%Y")`_
 
-_kilde: https://github.com/pomber/covid19_
+*kilde: https://github.com/pomber/covid19*
 
 Denne rapport følger udviklingen i corona-situationen på baggrund
 af udvalgte tabeller med nøgletal og figurer. Det primære fokus i 
