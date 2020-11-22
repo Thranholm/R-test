@@ -1,7 +1,7 @@
 Corona blog med primært europæisk fokus
 =======================================
 
-*Tallene viser de registerende tal per 20-11-2020*
+*Tallene viser de registerende tal per 21-11-2020*
 
 *kilde:
 <a href="https://github.com/pomber/covid19" class="uri">https://github.com/pomber/covid19</a>*
@@ -16,7 +16,7 @@ Udvikling i antal smittede
 ### Nøgletal
 
 Denne tabel præsenterer antallet af smittede og vigtigere nye
-smittefilfælde registret: 20-11-2020. I denne første tabel er fokus på
+smittefilfælde registret: 21-11-2020. I denne første tabel er fokus på
 de nordiske lande samt udvalge mindre europæiske land. Ønsker til
 tilføjelse af specifikke lande kan skrives til:
 <ethranholm@hotmail.com>.
@@ -27,18 +27,18 @@ tilføjelse af specifikke lande kan skrives til:
     ## # Groups:   land [9]
     ##   land        confirmed udv_confirmed roll_7_tot roll_3_tot ny_roll_7 ny_roll_3
     ##   <chr>           <int>         <int>      <dbl>      <dbl>     <dbl>     <dbl>
-    ## 1 Sweden         208295          7240    190043.    201932     4420       5285.
-    ## 2 Netherlands    480649          6008    464671.    474730     5302.      5481.
-    ## 3 Czechia        487563          5808    471177     481534     4790.      5931.
-    ## 4 Switzerland    290601          4946    273669.    285635.    4781.      5356.
-    ## 5 Belgium        553680          3416    542204.    549910.    4095.      4358.
-    ## 6 Denmark         68878          1257     65140.     67608.    1195.      1270.
-    ## 7 Norway          32014           573     29949.     31408.     585.       633.
-    ## 8 Finland         20747           461     19779.     20323.     270.       367.
-    ## 9 Iceland          5251            20      5215.      5236       11.6       12
+    ## 1 Netherlands    486820          6171    470002.    480703.    5331.     5973. 
+    ## 2 Belgium        556904          3224    545864.    553616     3661.     3706. 
+    ## 3 Czechia        490750          3187    475823.    486689.    4646.     5155. 
+    ## 4 Denmark         70152          1274     66363      68884.    1223.     1276  
+    ## 5 Finland         21216           469     20081.     20750.     302       427  
+    ## 6 Norway          32352           338     30508.     31936.     560.      527. 
+    ## 7 Iceland          5269            18      5227.      5250.      11.9      14.3
+    ## 8 Sweden         208295             0    194463.    205882.    4420      3950. 
+    ## 9 Switzerland    290601             0    278450.    288952.    4781.     3318.
 
 Confirmed er antallet af smittetilfælde i alt siden januar.
-Udv\_confirmed er antallet af nye smittetilfælde 20-11-2020.
+Udv\_confirmed er antallet af nye smittetilfælde 21-11-2020.
 
 Følgende tabel viser de 15 lande med det højeste registrede nye
 tilfælde:
@@ -49,21 +49,21 @@ tilfælde:
     ## # Groups:   land [15]
     ##    land  confirmed udv_confirmed per_cap100k_tot rejse_vej per_cap100k
     ##    <chr>     <int>         <int>           <dbl>     <dbl>       <dbl>
-    ##  1 US     11910858        195542           3646.     300.        59.9 
-    ##  2 India   9050597         46232            669.      22.3        3.42
-    ##  3 Braz…   6020164         38397           2874.      83.0       18.3 
-    ##  4 Italy   1345767         37239           2227.     394.        61.6 
-    ##  5 Russ…   2023025         24059           1400.     101.        16.7 
-    ##  6 Fran…   2160343         23247           3225.     394.        34.7 
-    ##  7 Germ…    914118         22593           1103.     157.        27.3 
-    ##  8 Pola…    819262         22464           2157.     438.        59.2 
-    ##  9 Unit…   1477214         20274           2223.     251.        30.5 
-    ## 10 Spain   1556730         15156           3327.     268.        32.4 
-    ## 11 Ukra…    614986         14834           1378.     169.        33.2 
-    ## 12 Iran     828377         13260           1013.      92.2       16.2 
-    ## 13 Arge…   1359042          9608           3054.     151.        21.6 
-    ## 14 Roma…    403123          9272           2071.     295.        47.6 
-    ## 15 Colo…   1233444          7954           2484.     112.        16.0 
+    ##  1 US     12088410        177552           3700.     310.        54.3 
+    ##  2 India   9095806         45209            672.      22.1        3.34
+    ##  3 Italy   1380531         34764           2285.     396.        57.5 
+    ##  4 Braz…   6052786         32622           2890.      86.0       15.6 
+    ##  5 Russ…   2047563         24538           1417.     103.        17.0 
+    ##  6 Pola…    843475         24213           2221.     436.        63.8 
+    ##  7 Unit…   1497135         19921           2253.     249.        30.0 
+    ##  8 Fran…   2178023         17680           3252.     381.        26.4 
+    ##  9 Ukra…    629850         14864           1412.     172.        33.3 
+    ## 10 Germ…    927990         13872           1119.     156.        16.7 
+    ## 11 Iran     841308         12931           1028.      94.9       15.8 
+    ## 12 Roma…    412808          9685           2121.     297.        49.8 
+    ## 13 Arge…   1366182          7140           3070.     150.        16.0 
+    ## 14 Colo…   1240493          7049           2499.     110.        14.2 
+    ## 15 Aust…    241962          6611           2737.     540.        74.8 
     ## # … with 1 more variable: per_cap_roll7 <dbl>
 
 ### Grafer og kort
@@ -91,7 +91,7 @@ smittetilfælde
 ![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-6-1.png)
 
 Denne figur viser et 7 dages rullende gennemsnit af nye tilfælde for de
-10 lande med flest nye smittetilfælde 20-11-2020.
+10 lande med flest nye smittetilfælde 21-11-2020.
 
 #### Smitteudvikling i hele Europa
 
@@ -152,7 +152,7 @@ positiv eller negativ retning.
 Udvikling i dødsfald
 ====================
 
-Nedenstående tabel viser udvikling i dødsfald i udv\_deaths 20-11-2020
+Nedenstående tabel viser udvikling i dødsfald i udv\_deaths 21-11-2020
 og total antal dødsfald i deaths. Første tabel viser det for udvalgte
 mindre Europæiske lande, mens det efterfølgende viser på verdensplan.
 
@@ -162,15 +162,15 @@ mindre Europæiske lande, mens det efterfølgende viser på verdensplan.
     ## # Groups:   land [9]
     ##   land        deaths udv_deaths roll_7_tot roll_3_tot ny_roll_7 ny_roll_3
     ##   <chr>        <int>      <int>      <dbl>      <dbl>     <dbl>     <dbl>
-    ## 1 Belgium      15352        156    14822.     15191     178       171    
-    ## 2 Czechia       7021        147     6554.      6878.    156.      154.   
-    ## 3 Switzerland   3992        113     3651.      3879.     96.7     109.   
-    ## 4 Sweden        6406         66     6255.      6356.     34.6      60.3  
-    ## 5 Netherlands   8898         52     8698.      8839.     66.9      69.7  
-    ## 6 Denmark        778          5      767.       774.      3.14      3.33 
-    ## 7 Finland        375          1      372.       374.      0.857     1.33 
-    ## 8 Iceland         26          1       25.1       25.3     0.143     0.333
-    ## 9 Norway         306          1      299.       304.      1.71      2.67
+    ## 1 Belgium      15522        170    14996.     15357.    174.      166.   
+    ## 2 Czechia       7095         74     6702.      6997.    148.      118.   
+    ## 3 Netherlands   8946         48     8759       8897.     61.4      58    
+    ## 4 Switzerland   4031         39     3748       3967.     97.1      88.7  
+    ## 5 Denmark        781          3      771.       777.      3.43      3.67 
+    ## 6 Finland        375          0      373.       375.      0.857     0.333
+    ## 7 Iceland         26          0       25.3       25.7     0.143     0.333
+    ## 8 Norway         306          0      300.       306.      1.71      2    
+    ## 9 Sweden        6406          0     6289.      6384      34.6      28.3
 
 ##### Tabel 4: Udvikling i dødsfald, flest nye dødsfald verdensplan
 
@@ -178,21 +178,21 @@ mindre Europæiske lande, mens det efterfølgende viser på verdensplan.
     ## # Groups:   land [15]
     ##    land           deaths udv_deaths roll_7_tot roll_3_tot ny_roll_7 ny_roll_3
     ##    <chr>           <int>      <int>      <dbl>      <dbl>     <dbl>     <dbl>
-    ##  1 US             254413       1878    249272.    252489.     1441.     1914.
-    ##  2 France          48341       1140     46101.     47438       626.      665 
-    ##  3 Mexico         100823        719     99306.    100152.      457       599 
-    ##  4 Italy           48569        699     46538.     47885.      633.      702.
-    ##  5 Poland          12714        626     11141.     12084.      459.      622 
-    ##  6 India          132726        564    131098.    132155.      505.      578.
-    ##  7 Brazil         168613        552    166900.    168043       554.      638 
-    ##  8 United Kingdom  54381        511     52940.     53873       426.      514 
-    ##  9 Iran            43896        479     42460.     43418       473.      478.
-    ## 10 Russia          34980        455     33685.     34524.      403.      454.
-    ## 11 Spain           42619        328     41633.     42316.      264.      310.
-    ## 12 Argentina       36790        258     36035      36556.      249.      228 
-    ## 13 Germany         13918        256     13146.     13657.      216.      260 
-    ## 14 Ukraine         10929        235     10276.     10685.      189.      254.
-    ## 15 Colombia        34929        168     34388.     34751       180       183.
+    ##  1 US             255861       1448    250739     254270.     1467.     1780.
+    ##  2 Italy           49261        692     47192.     48567.      654       681.
+    ##  3 Poland          13288        574     11604      12697.      463.      612.
+    ##  4 India          133227        501    131611.    132705       513.      550.
+    ##  5 Russia          35442        462     34100.     34982.      415.      458 
+    ##  6 Iran            44327        431     42931.     43880       470.      462 
+    ##  7 Brazil         168989        376    167376.    168554.      476.      511.
+    ##  8 United Kingdom  54721        340     53349.     54324       409       451 
+    ##  9 France          48593        252     46713.     48045       612.      607 
+    ## 10 Ukraine         11149        220     10468.     10924       192.      239.
+    ## 11 Colombia        35104        175     34570.     34931.      182.      180.
+    ## 12 Belgium         15522        170     14996.     15357.      174.      166.
+    ## 13 Romania          9916        160      9423.      9756       158.      162.
+    ## 14 Germany         14061        143     13368.     13880.      221.      224.
+    ## 15 Turkey          12219        135     11840.     12082       114.      133
 
 Figurerne nedenfor viser nye dødsfald som rullende 7-dages gennemsnit.
 X-aksen er antal dage siden 3 dødsfald og y-aksen er logaritme
@@ -214,33 +214,33 @@ Følgende tabel er sorteret efter antal dødsfald per 100.000 indbyggere
     ## # Groups:   land [30]
     ##    land                   deaths udv_deaths per_cap100k_tot
     ##    <chr>                   <int>      <int>           <dbl>
-    ##  1 Belgium                 15352        156           134. 
+    ##  1 Belgium                 15522        170           136. 
     ##  2 San Marino                 43          0           127. 
-    ##  3 Peru                    35446        129           111. 
+    ##  3 Peru                    35549        103           111. 
     ##  4 Andorra                    76          0            98.7
-    ##  5 Spain                   42619        328            91.1
-    ##  6 Argentina               36790        258            82.7
-    ##  7 United Kingdom          54381        511            81.8
-    ##  8 Brazil                 168613        552            80.5
-    ##  9 Italy                   48569        699            80.4
-    ## 10 Chile                   15003         48            80.1
-    ## 11 Mexico                 100823        719            79.9
-    ## 12 Bolivia                  8900         11            78.4
-    ## 13 Moldova                  2111         20            78.0
-    ## 14 US                     254413       1878            77.9
-    ## 15 Ecuador                 13095         22            76.6
-    ## 16 France                  48341       1140            72.2
-    ## 17 Colombia                34929        168            70.4
-    ## 18 Panama                   2932         10            70.2
-    ## 19 North Macedonia          1462         39            70.1
-    ## 20 Bosnia and Herzegovina   2209         56            66.5
-    ## 21 Czechia                  7021        147            66.0
-    ## 22 Armenia                  1900         30            64.4
-    ## 23 Sweden                   6406         66            63.0
-    ## 24 Iran                    43896        479            53.7
-    ## 25 Netherlands              8898         52            51.6
-    ## 26 Romania                  9756        160            50.1
-    ## 27 Slovenia                  995         31            48.0
-    ## 28 Switzerland              3992        113            46.9
-    ## 29 Luxembourg                260          6            42.8
+    ##  5 Spain                   42619          0            91.1
+    ##  6 Argentina               36902        112            82.9
+    ##  7 United Kingdom          54721        340            82.3
+    ##  8 Italy                   49261        692            81.5
+    ##  9 Brazil                 168989        376            80.7
+    ## 10 Chile                   15030         27            80.2
+    ## 11 Mexico                 100823          0            79.9
+    ## 12 Moldova                  2130         19            78.7
+    ## 13 Bolivia                  8904          4            78.4
+    ## 14 US                     255861       1448            78.3
+    ## 15 Ecuador                 13139         44            76.9
+    ## 16 France                  48593        252            72.6
+    ## 17 North Macedonia          1487         25            71.3
+    ## 18 Colombia                35104        175            70.7
+    ## 19 Panama                   2946         14            70.5
+    ## 20 Bosnia and Herzegovina   2246         37            67.6
+    ## 21 Czechia                  7095         74            66.7
+    ## 22 Armenia                  1931         31            65.4
+    ## 23 Sweden                   6406          0            63.0
+    ## 24 Iran                    44327        431            54.2
+    ## 25 Netherlands              8946         48            51.9
+    ## 26 Romania                  9916        160            50.9
+    ## 27 Slovenia                 1026         31            49.5
+    ## 28 Switzerland              4031         39            47.3
+    ## 29 Luxembourg                260          0            42.8
     ## 30 Bahamas                   163          0            42.3
