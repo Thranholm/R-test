@@ -1,5 +1,6 @@
 ---
 title: "Corona rapport"
+always_allow_html: TRUE
 output: 
   md_document:
     variant: markdown_github
@@ -18,7 +19,7 @@ library(pacman)
 
 pacman::p_load(lubridate, tidyverse, httr, jsonlite, stringr, ggplot2, 
                RColorBrewer, cowplot, zoo, directlabels, scales,
-               ggmap, maps, mapdata)
+               ggmap, maps, mapdata, DT)
 #p_update()
 rm(list = ls())
 
@@ -310,14 +311,16 @@ smittefilfælde registret: `r strftime(max(big_ones$date), "%d-%m-%Y")`. I denne
 
 ##### Tabel 1: Nordiske og udvalgte europæiske lande smittetilfælde
 ```{r echo=FALSE}
-corona %>% 
+datatable(corona %>% 
   group_by(land) %>% 
   filter(date==today()-1 & 
            (location=="Nordic Countries" | land=="Czechia" | land=="Switzerland" |
-              land=="Belgium" | land=="Netherlands")) %>% 
-  select(land, confirmed, udv_confirmed, roll_7_tot, roll_3_tot, ny_roll_7, ny_roll_3) %>% 
+              land=="Belgium" | land=="Netherlands" | land=="Austria")) %>% 
+  select(land, confirmed, udv_confirmed) %>% 
   dplyr::arrange(desc(udv_confirmed)) %>% 
-  top_n(7, udv_confirmed)
+  top_n(7, udv_confirmed),
+  rownames = FALSE
+)
 ```
 
 
@@ -529,7 +532,7 @@ ggplot(eu_map_data, aes(x=long, y=lat)) +
   geom_polygon(aes(fill=rejse_vej_diff, group=group), colour="white") + 
   coord_fixed(1.3) +
   geom_text(aes(label = rejse_vej_diff), data=label_geo, size=3) +
-  scale_fill_gradient2(low = "green", mid = "yellow", high = "red", midpoint = 10) +
+  scale_fill_gradient2(low = "green", mid = c("green", "yellow", "red"), high = "red", midpoint = 10) +
   theme_bw() +
   labs(title = "Smittede per 100.000 gennemsnit over 14 dage, 7 dages lag") +
   ditch_the_axes
@@ -544,7 +547,7 @@ ggplot(eu_map_data, aes(x=long, y=lat)) +
 library(pacman)
 
 pacman::p_load(lubridate, tidyverse, httr, jsonlite, stringr, ggplot2, 
-               RColorBrewer, cowplot, zoo, dplyr)
+               RColorBrewer, cowplot, zoo, dplyr, DT)
 #p_update()
 rm(list = ls())
 

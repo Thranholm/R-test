@@ -23,19 +23,10 @@ tilføjelse af specifikke lande kan skrives til:
 
 ##### Tabel 1: Nordiske og udvalgte europæiske lande smittetilfælde
 
-    ## # A tibble: 9 x 7
-    ## # Groups:   land [9]
-    ##   land        confirmed udv_confirmed roll_7_tot roll_3_tot ny_roll_7 ny_roll_3
-    ##   <chr>           <int>         <int>      <dbl>      <dbl>     <dbl>     <dbl>
-    ## 1 Netherlands    486820          6171    470002.    480703.    5331.     5973. 
-    ## 2 Belgium        556904          3224    545864.    553616     3661.     3706. 
-    ## 3 Czechia        490750          3187    475823.    486689.    4646.     5155. 
-    ## 4 Denmark         70152          1274     66363      68884.    1223.     1276  
-    ## 5 Finland         21216           469     20081.     20750.     302       427  
-    ## 6 Norway          32352           338     30508.     31936.     560.      527. 
-    ## 7 Iceland          5269            18      5227.      5250.      11.9      14.3
-    ## 8 Sweden         208295             0    194463.    205882.    4420      3950. 
-    ## 9 Switzerland    290601             0    278450.    288952.    4781.     3318.
+<!--html_preserve-->
+
+<script type="application/json" data-for="htmlwidget-bcb76e0184450733b89f">{"x":{"filter":"none","data":[["Austria","Netherlands","Belgium","Czechia","Denmark","Finland","Norway","Iceland","Sweden","Switzerland"],[241962,486820,556904,490750,70152,21216,32352,5269,208295,290601],[6611,6171,3224,3187,1274,469,338,18,0,0]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>land<\/th>\n      <th>confirmed<\/th>\n      <th>udv_confirmed<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[1,2]}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<!--/html_preserve-->
 
 Confirmed er antallet af smittetilfælde i alt siden januar.
 Udv\_confirmed er antallet af nye smittetilfælde 21-11-2020.
