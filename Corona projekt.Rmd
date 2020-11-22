@@ -1,6 +1,5 @@
 ---
 title: "Corona rapport"
-always_allow_html: TRUE
 output: 
   md_document:
     variant: markdown_github
@@ -19,7 +18,7 @@ library(pacman)
 
 pacman::p_load(lubridate, tidyverse, httr, jsonlite, stringr, ggplot2, 
                RColorBrewer, cowplot, zoo, directlabels, scales,
-               ggmap, maps, mapdata, DT)
+               ggmap, maps, mapdata, knitr)
 #p_update()
 rm(list = ls())
 
@@ -311,15 +310,14 @@ smittefilfælde registret: `r strftime(max(big_ones$date), "%d-%m-%Y")`. I denne
 
 ##### Tabel 1: Nordiske og udvalgte europæiske lande smittetilfælde
 ```{r echo=FALSE}
-datatable(corona %>% 
+kable(corona %>% 
   group_by(land) %>% 
   filter(date==today()-1 & 
            (location=="Nordic Countries" | land=="Czechia" | land=="Switzerland" |
               land=="Belgium" | land=="Netherlands" | land=="Austria")) %>% 
   select(land, confirmed, udv_confirmed) %>% 
   dplyr::arrange(desc(udv_confirmed)) %>% 
-  top_n(7, udv_confirmed),
-  rownames = FALSE
+  top_n(7, udv_confirmed)
 )
 ```
 
@@ -547,7 +545,7 @@ ggplot(eu_map_data, aes(x=long, y=lat)) +
 library(pacman)
 
 pacman::p_load(lubridate, tidyverse, httr, jsonlite, stringr, ggplot2, 
-               RColorBrewer, cowplot, zoo, dplyr, DT)
+               RColorBrewer, cowplot, zoo, dplyr, knitr)
 #p_update()
 rm(list = ls())
 

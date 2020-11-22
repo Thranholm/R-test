@@ -23,10 +23,18 @@ tilføjelse af specifikke lande kan skrives til:
 
 ##### Tabel 1: Nordiske og udvalgte europæiske lande smittetilfælde
 
-<!--html_preserve-->
-
-<script type="application/json" data-for="htmlwidget-bcb76e0184450733b89f">{"x":{"filter":"none","data":[["Austria","Netherlands","Belgium","Czechia","Denmark","Finland","Norway","Iceland","Sweden","Switzerland"],[241962,486820,556904,490750,70152,21216,32352,5269,208295,290601],[6611,6171,3224,3187,1274,469,338,18,0,0]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>land<\/th>\n      <th>confirmed<\/th>\n      <th>udv_confirmed<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[1,2]}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
-<!--/html_preserve-->
+| land        |  confirmed|  udv\_confirmed|
+|:------------|----------:|---------------:|
+| Austria     |     241962|            6611|
+| Netherlands |     486820|            6171|
+| Belgium     |     556904|            3224|
+| Czechia     |     490750|            3187|
+| Denmark     |      70152|            1274|
+| Finland     |      21216|             469|
+| Norway      |      32352|             338|
+| Iceland     |       5269|              18|
+| Sweden      |     208295|               0|
+| Switzerland |     290601|               0|
 
 Confirmed er antallet af smittetilfælde i alt siden januar.
 Udv\_confirmed er antallet af nye smittetilfælde 21-11-2020.
