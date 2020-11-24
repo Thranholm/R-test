@@ -820,7 +820,7 @@ corona %>%
   group_by(land) %>% 
   filter(date==today()-1 & 
            (location=="Nordic Countries" | land=="Czechia" | land=="Switzerland" |
-              land=="Belgium" | land=="Netherlands")) %>% 
+              land=="Belgium" | land=="Netherlands" | land=="Austria")) %>% 
   select(land, deaths, udv_deaths, roll_7_tot, roll_3_tot, ny_roll_7, ny_roll_3) %>% 
   dplyr::arrange(desc(udv_deaths)) %>% 
   top_n(7, udv_deaths)
