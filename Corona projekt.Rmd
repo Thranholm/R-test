@@ -317,7 +317,11 @@ kable(corona %>%
               land=="Belgium" | land=="Netherlands" | land=="Austria")) %>% 
   select(land, confirmed, udv_confirmed) %>% 
   dplyr::arrange(desc(udv_confirmed)) %>% 
-  top_n(7, udv_confirmed)
+  top_n(7, udv_confirmed),
+      format = "markdown",
+      row.names = TRUE,
+      col.names = c("Land", "Total antal smittede", "Nye smittetilfælde"),
+      align = c("l", "r", "r")
 )
 ```
 
@@ -328,13 +332,14 @@ Følgende tabel viser de 15 lande med det højeste registrede nye tilfælde:
 
 ##### Tabel 2: Top 15 i verden smittetilfælde
 ```{r echo=FALSE}
-corona %>% 
+kable(corona %>% 
   group_by(land) %>% 
   filter(date==today()-1) %>% 
   select(land, confirmed, udv_confirmed, per_cap100k_tot, rejse_vej, per_cap100k, per_cap_roll7) %>% 
   dplyr::arrange(desc(udv_confirmed)) %>% 
   top_n(15, udv_confirmed) %>% 
   head(15) 
+)
 ```
 
 ### Grafer og kort
@@ -816,7 +821,7 @@ Nedenstående tabel viser udvikling i dødsfald i udv_deaths `r strftime(max(big
 
 ##### Tabel 3: Udvikling i dødsfald udvalgte europæiske lande
 ```{r echo=FALSE}
-corona %>% 
+kable(corona %>% 
   group_by(land) %>% 
   filter(date==today()-1 & 
            (location=="Nordic Countries" | land=="Czechia" | land=="Switzerland" |
@@ -824,17 +829,19 @@ corona %>%
   select(land, deaths, udv_deaths, roll_7_tot, roll_3_tot, ny_roll_7, ny_roll_3) %>% 
   dplyr::arrange(desc(udv_deaths)) %>% 
   top_n(7, udv_deaths)
+)
 ```
 
 ##### Tabel 4: Udvikling i dødsfald, flest nye dødsfald verdensplan
 ```{r echo=FALSE}
-corona %>% 
+kable(corona %>% 
   group_by(land) %>% 
   filter(date==today()-1) %>% 
   select(land, deaths, udv_deaths, roll_7_tot, roll_3_tot, ny_roll_7, ny_roll_3) %>% 
   dplyr::arrange(desc(udv_deaths)) %>% 
   top_n(15, udv_deaths) %>% 
   head(15)
+)
 ```
 
 
@@ -865,7 +872,7 @@ Følgende tabel er sorteret efter antal dødsfald per 100.000 indbyggere
 
 ##### Tabel 5: Dødsfald per 100.000 indbyggere
 ```{r echo=FALSE}
-corona %>% 
+kable(corona %>% 
   group_by(land) %>% 
   filter(date==today()-1) %>% 
   ## fjerner lande, der ligger dobbelt
@@ -876,6 +883,7 @@ corona %>%
   top_n(30, per_cap100k_tot) %>% 
   head(30) %>% 
   print(n=30)
+)
 ```
 
 
