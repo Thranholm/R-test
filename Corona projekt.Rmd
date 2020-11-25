@@ -321,7 +321,8 @@ kable(corona %>%
       format = "markdown",
       row.names = TRUE,
       col.names = c("Land", "Total antal smittede", "Nye smittetilfælde"),
-      align = c("l", "r", "r")
+      align = c("l", "r", "r"),
+      padding = 4
 )
 ```
 
@@ -335,10 +336,15 @@ Følgende tabel viser de 15 lande med det højeste registrede nye tilfælde:
 kable(corona %>% 
   group_by(land) %>% 
   filter(date==today()-1) %>% 
-  select(land, confirmed, udv_confirmed, per_cap100k_tot, rejse_vej, per_cap100k, per_cap_roll7) %>% 
+  select(land, confirmed, udv_confirmed) %>% 
   dplyr::arrange(desc(udv_confirmed)) %>% 
   top_n(15, udv_confirmed) %>% 
-  head(15) 
+  head(15),
+      format = "markdown",
+      row.names = TRUE,
+      col.names = c("Land", "Total antal smittede", "Nye smittetilfælde"),
+      align = c("l", "r", "r"),
+      padding = 4
 )
 ```
 
