@@ -315,36 +315,38 @@ kable(corona %>%
   filter(date==today()-1 & 
            (location=="Nordic Countries" | land=="Czechia" | land=="Switzerland" |
               land=="Belgium" | land=="Netherlands" | land=="Austria")) %>% 
-  select(land, confirmed, udv_confirmed) %>% 
+  select(land, confirmed, udv_confirmed, per_cap100k, per_cap_roll7) %>% 
   dplyr::arrange(desc(udv_confirmed)) %>% 
   top_n(7, udv_confirmed),
       format = "markdown",
       row.names = TRUE,
-      col.names = c("Land", "Total antal smittede", "Nye smittetilfælde"),
-      align = c("l", "r", "r"),
-      padding = 4
+      col.names = c("Land", "Total antal smittede", "Nye tilfælde", "Nye tilfælde per 100.000", "Nye tilfælde per 100.000, 7 dages rullende gennemsnit"),
+      align = c("l", "r", "r", "r", "r"),
+      padding = 4,
+      digits = 1
 )
 ```
 
 
 Confirmed er antallet af smittetilfælde i alt siden januar. Udv_confirmed er antallet af nye smittetilfælde `r strftime(max(big_ones$date), "%d-%m-%Y")`.
 
-Følgende tabel viser de 15 lande med det højeste registrede nye tilfælde:
+Følgende tabel viser de 15 lande med det højeste registrede nye smittetilfælde:
 
 ##### Tabel 2: Top 15 i verden smittetilfælde
 ```{r echo=FALSE}
 kable(corona %>% 
   group_by(land) %>% 
   filter(date==today()-1) %>% 
-  select(land, confirmed, udv_confirmed) %>% 
+  select(land, confirmed, udv_confirmed, per_cap100k, per_cap_roll7) %>% 
   dplyr::arrange(desc(udv_confirmed)) %>% 
   top_n(15, udv_confirmed) %>% 
   head(15),
       format = "markdown",
       row.names = TRUE,
-      col.names = c("Land", "Total antal smittede", "Nye smittetilfælde"),
-      align = c("l", "r", "r"),
-      padding = 4
+      col.names = c("Land", "Total antal smittede", "Nye smittetilfælde", "Nye tilfælde per 100.000", "Nye tilfælde per 100.000, 7 dages rullende gennemsnit"),
+      align = c("l", "r", "r", "r", "r"),
+      padding = 4,
+      digits = 1
 )
 ```
 
@@ -517,7 +519,8 @@ ditch_the_axes <- theme(
   axis.ticks = element_blank(),
   panel.border = element_blank(),
   panel.grid = element_blank(),
-  axis.title = element_blank()
+  axis.title = element_blank(),
+  legend.position = "none"
 )
 
 ggplot(eu_map_data, aes(x=long, y=lat)) +
@@ -832,9 +835,13 @@ kable(corona %>%
   filter(date==today()-1 & 
            (location=="Nordic Countries" | land=="Czechia" | land=="Switzerland" |
               land=="Belgium" | land=="Netherlands" | land=="Austria")) %>% 
-  select(land, deaths, udv_deaths, roll_7_tot, roll_3_tot, ny_roll_7, ny_roll_3) %>% 
+  select(land, deaths, udv_deaths, ny_roll_7) %>% 
   dplyr::arrange(desc(udv_deaths)) %>% 
-  top_n(7, udv_deaths)
+  top_n(7, udv_deaths),
+  row.names = TRUE,
+  col.names = c("Land", "Total antal dødsfald", "Nye dødsfald", "Nye dødsfald, 7 dages rullende gennemsnit"),
+  align = c("l", "r", "r", "r"),
+  digits = 1
 )
 ```
 
@@ -843,10 +850,14 @@ kable(corona %>%
 kable(corona %>% 
   group_by(land) %>% 
   filter(date==today()-1) %>% 
-  select(land, deaths, udv_deaths, roll_7_tot, roll_3_tot, ny_roll_7, ny_roll_3) %>% 
+  select(land, deaths, udv_deaths,  ny_roll_7) %>% 
   dplyr::arrange(desc(udv_deaths)) %>% 
   top_n(15, udv_deaths) %>% 
-  head(15)
+  head(15),
+  row.names = TRUE,
+  col.names = c("Land", "Total antal dødsfald", "Nye dødsfald", "Nye dødsfald, 7 dages rullende gennemsnit"),
+  align = c("l", "r", "r", "r"),
+  digits = 1
 )
 ```
 
@@ -887,8 +898,11 @@ kable(corona %>%
   select(land, deaths, udv_deaths, per_cap100k_tot) %>% 
   dplyr::arrange(desc(per_cap100k_tot)) %>% 
   top_n(30, per_cap100k_tot) %>% 
-  head(30) %>% 
-  print(n=30)
+  head(30),
+  row.names = TRUE,
+  col.names = c("Land", "Total dødsfald", "Nye dødsfald", "Dødsfald per 100.000"),
+  align = c("l", "r", "r", "r"),
+  digits = 1
 )
 ```
 

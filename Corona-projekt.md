@@ -23,44 +23,259 @@ tilføjelse af specifikke lande kan skrives til:
 
 ##### Tabel 1: Nordiske og udvalgte europæiske lande smittetilfælde
 
-|     | Land        |  Total antal smittede|  Nye smittetilfælde|
-|:----|:------------|---------------------:|-------------------:|
-| 1   | Sweden      |                225560|               17265|
-| 2   | Czechia     |                502534|                5896|
-| 3   | Austria     |                254710|                4377|
-| 4   | Switzerland |                304593|                4241|
-| 5   | Netherlands |                501503|                4002|
-| 6   | Belgium     |                561803|                1901|
-| 7   | Denmark     |                 73539|                1367|
-| 8   | Norway      |                 33717|                 534|
-| 9   | Finland     |                 22289|                 353|
-| 10  | Iceland     |                  5298|                   9|
+<table>
+<colgroup>
+<col style="width: 4%" />
+<col style="width: 10%" />
+<col style="width: 16%" />
+<col style="width: 10%" />
+<col style="width: 19%" />
+<col style="width: 39%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">Land</th>
+<th style="text-align: right;">Total antal smittede</th>
+<th style="text-align: right;">Nye tilfælde</th>
+<th style="text-align: right;">Nye tilfælde per 100.000</th>
+<th style="text-align: right;">Nye tilfælde per 100.000, 7 dages rullende gennemsnit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Sweden</td>
+<td style="text-align: right;">225560</td>
+<td style="text-align: right;">17265</td>
+<td style="text-align: right;">169.7</td>
+<td style="text-align: right;">46.5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">Czechia</td>
+<td style="text-align: right;">502534</td>
+<td style="text-align: right;">5896</td>
+<td style="text-align: right;">55.5</td>
+<td style="text-align: right;">44.0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">Austria</td>
+<td style="text-align: right;">254710</td>
+<td style="text-align: right;">4377</td>
+<td style="text-align: right;">49.5</td>
+<td style="text-align: right;">64.8</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">Switzerland</td>
+<td style="text-align: right;">304593</td>
+<td style="text-align: right;">4241</td>
+<td style="text-align: right;">49.8</td>
+<td style="text-align: right;">50.4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">Netherlands</td>
+<td style="text-align: right;">501503</td>
+<td style="text-align: right;">4002</td>
+<td style="text-align: right;">23.2</td>
+<td style="text-align: right;">30.9</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">Belgium</td>
+<td style="text-align: right;">561803</td>
+<td style="text-align: right;">1901</td>
+<td style="text-align: right;">16.6</td>
+<td style="text-align: right;">26.5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">Denmark</td>
+<td style="text-align: right;">73539</td>
+<td style="text-align: right;">1367</td>
+<td style="text-align: right;">23.6</td>
+<td style="text-align: right;">20.9</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">Norway</td>
+<td style="text-align: right;">33717</td>
+<td style="text-align: right;">534</td>
+<td style="text-align: right;">10.1</td>
+<td style="text-align: right;">9.7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">Finland</td>
+<td style="text-align: right;">22289</td>
+<td style="text-align: right;">353</td>
+<td style="text-align: right;">6.4</td>
+<td style="text-align: right;">6.8</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">Iceland</td>
+<td style="text-align: right;">5298</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">2.6</td>
+<td style="text-align: right;">3.4</td>
+</tr>
+</tbody>
+</table>
 
 Confirmed er antallet af smittetilfælde i alt siden januar.
 Udv\_confirmed er antallet af nye smittetilfælde 24-11-2020.
 
 Følgende tabel viser de 15 lande med det højeste registrede nye
-tilfælde:
+smittetilfælde:
 
 ##### Tabel 2: Top 15 i verden smittetilfælde
 
-|     | Land           |  Total antal smittede|  Nye smittetilfælde|
-|:----|:---------------|---------------------:|-------------------:|
-| 1   | US             |              12591163|              172935|
-| 2   | India          |               9222216|               44376|
-| 3   | Poland         |                909066|               32733|
-| 4   | Brazil         |               6118708|               31100|
-| 5   | Russia         |               2120836|               24087|
-| 6   | Italy          |               1455022|               23227|
-| 7   | Sweden         |                225560|               17265|
-| 8   | Germany        |                963192|               16370|
-| 9   | Iran           |                880542|               13721|
-| 10  | Ukraine        |                665968|               12526|
-| 11  | Spain          |               1594844|               12228|
-| 12  | United Kingdom |               1542611|               11344|
-| 13  | Mexico         |               1060152|               10794|
-| 14  | France         |               2206126|               10186|
-| 15  | Romania        |                430605|                7753|
+<table>
+<colgroup>
+<col style="width: 3%" />
+<col style="width: 11%" />
+<col style="width: 15%" />
+<col style="width: 14%" />
+<col style="width: 18%" />
+<col style="width: 36%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">Land</th>
+<th style="text-align: right;">Total antal smittede</th>
+<th style="text-align: right;">Nye smittetilfælde</th>
+<th style="text-align: right;">Nye tilfælde per 100.000</th>
+<th style="text-align: right;">Nye tilfælde per 100.000, 7 dages rullende gennemsnit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">US</td>
+<td style="text-align: right;">12591163</td>
+<td style="text-align: right;">172935</td>
+<td style="text-align: right;">52.9</td>
+<td style="text-align: right;">53.3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">India</td>
+<td style="text-align: right;">9222216</td>
+<td style="text-align: right;">44376</td>
+<td style="text-align: right;">3.3</td>
+<td style="text-align: right;">3.3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">Poland</td>
+<td style="text-align: right;">909066</td>
+<td style="text-align: right;">32733</td>
+<td style="text-align: right;">86.2</td>
+<td style="text-align: right;">58.7</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">Brazil</td>
+<td style="text-align: right;">6118708</td>
+<td style="text-align: right;">31100</td>
+<td style="text-align: right;">14.8</td>
+<td style="text-align: right;">14.1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">Russia</td>
+<td style="text-align: right;">2120836</td>
+<td style="text-align: right;">24087</td>
+<td style="text-align: right;">16.7</td>
+<td style="text-align: right;">16.4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">Italy</td>
+<td style="text-align: right;">1455022</td>
+<td style="text-align: right;">23227</td>
+<td style="text-align: right;">38.4</td>
+<td style="text-align: right;">51.3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">Sweden</td>
+<td style="text-align: right;">225560</td>
+<td style="text-align: right;">17265</td>
+<td style="text-align: right;">169.7</td>
+<td style="text-align: right;">46.5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">Germany</td>
+<td style="text-align: right;">963192</td>
+<td style="text-align: right;">16370</td>
+<td style="text-align: right;">19.7</td>
+<td style="text-align: right;">20.6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">Iran</td>
+<td style="text-align: right;">880542</td>
+<td style="text-align: right;">13721</td>
+<td style="text-align: right;">16.8</td>
+<td style="text-align: right;">16.1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">Ukraine</td>
+<td style="text-align: right;">665968</td>
+<td style="text-align: right;">12526</td>
+<td style="text-align: right;">28.1</td>
+<td style="text-align: right;">29.5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">11</td>
+<td style="text-align: left;">Spain</td>
+<td style="text-align: right;">1594844</td>
+<td style="text-align: right;">12228</td>
+<td style="text-align: right;">26.1</td>
+<td style="text-align: right;">25.9</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">12</td>
+<td style="text-align: left;">United Kingdom</td>
+<td style="text-align: right;">1542611</td>
+<td style="text-align: right;">11344</td>
+<td style="text-align: right;">17.1</td>
+<td style="text-align: right;">27.6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">13</td>
+<td style="text-align: left;">Mexico</td>
+<td style="text-align: right;">1060152</td>
+<td style="text-align: right;">10794</td>
+<td style="text-align: right;">8.6</td>
+<td style="text-align: right;">5.5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">14</td>
+<td style="text-align: left;">France</td>
+<td style="text-align: right;">2206126</td>
+<td style="text-align: right;">10186</td>
+<td style="text-align: right;">15.2</td>
+<td style="text-align: right;">25.4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">15</td>
+<td style="text-align: left;">Romania</td>
+<td style="text-align: right;">430605</td>
+<td style="text-align: right;">7753</td>
+<td style="text-align: right;">39.8</td>
+<td style="text-align: right;">41.9</td>
+</tr>
+</tbody>
+</table>
 
 ### Grafer og kort
 
@@ -154,38 +369,38 @@ mindre Europæiske lande, mens det efterfølgende viser på verdensplan.
 
 ##### Tabel 3: Udvikling i dødsfald udvalgte europæiske lande
 
-| land        |  deaths|  udv\_deaths|  roll\_7\_tot|  roll\_3\_tot|  ny\_roll\_7|  ny\_roll\_3|
-|:------------|-------:|------------:|-------------:|-------------:|------------:|------------:|
-| Belgium     |   15938|          183|   15486.57143|    15770.3333|  157.0000000|   138.666667|
-| Czechia     |    7499|          139|    7112.14286|     7351.6667|  134.4285714|   134.666667|
-| Austria     |    2577|          118|    2306.57143|     2474.6667|   90.2857143|    83.000000|
-| Sweden      |    6500|           94|    6397.85714|     6437.3333|   39.2857143|    31.333333|
-| Netherlands |    9111|           90|    8937.28571|     9033.0000|   60.2857143|    55.000000|
-| Switzerland |    4308|           86|    4036.14286|     4195.3333|   92.0000000|    92.333333|
-| Denmark     |     797|            8|     781.71429|      790.0000|    4.1428571|     5.333333|
-| Norway      |     314|            3|     306.85714|      310.3333|    2.2857143|     2.666667|
-| Finland     |     384|            0|     377.28571|      381.0000|    1.8571429|     3.000000|
-| Iceland     |      26|            0|      25.71429|       26.0000|    0.1428571|     0.000000|
+|     | Land        |  Total antal dødsfald|  Nye dødsfald|  Nye dødsfald, 7 dages rullende gennemsnit|
+|-----|:------------|---------------------:|-------------:|------------------------------------------:|
+| 1   | Belgium     |                 15938|           183|                                      157.0|
+| 2   | Czechia     |                  7499|           139|                                      134.4|
+| 3   | Austria     |                  2577|           118|                                       90.3|
+| 4   | Sweden      |                  6500|            94|                                       39.3|
+| 5   | Netherlands |                  9111|            90|                                       60.3|
+| 6   | Switzerland |                  4308|            86|                                       92.0|
+| 7   | Denmark     |                   797|             8|                                        4.1|
+| 8   | Norway      |                   314|             3|                                        2.3|
+| 9   | Finland     |                   384|             0|                                        1.9|
+| 10  | Iceland     |                    26|             0|                                        0.1|
 
 ##### Tabel 4: Udvikling i dødsfald, flest nye dødsfald verdensplan
 
-| land           |  deaths|  udv\_deaths|  roll\_7\_tot|  roll\_3\_tot|  ny\_roll\_7|  ny\_roll\_3|
-|:---------------|-------:|------------:|-------------:|-------------:|------------:|------------:|
-| US             |  259925|         2146|    255463.714|     258190.00|    1601.2857|    1326.3333|
-| France         |   50324|         1012|     48478.571|      49481.00|     568.2857|     577.0000|
-| Italy          |   51306|          853|     49214.143|      50527.33|     691.7143|     681.6667|
-| Mexico         |  102739|          813|    101167.000|     102113.67|     530.4286|     455.3333|
-| Brazil         |  170115|          630|    168843.000|     169594.33|     488.0000|     375.3333|
-| United Kingdom |   55935|          608|     54674.571|      55460.67|     442.2857|     404.6667|
-| Poland         |   14314|          540|     13035.286|      13902.00|     495.1429|     342.0000|
-| Spain          |   43668|          537|     42712.286|      43139.33|     282.8571|     349.6667|
-| Iran           |   45738|          483|     44339.429|      45265.00|     468.1429|     470.3333|
-| Russia         |   36675|          483|     35388.571|      36235.00|     436.5714|     411.0000|
-| India          |  134699|          481|    133192.571|     134218.33|     529.4286|     490.6667|
-| Germany        |   14832|          372|     14068.857|      14483.67|     242.0000|     257.0000|
-| Argentina      |   37432|          310|     36875.286|      37185.33|     189.4286|     176.6667|
-| Colombia       |   35677|          198|     35114.286|      35481.00|     185.1429|     191.0000|
-| Romania        |   10373|          196|      9899.143|      10199.00|     158.8571|     152.3333|
+|     | Land           |  Total antal dødsfald|  Nye dødsfald|  Nye dødsfald, 7 dages rullende gennemsnit|
+|-----|:---------------|---------------------:|-------------:|------------------------------------------:|
+| 1   | US             |                259925|          2146|                                     1601.3|
+| 2   | France         |                 50324|          1012|                                      568.3|
+| 3   | Italy          |                 51306|           853|                                      691.7|
+| 4   | Mexico         |                102739|           813|                                      530.4|
+| 5   | Brazil         |                170115|           630|                                      488.0|
+| 6   | United Kingdom |                 55935|           608|                                      442.3|
+| 7   | Poland         |                 14314|           540|                                      495.1|
+| 8   | Spain          |                 43668|           537|                                      282.9|
+| 9   | Iran           |                 45738|           483|                                      468.1|
+| 10  | Russia         |                 36675|           483|                                      436.6|
+| 11  | India          |                134699|           481|                                      529.4|
+| 12  | Germany        |                 14832|           372|                                      242.0|
+| 13  | Argentina      |                 37432|           310|                                      189.4|
+| 14  | Colombia       |                 35677|           198|                                      185.1|
+| 15  | Romania        |                 10373|           196|                                      158.9|
 
 Figurerne nedenfor viser nye dødsfald som rullende 7-dages gennemsnit.
 X-aksen er antal dage siden 3 dødsfald og y-aksen er logaritme
@@ -203,70 +418,35 @@ Følgende tabel er sorteret efter antal dødsfald per 100.000 indbyggere
 
 ##### Tabel 5: Dødsfald per 100.000 indbyggere
 
-    ## # A tibble: 30 x 4
-    ## # Groups:   land [30]
-    ##    land                   deaths udv_deaths per_cap100k_tot
-    ##    <chr>                   <int>      <int>           <dbl>
-    ##  1 Belgium                 15938        183           139. 
-    ##  2 San Marino                 44          0           130. 
-    ##  3 Peru                    35641         46           111. 
-    ##  4 Andorra                    76          0            98.7
-    ##  5 Spain                   43668        537            93.3
-    ##  6 Italy                   51306        853            84.9
-    ##  7 United Kingdom          55935        608            84.2
-    ##  8 Argentina               37432        310            84.1
-    ##  9 Mexico                 102739        813            81.4
-    ## 10 Brazil                 170115        630            81.2
-    ## 11 Moldova                  2188         19            80.9
-    ## 12 Chile                   15131         25            80.8
-    ## 13 US                     259925       2146            79.6
-    ## 14 Bolivia                  8928         12            78.6
-    ## 15 Ecuador                 13264         39            77.6
-    ## 16 France                  50324       1012            75.1
-    ## 17 North Macedonia          1561         15            74.9
-    ## 18 Bosnia and Herzegovina   2394         52            72.0
-    ## 19 Colombia                35677        198            71.9
-    ## 20 Panama                   2986         13            71.5
-    ## 21 Czechia                  7499        139            70.5
-    ## 22 Armenia                  2002         26            67.8
-    ## 23 Sweden                   6500         94            63.9
-    ## 24 Iran                    45738        483            55.9
-    ## 25 Slovenia                 1156         59            55.7
-    ## 26 Romania                 10373        196            53.3
-    ## 27 Netherlands              9111         90            52.9
-    ## 28 Switzerland              4308         86            50.6
-    ## 29 Luxembourg                283         10            46.5
-    ## 30 Bulgaria                 3226        157            45.9
-
-| land                   |  deaths|  udv\_deaths|  per\_cap100k\_tot|
-|:-----------------------|-------:|------------:|------------------:|
-| Belgium                |   15938|          183|          139.40036|
-| San Marino             |      44|            0|          130.23531|
-| Peru                   |   35641|           46|          111.41553|
-| Andorra                |      76|            0|           98.69361|
-| Spain                  |   43668|          537|           93.31459|
-| Italy                  |   51306|          853|           84.91312|
-| United Kingdom         |   55935|          608|           84.16297|
-| Argentina              |   37432|          310|           84.12725|
-| Mexico                 |  102739|          813|           81.41561|
-| Brazil                 |  170115|          630|           81.21237|
-| Moldova                |    2188|           19|           80.85589|
-| Chile                  |   15131|           25|           80.78846|
-| US                     |  259925|         2146|           79.56380|
-| Bolivia                |    8928|           12|           78.63902|
-| Ecuador                |   13264|           39|           77.63827|
-| France                 |   50324|         1012|           75.13612|
-| North Macedonia        |    1561|           15|           74.89084|
-| Bosnia and Herzegovina |    2394|           52|           72.02320|
-| Colombia               |   35677|          198|           71.85890|
-| Panama                 |    2986|           13|           71.48889|
-| Czechia                |    7499|          139|           70.54610|
-| Armenia                |    2002|           26|           67.82357|
-| Sweden                 |    6500|           94|           63.88072|
-| Iran                   |   45738|          483|           55.91424|
-| Slovenia               |    1156|           59|           55.74055|
-| Romania                |   10373|          196|           53.28739|
-| Netherlands            |    9111|           90|           52.87372|
-| Switzerland            |    4308|           86|           50.60361|
-| Luxembourg             |     283|           10|           46.54988|
-| Bulgaria               |    3226|          157|           45.92147|
+|     | Land                   |  Total dødsfald|  Nye dødsfald|  Dødsfald per 100.000|
+|-----|:-----------------------|---------------:|-------------:|---------------------:|
+| 1   | Belgium                |           15938|           183|                 139.4|
+| 2   | San Marino             |              44|             0|                 130.2|
+| 3   | Peru                   |           35641|            46|                 111.4|
+| 4   | Andorra                |              76|             0|                  98.7|
+| 5   | Spain                  |           43668|           537|                  93.3|
+| 6   | Italy                  |           51306|           853|                  84.9|
+| 7   | United Kingdom         |           55935|           608|                  84.2|
+| 8   | Argentina              |           37432|           310|                  84.1|
+| 9   | Mexico                 |          102739|           813|                  81.4|
+| 10  | Brazil                 |          170115|           630|                  81.2|
+| 11  | Moldova                |            2188|            19|                  80.9|
+| 12  | Chile                  |           15131|            25|                  80.8|
+| 13  | US                     |          259925|          2146|                  79.6|
+| 14  | Bolivia                |            8928|            12|                  78.6|
+| 15  | Ecuador                |           13264|            39|                  77.6|
+| 16  | France                 |           50324|          1012|                  75.1|
+| 17  | North Macedonia        |            1561|            15|                  74.9|
+| 18  | Bosnia and Herzegovina |            2394|            52|                  72.0|
+| 19  | Colombia               |           35677|           198|                  71.9|
+| 20  | Panama                 |            2986|            13|                  71.5|
+| 21  | Czechia                |            7499|           139|                  70.5|
+| 22  | Armenia                |            2002|            26|                  67.8|
+| 23  | Sweden                 |            6500|            94|                  63.9|
+| 24  | Iran                   |           45738|           483|                  55.9|
+| 25  | Slovenia               |            1156|            59|                  55.7|
+| 26  | Romania                |           10373|           196|                  53.3|
+| 27  | Netherlands            |            9111|            90|                  52.9|
+| 28  | Switzerland            |            4308|            86|                  50.6|
+| 29  | Luxembourg             |             283|            10|                  46.5|
+| 30  | Bulgaria               |            3226|           157|                  45.9|
