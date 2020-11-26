@@ -29,12 +29,12 @@ tilføjelse af specifikke lande kan skrives til:
 
 <table>
 <colgroup>
-<col style="width: 4%" />
-<col style="width: 10%" />
+<col style="width: 2%" />
+<col style="width: 9%" />
 <col style="width: 16%" />
 <col style="width: 10%" />
 <col style="width: 19%" />
-<col style="width: 39%" />
+<col style="width: 42%" />
 </colgroup>
 <thead>
 <tr class="header">

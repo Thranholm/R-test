@@ -324,7 +324,6 @@ kable(corona %>%
       row.names = TRUE,
       col.names = c("Land", "Total antal smittede", "Nye tilfælde", "Nye tilfælde per 100.000", "Nye tilfælde per 100.000, 7 dages rullende gennemsnit"),
       align = c("l", "r", "r", "r", "r"),
-      padding = 4,
       digits = 1
 )
 ```
@@ -347,7 +346,6 @@ kable(corona %>%
       row.names = TRUE,
       col.names = c("Land", "Total antal smittede", "Nye smittetilfælde", "Nye tilfælde per 100.000", "Nye tilfælde per 100.000, 7 dages rullende gennemsnit"),
       align = c("l", "r", "r", "r", "r"),
-      padding = 1,
       digits = 1
 )
 ```
