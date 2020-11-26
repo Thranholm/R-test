@@ -140,12 +140,12 @@ smittetilfælde:
 
 <table>
 <colgroup>
-<col style="width: 3%" />
-<col style="width: 11%" />
+<col style="width: 2%" />
+<col style="width: 10%" />
 <col style="width: 15%" />
-<col style="width: 14%" />
+<col style="width: 13%" />
 <col style="width: 18%" />
-<col style="width: 36%" />
+<col style="width: 39%" />
 </colgroup>
 <thead>
 <tr class="header">
