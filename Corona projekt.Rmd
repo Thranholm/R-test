@@ -293,7 +293,7 @@ big_ones <- corona %>%
 max(big_ones$date)
 ```
 
-# Corona blog med primært europæisk fokus
+# Emils corona-blog
 
 _Tallene viser de registerende tal per `r strftime(max(big_ones$date), "%d-%m-%Y")`_
 
@@ -302,6 +302,8 @@ _Tallene viser de registerende tal per `r strftime(max(big_ones$date), "%d-%m-%Y
 Denne rapport følger udviklingen i corona-situationen på baggrund
 af udvalgte tabeller med nøgletal og figurer. Det primære fokus i 
 denne rapport på udviklingen i Europa.
+
+*note: ikke alle kommentarer til tabeller er retvisende på nuværende tidspunkt, da koden er blevet opdateret for at forbedre tabel-layout og titler, mens teksten stadig mangler gennemgang*
 
 ## Udvikling i antal smittede
 ### Nøgletal
@@ -907,4 +909,5 @@ kable(corona %>%
 ```
 
 
+*af: Emil Thranholm, mail: [ethranholm@hotmail.com](mailto:ethranholm@hotmail.com)*
 
