@@ -320,11 +320,11 @@ kable(corona %>%
   select(land, confirmed, udv_confirmed, per_cap100k, per_cap_roll7) %>% 
   dplyr::arrange(desc(udv_confirmed)) %>% 
   top_n(7, udv_confirmed),
-      format = "markdown",
       row.names = TRUE,
       col.names = c("Land", "Total antal smittede", "Nye tilfælde", "Nye tilfælde per 100.000", "Nye tilfælde per 100.000, 7 dages rullende gennemsnit"),
       align = c("l", "r", "r", "r", "r"),
-      digits = 1
+      digits = 1,
+      padding = 1
 )
 ```
 
@@ -342,11 +342,11 @@ kable(corona %>%
   dplyr::arrange(desc(udv_confirmed)) %>% 
   top_n(15, udv_confirmed) %>% 
   head(15),
-      format = "markdown",
       row.names = TRUE,
       col.names = c("Land", "Total antal smittede", "Nye smittetilfælde", "Nye tilfælde per 100.000", "Nye tilfælde per 100.000, 7 dages rullende gennemsnit"),
       align = c("l", "r", "r", "r", "r"),
-      digits = 1
+      digits = 1,
+      padding = 4
 )
 ```
 
