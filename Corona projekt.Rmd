@@ -358,7 +358,7 @@ ggplot(corona_nordic, aes(x = days_3_case, y=ny_roll_7)) +
   scale_y_log10() +
   scale_colour_brewer(palette = "Set1") +
   labs(title="Nordic rolling average 7 days new cases") +
-  theme_light(base_size = 28) 
+  theme_light(base_size = 20) 
 ```
 
 
