@@ -352,7 +352,7 @@ kable(corona %>%
 Smitteudviklingen illustreres ved hjælp af flere grafer og kort nedenfor.
 
 ##### Figur 1: Graf over nye smittetilfælde nordisk lande og udvalgte europæiske lande, 7 dages rullende gennemsnit
-```{r warning=FALSE, echo=FALSE, fig.width=14, fig.asp=0.8}
+```{r warning=FALSE, echo=FALSE, fig.width=14, fig.asp=1}
 ggplot(corona_nordic, aes(x = days_3_case, y=ny_roll_7)) +
   geom_line(aes(colour = land)) +
   scale_y_log10() +
