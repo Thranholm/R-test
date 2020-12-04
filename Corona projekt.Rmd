@@ -366,7 +366,7 @@ Vær opmærksom på at y-aksen af logaritme transformert. X-aksen viser antal da
 
 
 ##### Figur 2: Graf over nye tilfælde store lande, 7 dages rullende gennemsnit
-```{r warning=FALSE, echo=FALSE}
+```{r warning=FALSE, echo=FALSE, fig.width=10, fig.asp=0.6}
 ggplot(big_ones, aes(x = days_3_case, y=ny_roll_7)) +
   geom_line(aes(colour = land)) +
   scale_y_log10() +
@@ -380,7 +380,7 @@ Denne figur viser de store europæiske lande samt USA og Brasilien. Y-aksen er l
 
 
 ##### Figur 3: Graf over nye tilfælde lande med 10 flest nye tilfælde, 7 dages rullende gennemsnit
-```{r warning=FALSE, echo=FALSE}
+```{r warning=FALSE, echo=FALSE, fig.width=10, fig.asp=0.6}
 top10_igår <- corona %>% 
   filter(date==today()-1) %>% 
   arrange(desc(udv_confirmed)) %>% 
@@ -406,7 +406,7 @@ Denne figur viser et 7 dages rullende gennemsnit af nye tilfælde for de 10 land
 I følgende figur er y-aksen logaritme transformere, mens x-aksen er antal dage siden 1000 registrerede smittetilfælde
 
 ##### Figur 4: Hele Europa, 7 dages rullende gennemsnit
-```{r echo=FALSE, warning=FALSE}
+```{r echo=FALSE, warning=FALSE, fig.width=10, fig.asp=0.6}
 europa <- corona %>% 
   filter(Continent_Name=="Europe") %>% 
   filter(!(land=="Cyprus" | land=="Kosovo"))
@@ -427,7 +427,7 @@ Følgende figur er samme som ovenstående men med fokus på øverste højre hjø
 
 ##### Figur 5: Hele Europa fokuseret, 7 dages rullende gennemsnit
 
-```{r echo=FALSE, warning=FALSE}
+```{r echo=FALSE, warning=FALSE, fig.width=10, fig.asp=0.6}
 ggplot(europa, aes(x = days_1000_case, y=ny_roll_7)) +
   geom_line(aes(colour = land)) +
   scale_y_log10() +
@@ -449,7 +449,7 @@ Følgende graf viser udviklingen i smittetrykket i de europæiske lande. Notér,
 
 ##### Figur 6: Udvikling i smittetrykket i Europa, smittede per 100.000 per uge målt som gennemsnit over 14 dage
 
-```{r echo=FALSE, warning=FALSE}
+```{r echo=FALSE, warning=FALSE, fig.width=10, fig.asp=0.6}
 ggplot(europa, aes(x = days_1000_case, y=rejse_vej)) +
   geom_line(aes(colour = land)) +
   scale_y_log10() +
@@ -471,7 +471,7 @@ ggplot(europa, aes(x = days_1000_case, y=rejse_vej)) +
 Følgende kort viser smittetrykket i de europæiske lande.
 
 ##### Kort 1: Smittetryk i Europa, smittede per 100.000 per uge målt som gennemsnit over 14 dage
-```{r warning=FALSE, echo=FALSE}
+```{r warning=FALSE, echo=FALSE, fig.width=10, fig.asp=0.6}
 
 europa_lande <-  europa %>% 
   ungroup(Country_Number) %>% 
@@ -537,7 +537,7 @@ ggplot(eu_map_data, aes(x=long, y=lat)) +
 Nedenstående kort viser udviklingen i smittetrykket. Tallene er forskellen mellem det nuværende smittetryk og smittetrykket for en uge siden. Derfor kan det en indikation om smitten stiger eller falder og med hvilken hastighed. Tal over 0 betyder en stigende smitte, tal under 0 er en aftagende smitte. Dette siger dog ikke noget om det totale smitteniveau, eksempelvis kan man godt have aftagende smitte, men stadig et højt smittetryk. Det kort kan mere bruges til vurdere og det går i en positiv eller negativ retning.
 
 ##### Kort 2: udvikling i smittetryk
-```{r warning=FALSE, echo=FALSE}
+```{r warning=FALSE, echo=FALSE, fig.width=10, fig.asp=0.6}
 ggplot(eu_map_data, aes(x=long, y=lat)) +
   geom_polygon(aes(fill=rejse_vej_diff, group=group), colour="white") + 
   coord_fixed(1.3) +
@@ -863,7 +863,7 @@ kable(corona %>%
 Figurerne nedenfor viser nye dødsfald som rullende 7-dages gennemsnit. X-aksen er antal dage siden 3 dødsfald og y-aksen er logaritme transformeret.
 
 ##### Figur 6: Udvikling nye dødsfald udvalgte europæiske lande, 7-dages rullende gennemsnit
-```{r echo=FALSE, warning=FALSE}
+```{r echo=FALSE, warning=FALSE, fig.width=10, fig.asp=0.6}
 ggplot(corona_nordic, aes(x = days_3_death, y=ny_roll_7)) +
   geom_line(aes(colour = land)) +
   scale_y_log10() +
@@ -873,7 +873,7 @@ ggplot(corona_nordic, aes(x = days_3_death, y=ny_roll_7)) +
 ```
 
 ##### Figur 7: Udvikling nye dødsfald udvalgte store lande, 7-dages rullende gennemsnit
-```{r echo=FALSE, warning=FALSE}
+```{r echo=FALSE, warning=FALSE, fig.width=10, fig.asp=0.6}
 ggplot(big_ones, aes(x = days_3_death, y=ny_roll_7)) +
   geom_line(aes(colour = land)) +
   scale_y_log10() +
