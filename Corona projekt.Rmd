@@ -317,7 +317,7 @@ kable(corona %>%
   filter(date==today()-1 & 
            (location=="Nordic Countries" | land=="Czechia" | land=="Switzerland" |
               land=="Belgium" | land=="Netherlands" | land=="Austria")) %>% 
-  select(land, confirmed, udv_confirmed, per_cap100k, ny_roll_7) %>% 
+  select(land, confirmed, udv_confirmed, per_cap100k, per_cap_roll7) %>% 
   dplyr::arrange(desc(udv_confirmed)) %>% 
   top_n(7, udv_confirmed),
       row.names = TRUE,
@@ -337,7 +337,7 @@ Følgende tabel viser de 15 lande med det højeste registrede nye smittetilfæld
 kable(corona %>% 
   group_by(land) %>% 
   filter(date==today()-1) %>% 
-  select(land, confirmed, udv_confirmed, per_cap100k, ny_roll_7) %>% 
+  select(land, confirmed, udv_confirmed, per_cap100k, per_cap_roll7) %>% 
   dplyr::arrange(desc(udv_confirmed)) %>% 
   top_n(15, udv_confirmed) %>% 
   head(15),
