@@ -323,9 +323,10 @@ kable(corona %>%
       row.names = TRUE,
       col.names = c("Land", "Total antal smittede", "Nye smittetilfælde", "Nye tilfælde per 100.000", "Nye tilfælde per 100.000, 7 dages rullende gennemsnit"),
       align = c("l", "r", "r", "r", "r"),
-      digits = 1
-      #,
-      #format.args = list()
+      digits = 1,
+      format.args = list(big.mark = ".", scientific = FALSE,
+                         decimal.mark = ","),
+      format = "markdown"
 )
 ```
 
@@ -346,7 +347,10 @@ kable(corona %>%
       row.names = TRUE,
       col.names = c("Land", "Total antal smittede", "Nye smittetilfælde", "Nye tilfælde per 100.000", "Nye tilfælde per 100.000, 7 dages rullende gennemsnit"),
       align = c("l", "r", "r", "r", "r"),
-      digits = 1
+      digits = 1,
+      format.args = list(big.mark = ".", scientific = FALSE,
+                         decimal.mark = ","),
+      format = "markdown"
 )
 ```
 
@@ -841,7 +845,9 @@ kable(corona %>%
   row.names = TRUE,
   col.names = c("Land", "Total antal dødsfald", "Nye dødsfald", "Nye dødsfald, 7 dages rullende gennemsnit"),
   align = c("l", "r", "r", "r"),
-  digits = 1
+  digits = 1,
+  format.args = list(big.mark = ".", scientific = FALSE,
+                         decimal.mark = ",")
 )
 ```
 
@@ -857,7 +863,9 @@ kable(corona %>%
   row.names = TRUE,
   col.names = c("Land", "Total antal dødsfald", "Nye dødsfald", "Nye dødsfald, 7 dages rullende gennemsnit"),
   align = c("l", "r", "r", "r"),
-  digits = 1
+  digits = 1,
+  format.args = list(big.mark = ".", scientific = FALSE,
+                         decimal.mark = ",")
 )
 ```
 
@@ -902,7 +910,9 @@ kable(corona %>%
   row.names = TRUE,
   col.names = c("Land", "Total dødsfald", "Nye dødsfald", "Dødsfald per 100.000"),
   align = c("l", "r", "r", "r"),
-  digits = 1
+  digits = 1,
+  format.args = list(big.mark = ".", scientific = FALSE,
+                         decimal.mark = ",")
 )
 ```
 
