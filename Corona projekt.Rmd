@@ -18,7 +18,7 @@ library(pacman)
 
 pacman::p_load(lubridate, tidyverse, httr, jsonlite, stringr, ggplot2, 
                RColorBrewer, cowplot, zoo, directlabels, scales,
-               ggmap, maps, mapdata, knitr)
+               ggmap, maps, mapdata, knitr, kableExtra)
 #p_update()
 rm(list = ls())
 
@@ -324,6 +324,8 @@ kable(corona %>%
       col.names = c("Land", "Total antal smittede", "Nye smittetilfælde", "Nye tilfælde per 100.000", "Nye tilfælde per 100.000, 7 dages rullende gennemsnit"),
       align = c("l", "r", "r", "r", "r"),
       digits = 1
+      #,
+      #format.args = list()
 )
 ```
 
