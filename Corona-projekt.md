@@ -1,7 +1,7 @@
 Emils corona-blog
 =================
 
-*Tallene viser de registerende tal per 06-12-2020*
+*Tallene viser de registerende tal per 07-12-2020*
 
 *kilde:
 <a href="https://github.com/pomber/covid19" class="uri">https://github.com/pomber/covid19</a>*
@@ -20,7 +20,7 @@ Udvikling i antal smittede
 ### Nøgletal
 
 Denne tabel præsenterer antallet af smittede og vigtigere nye
-smittefilfælde registret: 06-12-2020. I denne første tabel er fokus på
+smittefilfælde registret: 07-12-2020. I denne første tabel er fokus på
 de nordiske lande samt udvalge mindre europæiske land. Ønsker til
 tilføjelse af specifikke lande kan skrives til:
 <ethranholm@hotmail.com>.
@@ -49,89 +49,89 @@ tilføjelse af specifikke lande kan skrives til:
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">1</td>
-<td style="text-align: left;">Netherlands</td>
-<td style="text-align: right;">566.628</td>
-<td style="text-align: right;">6.912</td>
-<td style="text-align: right;">40,1</td>
-<td style="text-align: right;">32,6</td>
+<td style="text-align: left;">Switzerland</td>
+<td style="text-align: right;">354.306</td>
+<td style="text-align: right;">9.809</td>
+<td style="text-align: right;">115,2</td>
+<td style="text-align: right;">45,7</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">2</td>
-<td style="text-align: left;">Austria</td>
-<td style="text-align: right;">303.430</td>
-<td style="text-align: right;">2.741</td>
-<td style="text-align: right;">31,0</td>
-<td style="text-align: right;">38,3</td>
+<td style="text-align: left;">Netherlands</td>
+<td style="text-align: right;">573.750</td>
+<td style="text-align: right;">7.122</td>
+<td style="text-align: right;">41,3</td>
+<td style="text-align: right;">34,7</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">3</td>
-<td style="text-align: left;">Czechia</td>
-<td style="text-align: right;">546.833</td>
-<td style="text-align: right;">2.654</td>
-<td style="text-align: right;">25,0</td>
-<td style="text-align: right;">36,4</td>
+<td style="text-align: left;">Austria</td>
+<td style="text-align: right;">305.693</td>
+<td style="text-align: right;">2.263</td>
+<td style="text-align: right;">25,6</td>
+<td style="text-align: right;">37,5</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">4</td>
-<td style="text-align: left;">Belgium</td>
-<td style="text-align: right;">591.756</td>
-<td style="text-align: right;">1.814</td>
-<td style="text-align: right;">15,9</td>
-<td style="text-align: right;">18,9</td>
+<td style="text-align: left;">Denmark</td>
+<td style="text-align: right;">93.177</td>
+<td style="text-align: right;">2.046</td>
+<td style="text-align: right;">35,3</td>
+<td style="text-align: right;">30,0</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">5</td>
-<td style="text-align: left;">Denmark</td>
-<td style="text-align: right;">91.131</td>
-<td style="text-align: right;">1.749</td>
-<td style="text-align: right;">30,2</td>
-<td style="text-align: right;">27,8</td>
+<td style="text-align: left;">Belgium</td>
+<td style="text-align: right;">592.615</td>
+<td style="text-align: right;">859</td>
+<td style="text-align: right;">7,5</td>
+<td style="text-align: right;">19,1</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">6</td>
-<td style="text-align: left;">Finland</td>
-<td style="text-align: right;">27.631</td>
-<td style="text-align: right;">413</td>
-<td style="text-align: right;">7,5</td>
-<td style="text-align: right;">7,8</td>
+<td style="text-align: left;">Norway</td>
+<td style="text-align: right;">38.703</td>
+<td style="text-align: right;">380</td>
+<td style="text-align: right;">7,2</td>
+<td style="text-align: right;">6,9</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">7</td>
-<td style="text-align: left;">Norway</td>
-<td style="text-align: right;">38.323</td>
+<td style="text-align: left;">Finland</td>
+<td style="text-align: right;">27.881</td>
 <td style="text-align: right;">250</td>
-<td style="text-align: right;">4,7</td>
-<td style="text-align: right;">6,7</td>
+<td style="text-align: right;">4,5</td>
+<td style="text-align: right;">7,7</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">8</td>
 <td style="text-align: left;">Iceland</td>
-<td style="text-align: right;">5.482</td>
-<td style="text-align: right;">6</td>
-<td style="text-align: right;">1,7</td>
-<td style="text-align: right;">4,1</td>
+<td style="text-align: right;">5.496</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">4,0</td>
+<td style="text-align: right;">4,2</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">9</td>
+<td style="text-align: left;">Czechia</td>
+<td style="text-align: right;">546.833</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0,0</td>
+<td style="text-align: right;">31,6</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10</td>
 <td style="text-align: left;">Sweden</td>
 <td style="text-align: right;">278.912</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0,0</td>
 <td style="text-align: right;">50,2</td>
 </tr>
-<tr class="even">
-<td style="text-align: left;">10</td>
-<td style="text-align: left;">Switzerland</td>
-<td style="text-align: right;">344.497</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0,0</td>
-<td style="text-align: right;">44,0</td>
-</tr>
 </tbody>
 </table>
 
 Confirmed er antallet af smittetilfælde i alt siden januar.
-Udv\_confirmed er antallet af nye smittetilfælde 06-12-2020.
+Udv\_confirmed er antallet af nye smittetilfælde 07-12-2020.
 
 Følgende tabel viser de 15 lande med det højeste registrede nye
 smittetilfælde:
@@ -161,122 +161,122 @@ smittetilfælde:
 <tr class="odd">
 <td style="text-align: left;">1</td>
 <td style="text-align: left;">US</td>
-<td style="text-align: right;">14.757.000</td>
-<td style="text-align: right;">175.663</td>
-<td style="text-align: right;">53,8</td>
-<td style="text-align: right;">60,1</td>
+<td style="text-align: right;">14.949.299</td>
+<td style="text-align: right;">192.299</td>
+<td style="text-align: right;">58,9</td>
+<td style="text-align: right;">61,6</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">2</td>
-<td style="text-align: left;">India</td>
-<td style="text-align: right;">9.677.203</td>
-<td style="text-align: right;">32.981</td>
-<td style="text-align: right;">2,4</td>
-<td style="text-align: right;">2,6</td>
+<td style="text-align: left;">Turkey</td>
+<td style="text-align: right;">860.432</td>
+<td style="text-align: right;">32.137</td>
+<td style="text-align: right;">39,0</td>
+<td style="text-align: right;">38,5</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">3</td>
-<td style="text-align: left;">Turkey</td>
-<td style="text-align: right;">828.295</td>
-<td style="text-align: right;">30.402</td>
-<td style="text-align: right;">36,9</td>
-<td style="text-align: right;">38,3</td>
+<td style="text-align: left;">Russia</td>
+<td style="text-align: right;">2.466.961</td>
+<td style="text-align: right;">27.798</td>
+<td style="text-align: right;">19,2</td>
+<td style="text-align: right;">18,9</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">4</td>
-<td style="text-align: left;">Russia</td>
-<td style="text-align: right;">2.439.163</td>
-<td style="text-align: right;">28.701</td>
-<td style="text-align: right;">19,9</td>
-<td style="text-align: right;">18,7</td>
+<td style="text-align: left;">India</td>
+<td style="text-align: right;">9.703.770</td>
+<td style="text-align: right;">26.567</td>
+<td style="text-align: right;">2,0</td>
+<td style="text-align: right;">2,5</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">5</td>
 <td style="text-align: left;">Brazil</td>
-<td style="text-align: right;">6.603.540</td>
-<td style="text-align: right;">26.363</td>
-<td style="text-align: right;">12,6</td>
-<td style="text-align: right;">19,7</td>
+<td style="text-align: right;">6.623.911</td>
+<td style="text-align: right;">20.371</td>
+<td style="text-align: right;">9,7</td>
+<td style="text-align: right;">19,6</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">6</td>
-<td style="text-align: left;">Italy</td>
-<td style="text-align: right;">1.728.878</td>
-<td style="text-align: right;">18.887</td>
-<td style="text-align: right;">31,3</td>
-<td style="text-align: right;">34,0</td>
+<td style="text-align: left;">Spain</td>
+<td style="text-align: right;">1.702.328</td>
+<td style="text-align: right;">17.681</td>
+<td style="text-align: right;">37,8</td>
+<td style="text-align: right;">16,5</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">7</td>
 <td style="text-align: left;">United Kingdom</td>
-<td style="text-align: right;">1.727.751</td>
-<td style="text-align: right;">17.372</td>
-<td style="text-align: right;">26,1</td>
-<td style="text-align: right;">22,9</td>
+<td style="text-align: right;">1.742.525</td>
+<td style="text-align: right;">14.774</td>
+<td style="text-align: right;">22,2</td>
+<td style="text-align: right;">23,4</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">8</td>
-<td style="text-align: left;">Ukraine</td>
-<td style="text-align: right;">834.913</td>
-<td style="text-align: right;">11.928</td>
-<td style="text-align: right;">26,7</td>
-<td style="text-align: right;">29,7</td>
+<td style="text-align: left;">Italy</td>
+<td style="text-align: right;">1.742.557</td>
+<td style="text-align: right;">13.679</td>
+<td style="text-align: right;">22,6</td>
+<td style="text-align: right;">33,3</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">9</td>
 <td style="text-align: left;">Iran</td>
-<td style="text-align: right;">1.040.547</td>
-<td style="text-align: right;">11.561</td>
-<td style="text-align: right;">14,1</td>
-<td style="text-align: right;">16,0</td>
+<td style="text-align: right;">1.051.374</td>
+<td style="text-align: right;">10.827</td>
+<td style="text-align: right;">13,2</td>
+<td style="text-align: right;">15,6</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">10</td>
-<td style="text-align: left;">France</td>
-<td style="text-align: right;">2.345.648</td>
-<td style="text-align: right;">11.022</td>
-<td style="text-align: right;">16,5</td>
-<td style="text-align: right;">16,0</td>
+<td style="text-align: left;">Switzerland</td>
+<td style="text-align: right;">354.306</td>
+<td style="text-align: right;">9.809</td>
+<td style="text-align: right;">115,2</td>
+<td style="text-align: right;">45,7</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">11</td>
-<td style="text-align: left;">Germany</td>
-<td style="text-align: right;">1.194.550</td>
-<td style="text-align: right;">10.910</td>
-<td style="text-align: right;">13,2</td>
-<td style="text-align: right;">23,9</td>
+<td style="text-align: left;">Ukraine</td>
+<td style="text-align: right;">843.898</td>
+<td style="text-align: right;">8.985</td>
+<td style="text-align: right;">20,1</td>
+<td style="text-align: right;">29,3</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">12</td>
-<td style="text-align: left;">Poland</td>
-<td style="text-align: right;">1.063.449</td>
-<td style="text-align: right;">9.176</td>
-<td style="text-align: right;">24,2</td>
-<td style="text-align: right;">29,5</td>
+<td style="text-align: left;">Canada</td>
+<td style="text-align: right;">426.572</td>
+<td style="text-align: right;">7.724</td>
+<td style="text-align: right;">20,8</td>
+<td style="text-align: right;">17,4</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">13</td>
-<td style="text-align: left;">Colombia</td>
-<td style="text-align: right;">1.371.103</td>
-<td style="text-align: right;">8.854</td>
-<td style="text-align: right;">17,8</td>
-<td style="text-align: right;">18,0</td>
+<td style="text-align: left;">Netherlands</td>
+<td style="text-align: right;">573.750</td>
+<td style="text-align: right;">7.122</td>
+<td style="text-align: right;">41,3</td>
+<td style="text-align: right;">34,7</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">14</td>
-<td style="text-align: left;">Mexico</td>
-<td style="text-align: right;">1.175.850</td>
-<td style="text-align: right;">7.455</td>
-<td style="text-align: right;">5,9</td>
-<td style="text-align: right;">7,8</td>
+<td style="text-align: left;">Serbia</td>
+<td style="text-align: right;">226.209</td>
+<td style="text-align: right;">6.557</td>
+<td style="text-align: right;">94,2</td>
+<td style="text-align: right;">104,2</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">15</td>
-<td style="text-align: left;">Netherlands</td>
-<td style="text-align: right;">566.628</td>
-<td style="text-align: right;">6.912</td>
-<td style="text-align: right;">40,1</td>
-<td style="text-align: right;">32,6</td>
+<td style="text-align: left;">Mexico</td>
+<td style="text-align: right;">1.182.249</td>
+<td style="text-align: right;">6.399</td>
+<td style="text-align: right;">5,1</td>
+<td style="text-align: right;">7,8</td>
 </tr>
 </tbody>
 </table>
@@ -306,7 +306,7 @@ smittetilfælde
 ![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-6-1.png)
 
 Denne figur viser et 7 dages rullende gennemsnit af nye tilfælde for de
-10 lande med flest nye smittetilfælde 06-12-2020.
+10 lande med flest nye smittetilfælde 07-12-2020.
 
 #### Smitteudvikling i hele Europa
 
@@ -367,7 +367,7 @@ positiv eller negativ retning.
 Udvikling i dødsfald
 ====================
 
-Nedenstående tabel viser udvikling i dødsfald i udv\_deaths 06-12-2020
+Nedenstående tabel viser udvikling i dødsfald i udv\_deaths 07-12-2020
 og total antal dødsfald i deaths. Første tabel viser det for udvalgte
 mindre Europæiske lande, mens det efterfølgende viser på verdensplan.
 
@@ -375,36 +375,36 @@ mindre Europæiske lande, mens det efterfølgende viser på verdensplan.
 
 |     | Land        |  Total antal dødsfald|  Nye dødsfald|  Nye dødsfald, 7 dages rullende gennemsnit|
 |-----|:------------|---------------------:|-------------:|------------------------------------------:|
-| 1   | Czechia     |                 8.902|            87|                                      109,1|
-| 2   | Austria     |                 3.840|            83|                                      105,0|
-| 3   | Belgium     |                17.320|            66|                                      110,4|
-| 4   | Netherlands |                 9.768|            25|                                       48,9|
-| 5   | Switzerland |                 5.349|            25|                                       99,9|
-| 6   | Denmark     |                   885|             7|                                        8,0|
-| 7   | Finland     |                   415|             0|                                        3,1|
-| 8   | Iceland     |                    27|             0|                                        0,1|
-| 9   | Norway      |                   354|             0|                                        3,7|
+| 1   | Switzerland |                 5.495|           146|                                       97,1|
+| 2   | Belgium     |                17.386|            66|                                      105,9|
+| 3   | Austria     |                 3.897|            57|                                      101,9|
+| 4   | Netherlands |                 9.786|            18|                                       47,6|
+| 5   | Denmark     |                   894|             9|                                        8,1|
+| 6   | Finland     |                   424|             9|                                        3,6|
+| 7   | Norway      |                   359|             5|                                        3,9|
+| 8   | Czechia     |                 8.902|             0|                                       86,7|
+| 9   | Iceland     |                    27|             0|                                        0,1|
 | 10  | Sweden      |                 7.067|             0|                                       55,1|
 
 ##### Tabel 4: Udvikling i dødsfald, flest nye dødsfald verdensplan
 
 |     | Land           |  Total antal dødsfald|  Nye dødsfald|  Nye dødsfald, 7 dages rullende gennemsnit|
 |-----|:---------------|---------------------:|-------------:|------------------------------------------:|
-| 1   | US             |               282.299|         1.113|                                    2.203,7|
-| 2   | Italy          |                60.078|           564|                                      739,1|
-| 3   | Russia         |                42.675|           447|                                      506,9|
-| 4   | India          |               140.573|           391|                                      490,6|
-| 5   | Brazil         |               176.941|           313|                                      586,9|
-| 6   | Iran           |                50.310|           294|                                      348,0|
-| 7   | Mexico         |               109.717|           261|                                      580,3|
-| 8   | United Kingdom |                61.342|           231|                                      428,6|
-| 9   | Poland         |                20.089|           228|                                      437,1|
-| 10  | Turkey         |                14.900|           195|                                      191,7|
-| 11  | Ukraine        |                14.054|           177|                                      205,9|
-| 12  | Colombia       |                37.808|           175|                                      174,9|
-| 13  | France         |                55.247|           174|                                      405,3|
-| 14  | Hungary        |                 5.868|           162|                                      170,9|
-| 15  | Indonesia      |                17.740|           151|                                      132,1|
+| 1   | US             |               283.703|         1.404|                                    2.236,9|
+| 2   | Italy          |                60.606|           528|                                      718,6|
+| 3   | Russia         |                43.122|           447|                                      518,7|
+| 4   | Germany        |                19.434|           445|                                      391,4|
+| 5   | Spain          |                46.646|           394|                                      225,3|
+| 6   | India          |               140.958|           385|                                      476,7|
+| 7   | Brazil         |               177.317|           376|                                      599,6|
+| 8   | France         |                55.613|           366|                                      399,1|
+| 9   | Mexico         |               110.074|           357|                                      590,6|
+| 10  | Iran           |                50.594|           284|                                      335,4|
+| 11  | Bulgaria       |                 5.010|           213|                                      139,3|
+| 12  | Turkey         |                15.103|           203|                                      193,9|
+| 13  | United Kingdom |                61.531|           189|                                      426,6|
+| 14  | Colombia       |                37.995|           187|                                      175,6|
+| 15  | Ukraine        |                14.208|           154|                                      211,0|
 
 Figurerne nedenfor viser nye dødsfald som rullende 7-dages gennemsnit.
 X-aksen er antal dage siden 3 dødsfald og y-aksen er logaritme
@@ -424,35 +424,35 @@ Følgende tabel er sorteret efter antal dødsfald per 100.000 indbyggere
 
 |     | Land                   |  Total dødsfald|  Nye dødsfald|  Dødsfald per 100.000|
 |-----|:-----------------------|---------------:|-------------:|---------------------:|
-| 1   | Belgium                |          17.320|            66|                 151,5|
+| 1   | Belgium                |          17.386|            66|                 152,1|
 | 2   | San Marino             |              48|             0|                 142,1|
-| 3   | Peru                   |          36.231|            36|                 113,3|
+| 3   | Peru                   |          36.274|            43|                 113,4|
 | 4   | Andorra                |              78|             0|                 101,3|
-| 5   | Italy                  |          60.078|           564|                  99,4|
-| 6   | Spain                  |          46.252|             0|                  98,8|
-| 7   | North Macedonia        |           1.924|            23|                  92,3|
-| 8   | United Kingdom         |          61.342|           231|                  92,3|
-| 9   | Moldova                |           2.419|            16|                  89,4|
-| 10  | Argentina              |          39.770|           138|                  89,4|
-| 11  | Bosnia and Herzegovina |           2.952|            30|                  88,8|
-| 12  | Mexico                 |         109.717|           261|                  86,9|
-| 13  | US                     |         282.299|         1.113|                  86,4|
-| 14  | Brazil                 |         176.941|           313|                  84,5|
-| 15  | Slovenia               |           1.744|            44|                  84,1|
-| 16  | Czechia                |           8.902|            87|                  83,7|
-| 17  | Chile                  |          15.628|            36|                  83,4|
-| 18  | France                 |          55.247|           174|                  82,5|
-| 19  | Ecuador                |          13.778|            22|                  80,6|
-| 20  | Bolivia                |           8.995|             3|                  79,2|
-| 21  | Armenia                |           2.326|            17|                  78,8|
-| 22  | Panama                 |           3.193|            20|                  76,4|
-| 23  | Colombia               |          37.808|           175|                  76,2|
-| 24  | Sweden                 |           7.067|             0|                  69,5|
-| 25  | Bulgaria               |           4.797|            68|                  68,3|
-| 26  | Romania                |          12.320|           134|                  63,3|
-| 27  | Switzerland            |           5.349|            25|                  62,8|
-| 28  | Iran                   |          50.310|           294|                  61,5|
-| 29  | Hungary                |           5.868|           162|                  60,0|
-| 30  | Luxembourg             |             345|             0|                  56,7|
+| 5   | Italy                  |          60.606|           528|                 100,3|
+| 6   | Spain                  |          46.646|           394|                  99,7|
+| 7   | North Macedonia        |           1.949|            25|                  93,5|
+| 8   | United Kingdom         |          61.531|           189|                  92,6|
+| 9   | Bosnia and Herzegovina |           3.012|            60|                  90,6|
+| 10  | Moldova                |           2.438|            19|                  90,1|
+| 11  | Argentina              |          39.888|           118|                  89,6|
+| 12  | Mexico                 |         110.074|           357|                  87,2|
+| 13  | US                     |         283.703|         1.404|                  86,8|
+| 14  | Slovenia               |           1.796|            52|                  86,6|
+| 15  | Brazil                 |         177.317|           376|                  84,7|
+| 16  | Czechia                |           8.902|             0|                  83,7|
+| 17  | Chile                  |          15.663|            35|                  83,6|
+| 18  | France                 |          55.613|           366|                  83,0|
+| 19  | Ecuador                |          13.780|             2|                  80,7|
+| 20  | Armenia                |           2.344|            18|                  79,4|
+| 21  | Bolivia                |           8.997|             2|                  79,2|
+| 22  | Panama                 |           3.212|            19|                  76,9|
+| 23  | Colombia               |          37.995|           187|                  76,5|
+| 24  | Bulgaria               |           5.010|           213|                  71,3|
+| 25  | Sweden                 |           7.067|             0|                  69,5|
+| 26  | Switzerland            |           5.495|           146|                  64,5|
+| 27  | Romania                |          12.447|           127|                  63,9|
+| 28  | Iran                   |          50.594|           284|                  61,9|
+| 29  | Hungary                |           5.984|           116|                  61,2|
+| 30  | Luxembourg             |             360|            15|                  59,2|
 
 *af: Emil Thranholm, mail: <ethranholm@hotmail.com>*
