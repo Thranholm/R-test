@@ -325,8 +325,7 @@ kable(corona %>%
       align = c("l", "r", "r", "r", "r"),
       digits = 1,
       format.args = list(big.mark = ".", scientific = FALSE,
-                         decimal.mark = ","),
-      format = "markdown"
+                         decimal.mark = ",")
 )
 ```
 
@@ -349,8 +348,7 @@ kable(corona %>%
       align = c("l", "r", "r", "r", "r"),
       digits = 1,
       format.args = list(big.mark = ".", scientific = FALSE,
-                         decimal.mark = ","),
-      format = "markdown"
+                         decimal.mark = ",")
 )
 ```
 
