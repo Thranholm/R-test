@@ -1,7 +1,7 @@
 Emils corona-blog
 =================
 
-*Tallene viser de registerende tal per 13-12-2020*
+*Tallene viser de registerende tal per 14-12-2020*
 
 *kilde:
 <a href="https://github.com/pomber/covid19" class="uri">https://github.com/pomber/covid19</a>*
@@ -20,7 +20,7 @@ Udvikling i antal smittede
 ### Nøgletal
 
 Denne tabel præsenterer antallet af smittede og vigtigere nye
-smittefilfælde registret: 13-12-2020. I denne første tabel er fokus på
+smittefilfælde registret: 14-12-2020. I denne første tabel er fokus på
 de nordiske lande samt udvalge mindre europæiske land. Ønsker til
 tilføjelse af specifikke lande kan skrives til:
 <ethranholm@hotmail.com>.
@@ -49,89 +49,89 @@ tilføjelse af specifikke lande kan skrives til:
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">1</td>
-<td style="text-align: left;">Netherlands</td>
-<td style="text-align: right;">623.567</td>
-<td style="text-align: right;">9.937</td>
-<td style="text-align: right;">57,7</td>
-<td style="text-align: right;">47,2</td>
+<td style="text-align: left;">Switzerland</td>
+<td style="text-align: right;">384.557</td>
+<td style="text-align: right;">10.726</td>
+<td style="text-align: right;">126,0</td>
+<td style="text-align: right;">50,8</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">2</td>
-<td style="text-align: left;">Belgium</td>
-<td style="text-align: right;">608.137</td>
-<td style="text-align: right;">4.978</td>
-<td style="text-align: right;">43,5</td>
-<td style="text-align: right;">20,5</td>
+<td style="text-align: left;">Netherlands</td>
+<td style="text-align: right;">632.085</td>
+<td style="text-align: right;">8.518</td>
+<td style="text-align: right;">49,4</td>
+<td style="text-align: right;">48,4</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">3</td>
-<td style="text-align: left;">Czechia</td>
-<td style="text-align: right;">579.079</td>
-<td style="text-align: right;">3.657</td>
-<td style="text-align: right;">34,4</td>
-<td style="text-align: right;">43,3</td>
+<td style="text-align: left;">Denmark</td>
+<td style="text-align: right;">113.642</td>
+<td style="text-align: right;">3.337</td>
+<td style="text-align: right;">57,6</td>
+<td style="text-align: right;">50,5</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">4</td>
-<td style="text-align: left;">Denmark</td>
-<td style="text-align: right;">110.305</td>
-<td style="text-align: right;">2.645</td>
-<td style="text-align: right;">45,7</td>
-<td style="text-align: right;">47,3</td>
+<td style="text-align: left;">Austria</td>
+<td style="text-align: right;">325.051</td>
+<td style="text-align: right;">2.588</td>
+<td style="text-align: right;">29,3</td>
+<td style="text-align: right;">31,3</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">5</td>
-<td style="text-align: left;">Austria</td>
-<td style="text-align: right;">322.463</td>
-<td style="text-align: right;">2.641</td>
-<td style="text-align: right;">29,9</td>
-<td style="text-align: right;">30,8</td>
+<td style="text-align: left;">Czechia</td>
+<td style="text-align: right;">581.079</td>
+<td style="text-align: right;">2.000</td>
+<td style="text-align: right;">18,8</td>
+<td style="text-align: right;">46,0</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">6</td>
-<td style="text-align: left;">Finland</td>
-<td style="text-align: right;">30.810</td>
-<td style="text-align: right;">360</td>
-<td style="text-align: right;">6,5</td>
-<td style="text-align: right;">8,2</td>
+<td style="text-align: left;">Belgium</td>
+<td style="text-align: right;">609.211</td>
+<td style="text-align: right;">1.074</td>
+<td style="text-align: right;">9,4</td>
+<td style="text-align: right;">20,7</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">7</td>
 <td style="text-align: left;">Norway</td>
-<td style="text-align: right;">41.003</td>
-<td style="text-align: right;">200</td>
-<td style="text-align: right;">3,8</td>
-<td style="text-align: right;">7,2</td>
+<td style="text-align: right;">41.334</td>
+<td style="text-align: right;">331</td>
+<td style="text-align: right;">6,2</td>
+<td style="text-align: right;">7,1</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">8</td>
-<td style="text-align: left;">Iceland</td>
-<td style="text-align: right;">5.557</td>
-<td style="text-align: right;">5</td>
-<td style="text-align: right;">1,4</td>
-<td style="text-align: right;">3,0</td>
+<td style="text-align: left;">Finland</td>
+<td style="text-align: right;">31.110</td>
+<td style="text-align: right;">300</td>
+<td style="text-align: right;">5,4</td>
+<td style="text-align: right;">8,4</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">9</td>
+<td style="text-align: left;">Iceland</td>
+<td style="text-align: right;">5.564</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">2,0</td>
+<td style="text-align: right;">2,8</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10</td>
 <td style="text-align: left;">Sweden</td>
 <td style="text-align: right;">320.098</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0,0</td>
 <td style="text-align: right;">57,8</td>
 </tr>
-<tr class="even">
-<td style="text-align: left;">10</td>
-<td style="text-align: left;">Switzerland</td>
-<td style="text-align: right;">373.831</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0,0</td>
-<td style="text-align: right;">49,2</td>
-</tr>
 </tbody>
 </table>
 
 Confirmed er antallet af smittetilfælde i alt siden januar.
-Udv\_confirmed er antallet af nye smittetilfælde 13-12-2020.
+Udv\_confirmed er antallet af nye smittetilfælde 14-12-2020.
 
 Følgende tabel viser de 15 lande med det højeste registrede nye
 smittetilfælde:
@@ -161,122 +161,122 @@ smittetilfælde:
 <tr class="odd">
 <td style="text-align: left;">1</td>
 <td style="text-align: left;">US</td>
-<td style="text-align: right;">16.253.219</td>
-<td style="text-align: right;">190.920</td>
-<td style="text-align: right;">58,4</td>
-<td style="text-align: right;">65,4</td>
+<td style="text-align: right;">16.519.462</td>
+<td style="text-align: right;">193.454</td>
+<td style="text-align: right;">59,2</td>
+<td style="text-align: right;">65,9</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">2</td>
-<td style="text-align: left;">Russia</td>
-<td style="text-align: right;">2.629.699</td>
-<td style="text-align: right;">27.651</td>
-<td style="text-align: right;">19,1</td>
-<td style="text-align: right;">18,8</td>
+<td style="text-align: left;">Turkey</td>
+<td style="text-align: right;">1.866.345</td>
+<td style="text-align: right;">29.617</td>
+<td style="text-align: right;">36,0</td>
+<td style="text-align: right;">174,6</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">3</td>
-<td style="text-align: left;">India</td>
-<td style="text-align: right;">9.884.100</td>
-<td style="text-align: right;">27.071</td>
-<td style="text-align: right;">2,0</td>
-<td style="text-align: right;">2,2</td>
+<td style="text-align: left;">Russia</td>
+<td style="text-align: right;">2.656.601</td>
+<td style="text-align: right;">26.902</td>
+<td style="text-align: right;">18,6</td>
+<td style="text-align: right;">18,8</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">4</td>
-<td style="text-align: left;">Turkey</td>
-<td style="text-align: right;">1.836.728</td>
-<td style="text-align: right;">26.919</td>
-<td style="text-align: right;">32,7</td>
-<td style="text-align: right;">175,0</td>
+<td style="text-align: left;">Brazil</td>
+<td style="text-align: right;">6.927.145</td>
+<td style="text-align: right;">25.193</td>
+<td style="text-align: right;">12,0</td>
+<td style="text-align: right;">20,7</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">5</td>
-<td style="text-align: left;">France</td>
-<td style="text-align: right;">2.430.612</td>
-<td style="text-align: right;">25.357</td>
-<td style="text-align: right;">37,9</td>
-<td style="text-align: right;">18,1</td>
+<td style="text-align: left;">India</td>
+<td style="text-align: right;">9.906.165</td>
+<td style="text-align: right;">22.065</td>
+<td style="text-align: right;">1,6</td>
+<td style="text-align: right;">2,1</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">6</td>
-<td style="text-align: left;">Brazil</td>
-<td style="text-align: right;">6.901.952</td>
-<td style="text-align: right;">21.825</td>
-<td style="text-align: right;">10,4</td>
-<td style="text-align: right;">20,4</td>
+<td style="text-align: left;">Spain</td>
+<td style="text-align: right;">1.751.884</td>
+<td style="text-align: right;">21.309</td>
+<td style="text-align: right;">45,5</td>
+<td style="text-align: right;">15,1</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">7</td>
 <td style="text-align: left;">United Kingdom</td>
-<td style="text-align: right;">1.854.490</td>
-<td style="text-align: right;">18.541</td>
-<td style="text-align: right;">27,9</td>
-<td style="text-align: right;">27,2</td>
+<td style="text-align: right;">1.874.867</td>
+<td style="text-align: right;">20.377</td>
+<td style="text-align: right;">30,7</td>
+<td style="text-align: right;">28,4</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">8</td>
 <td style="text-align: left;">Italy</td>
-<td style="text-align: right;">1.843.712</td>
-<td style="text-align: right;">17.937</td>
-<td style="text-align: right;">29,7</td>
-<td style="text-align: right;">27,2</td>
+<td style="text-align: right;">1.855.737</td>
+<td style="text-align: right;">12.025</td>
+<td style="text-align: right;">19,9</td>
+<td style="text-align: right;">26,8</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">9</td>
-<td style="text-align: left;">Germany</td>
-<td style="text-align: right;">1.350.810</td>
-<td style="text-align: right;">14.709</td>
-<td style="text-align: right;">17,7</td>
-<td style="text-align: right;">26,9</td>
+<td style="text-align: left;">Switzerland</td>
+<td style="text-align: right;">384.557</td>
+<td style="text-align: right;">10.726</td>
+<td style="text-align: right;">126,0</td>
+<td style="text-align: right;">50,8</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">10</td>
-<td style="text-align: left;">Netherlands</td>
-<td style="text-align: right;">623.567</td>
-<td style="text-align: right;">9.937</td>
-<td style="text-align: right;">57,7</td>
-<td style="text-align: right;">47,2</td>
+<td style="text-align: left;">Colombia</td>
+<td style="text-align: right;">1.434.516</td>
+<td style="text-align: right;">8.742</td>
+<td style="text-align: right;">17,6</td>
+<td style="text-align: right;">16,5</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">11</td>
-<td style="text-align: left;">Ukraine</td>
-<td style="text-align: right;">918.444</td>
-<td style="text-align: right;">9.605</td>
-<td style="text-align: right;">21,5</td>
-<td style="text-align: right;">26,7</td>
+<td style="text-align: left;">Netherlands</td>
+<td style="text-align: right;">632.085</td>
+<td style="text-align: right;">8.518</td>
+<td style="text-align: right;">49,4</td>
+<td style="text-align: right;">48,4</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">12</td>
-<td style="text-align: left;">Poland</td>
-<td style="text-align: right;">1.135.676</td>
-<td style="text-align: right;">8.976</td>
-<td style="text-align: right;">23,6</td>
-<td style="text-align: right;">27,2</td>
+<td style="text-align: left;">Canada</td>
+<td style="text-align: right;">472.820</td>
+<td style="text-align: right;">8.377</td>
+<td style="text-align: right;">22,6</td>
+<td style="text-align: right;">17,8</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">13</td>
-<td style="text-align: left;">Colombia</td>
-<td style="text-align: right;">1.425.774</td>
-<td style="text-align: right;">8.702</td>
-<td style="text-align: right;">17,5</td>
-<td style="text-align: right;">15,7</td>
+<td style="text-align: left;">Iran</td>
+<td style="text-align: right;">1.115.770</td>
+<td style="text-align: right;">7.501</td>
+<td style="text-align: right;">9,2</td>
+<td style="text-align: right;">11,2</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">14</td>
-<td style="text-align: left;">Mexico</td>
-<td style="text-align: right;">1.250.044</td>
-<td style="text-align: right;">8.608</td>
-<td style="text-align: right;">6,8</td>
-<td style="text-align: right;">8,4</td>
+<td style="text-align: left;">Ukraine</td>
+<td style="text-align: right;">925.321</td>
+<td style="text-align: right;">6.877</td>
+<td style="text-align: right;">15,4</td>
+<td style="text-align: right;">26,1</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">15</td>
-<td style="text-align: left;">South Africa</td>
-<td style="text-align: right;">860.964</td>
-<td style="text-align: right;">7.999</td>
-<td style="text-align: right;">13,8</td>
-<td style="text-align: right;">11,5</td>
+<td style="text-align: left;">Germany</td>
+<td style="text-align: right;">1.357.261</td>
+<td style="text-align: right;">6.451</td>
+<td style="text-align: right;">7,8</td>
+<td style="text-align: right;">27,1</td>
 </tr>
 </tbody>
 </table>
@@ -306,7 +306,7 @@ smittetilfælde
 ![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-6-1.png)
 
 Denne figur viser et 7 dages rullende gennemsnit af nye tilfælde for de
-10 lande med flest nye smittetilfælde 13-12-2020.
+10 lande med flest nye smittetilfælde 14-12-2020.
 
 #### Smitteudvikling i hele Europa
 
@@ -367,7 +367,7 @@ positiv eller negativ retning.
 Udvikling i dødsfald
 ====================
 
-Nedenstående tabel viser udvikling i dødsfald i udv\_deaths 13-12-2020
+Nedenstående tabel viser udvikling i dødsfald i udv\_deaths 14-12-2020
 og total antal dødsfald i deaths. Første tabel viser det for udvalgte
 mindre Europæiske lande, mens det efterfølgende viser på verdensplan.
 
@@ -393,66 +393,66 @@ mindre Europæiske lande, mens det efterfølgende viser på verdensplan.
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">1</td>
-<td style="text-align: left;">Belgium</td>
-<td style="text-align: right;">17.951</td>
-<td style="text-align: right;">159</td>
-<td style="text-align: right;">90,1</td>
+<td style="text-align: left;">Switzerland</td>
+<td style="text-align: right;">6.154</td>
+<td style="text-align: right;">169</td>
+<td style="text-align: right;">94,1</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">2</td>
-<td style="text-align: left;">Czechia</td>
-<td style="text-align: right;">9.535</td>
-<td style="text-align: right;">85</td>
-<td style="text-align: right;">90,4</td>
+<td style="text-align: left;">Belgium</td>
+<td style="text-align: right;">18.054</td>
+<td style="text-align: right;">103</td>
+<td style="text-align: right;">95,4</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">3</td>
-<td style="text-align: left;">Austria</td>
-<td style="text-align: right;">4.473</td>
-<td style="text-align: right;">58</td>
-<td style="text-align: right;">90,4</td>
+<td style="text-align: left;">Czechia</td>
+<td style="text-align: right;">9.609</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">101,0</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">4</td>
-<td style="text-align: left;">Netherlands</td>
-<td style="text-align: right;">10.134</td>
-<td style="text-align: right;">30</td>
-<td style="text-align: right;">52,3</td>
+<td style="text-align: left;">Austria</td>
+<td style="text-align: right;">4.530</td>
+<td style="text-align: right;">57</td>
+<td style="text-align: right;">90,4</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">5</td>
-<td style="text-align: left;">Switzerland</td>
-<td style="text-align: right;">5.985</td>
-<td style="text-align: right;">9</td>
-<td style="text-align: right;">90,9</td>
+<td style="text-align: left;">Netherlands</td>
+<td style="text-align: right;">10.168</td>
+<td style="text-align: right;">34</td>
+<td style="text-align: right;">54,6</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">6</td>
 <td style="text-align: left;">Denmark</td>
-<td style="text-align: right;">941</td>
-<td style="text-align: right;">6</td>
+<td style="text-align: right;">950</td>
+<td style="text-align: right;">9</td>
 <td style="text-align: right;">8,0</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">7</td>
 <td style="text-align: left;">Finland</td>
-<td style="text-align: right;">453</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">5,4</td>
+<td style="text-align: right;">461</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">5,3</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">8</td>
+<td style="text-align: left;">Norway</td>
+<td style="text-align: right;">393</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">4,9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">9</td>
 <td style="text-align: left;">Iceland</td>
 <td style="text-align: right;">28</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0,1</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">9</td>
-<td style="text-align: left;">Norway</td>
-<td style="text-align: right;">387</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">4,7</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">10</td>
@@ -469,10 +469,10 @@ mindre Europæiske lande, mens det efterfølgende viser på verdensplan.
 <table>
 <colgroup>
 <col style="width: 3%" />
-<col style="width: 14%" />
+<col style="width: 15%" />
 <col style="width: 22%" />
-<col style="width: 14%" />
-<col style="width: 45%" />
+<col style="width: 13%" />
+<col style="width: 44%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -487,107 +487,107 @@ mindre Europæiske lande, mens det efterfølgende viser på verdensplan.
 <tr class="odd">
 <td style="text-align: left;">1</td>
 <td style="text-align: left;">US</td>
-<td style="text-align: right;">299.168</td>
-<td style="text-align: right;">1.389</td>
-<td style="text-align: right;">2.403,0</td>
+<td style="text-align: right;">300.479</td>
+<td style="text-align: right;">1.311</td>
+<td style="text-align: right;">2.389,4</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">2</td>
-<td style="text-align: left;">Italy</td>
-<td style="text-align: right;">64.520</td>
-<td style="text-align: right;">484</td>
-<td style="text-align: right;">634,6</td>
+<td style="text-align: left;">Germany</td>
+<td style="text-align: right;">22.634</td>
+<td style="text-align: right;">528</td>
+<td style="text-align: right;">457,1</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">3</td>
-<td style="text-align: left;">Russia</td>
-<td style="text-align: right;">46.404</td>
-<td style="text-align: right;">481</td>
-<td style="text-align: right;">532,7</td>
+<td style="text-align: left;">Italy</td>
+<td style="text-align: right;">65.011</td>
+<td style="text-align: right;">491</td>
+<td style="text-align: right;">629,3</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">4</td>
-<td style="text-align: left;">France</td>
-<td style="text-align: right;">58.015</td>
-<td style="text-align: right;">344</td>
-<td style="text-align: right;">395,4</td>
+<td style="text-align: left;">Russia</td>
+<td style="text-align: right;">46.846</td>
+<td style="text-align: right;">442</td>
+<td style="text-align: right;">532,0</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">5</td>
-<td style="text-align: left;">India</td>
-<td style="text-align: right;">143.355</td>
-<td style="text-align: right;">336</td>
-<td style="text-align: right;">397,4</td>
+<td style="text-align: left;">Brazil</td>
+<td style="text-align: right;">181.835</td>
+<td style="text-align: right;">433</td>
+<td style="text-align: right;">645,4</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">6</td>
-<td style="text-align: left;">Brazil</td>
-<td style="text-align: right;">181.402</td>
-<td style="text-align: right;">279</td>
-<td style="text-align: right;">637,3</td>
+<td style="text-align: left;">Spain</td>
+<td style="text-align: right;">48.013</td>
+<td style="text-align: right;">389</td>
+<td style="text-align: right;">195,3</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">7</td>
-<td style="text-align: left;">Mexico</td>
-<td style="text-align: right;">113.953</td>
-<td style="text-align: right;">249</td>
-<td style="text-align: right;">605,1</td>
+<td style="text-align: left;">France</td>
+<td style="text-align: right;">58.391</td>
+<td style="text-align: right;">376</td>
+<td style="text-align: right;">396,9</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">8</td>
-<td style="text-align: left;">Iran</td>
-<td style="text-align: right;">52.196</td>
-<td style="text-align: right;">247</td>
-<td style="text-align: right;">269,4</td>
+<td style="text-align: left;">India</td>
+<td style="text-align: right;">143.709</td>
+<td style="text-align: right;">354</td>
+<td style="text-align: right;">393,0</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">9</td>
-<td style="text-align: left;">Turkey</td>
-<td style="text-align: right;">16.417</td>
-<td style="text-align: right;">218</td>
-<td style="text-align: right;">216,7</td>
+<td style="text-align: left;">Mexico</td>
+<td style="text-align: right;">114.298</td>
+<td style="text-align: right;">345</td>
+<td style="text-align: right;">603,4</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">10</td>
-<td style="text-align: left;">Germany</td>
-<td style="text-align: right;">22.106</td>
-<td style="text-align: right;">206</td>
-<td style="text-align: right;">445,3</td>
+<td style="text-align: left;">Argentina</td>
+<td style="text-align: right;">41.041</td>
+<td style="text-align: right;">275</td>
+<td style="text-align: right;">164,7</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">11</td>
-<td style="text-align: left;">Poland</td>
-<td style="text-align: right;">22.864</td>
-<td style="text-align: right;">188</td>
-<td style="text-align: right;">396,4</td>
+<td style="text-align: left;">Iran</td>
+<td style="text-align: right;">52.447</td>
+<td style="text-align: right;">251</td>
+<td style="text-align: right;">264,7</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">12</td>
-<td style="text-align: left;">Colombia</td>
-<td style="text-align: right;">39.053</td>
-<td style="text-align: right;">187</td>
-<td style="text-align: right;">177,9</td>
+<td style="text-align: left;">United Kingdom</td>
+<td style="text-align: right;">64.500</td>
+<td style="text-align: right;">233</td>
+<td style="text-align: right;">424,1</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">13</td>
-<td style="text-align: left;">Hungary</td>
-<td style="text-align: right;">6.965</td>
-<td style="text-align: right;">181</td>
-<td style="text-align: right;">156,7</td>
+<td style="text-align: left;">Turkey</td>
+<td style="text-align: right;">16.646</td>
+<td style="text-align: right;">229</td>
+<td style="text-align: right;">220,4</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">14</td>
 <td style="text-align: left;">South Africa</td>
-<td style="text-align: right;">23.276</td>
-<td style="text-align: right;">170</td>
-<td style="text-align: right;">152,9</td>
+<td style="text-align: right;">23.451</td>
+<td style="text-align: right;">175</td>
+<td style="text-align: right;">171,7</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">15</td>
-<td style="text-align: left;">Indonesia</td>
-<td style="text-align: right;">18.819</td>
-<td style="text-align: right;">166</td>
-<td style="text-align: right;">154,1</td>
+<td style="text-align: left;">Switzerland</td>
+<td style="text-align: right;">6.154</td>
+<td style="text-align: right;">169</td>
+<td style="text-align: right;">94,1</td>
 </tr>
 </tbody>
 </table>
@@ -610,35 +610,35 @@ Følgende tabel er sorteret efter antal dødsfald per 100.000 indbyggere
 
 |     | Land                   |  Total dødsfald|  Nye dødsfald|  Dødsfald per 100.000|
 |:----|:-----------------------|---------------:|-------------:|---------------------:|
-| 1   | Belgium                |          17.951|           159|                 157,0|
+| 1   | Belgium                |          18.054|           103|                 157,9|
 | 2   | San Marino             |              51|             0|                 151,0|
-| 3   | Peru                   |          36.544|             0|                 114,2|
-| 4   | Italy                  |          64.520|           484|                 106,8|
-| 5   | Andorra                |              79|             1|                 102,6|
-| 6   | Spain                  |          47.624|             0|                 101,8|
-| 7   | North Macedonia        |           2.121|            25|                 101,8|
-| 8   | Bosnia and Herzegovina |           3.336|            38|                 100,4|
-| 9   | Slovenia               |           2.063|            22|                  99,5|
-| 10  | United Kingdom         |          64.267|           144|                  96,7|
-| 11  | Moldova                |           2.572|            25|                  95,0|
-| 12  | Argentina              |          40.766|            98|                  91,6|
-| 13  | US                     |         299.168|         1.389|                  91,6|
-| 14  | Mexico                 |         113.953|           249|                  90,3|
-| 15  | Czechia                |           9.535|            85|                  89,7|
-| 16  | France                 |          58.015|           344|                  86,6|
-| 17  | Brazil                 |         181.402|           279|                  86,6|
-| 18  | Chile                  |          15.886|            40|                  84,8|
-| 19  | Armenia                |           2.486|            24|                  84,2|
-| 20  | Ecuador                |          13.875|             1|                  81,2|
-| 21  | Bulgaria               |           5.688|            62|                  81,0|
-| 22  | Panama                 |           3.356|            25|                  80,3|
-| 23  | Bolivia                |           9.018|             4|                  79,4|
-| 24  | Colombia               |          39.053|           187|                  78,7|
+| 3   | Peru                   |          36.677|           133|                 114,7|
+| 4   | Italy                  |          65.011|           491|                 107,6|
+| 5   | North Macedonia        |           2.147|            26|                 103,0|
+| 6   | Spain                  |          48.013|           389|                 102,6|
+| 7   | Andorra                |              79|             0|                 102,6|
+| 8   | Bosnia and Herzegovina |           3.391|            55|                 102,0|
+| 9   | Slovenia               |           2.107|            44|                 101,6|
+| 10  | United Kingdom         |          64.500|           233|                  97,1|
+| 11  | Moldova                |           2.598|            26|                  96,0|
+| 12  | Argentina              |          41.041|           275|                  92,2|
+| 13  | US                     |         300.479|         1.311|                  92,0|
+| 14  | Mexico                 |         114.298|           345|                  90,6|
+| 15  | Czechia                |           9.609|            74|                  90,4|
+| 16  | France                 |          58.391|           376|                  87,2|
+| 17  | Brazil                 |         181.835|           433|                  86,8|
+| 18  | Chile                  |          15.931|            45|                  85,1|
+| 19  | Armenia                |           2.503|            17|                  84,8|
+| 20  | Bulgaria               |           5.838|           150|                  83,1|
+| 21  | Ecuador                |          13.875|             0|                  81,2|
+| 22  | Panama                 |           3.382|            26|                  81,0|
+| 23  | Bolivia                |           9.024|             6|                  79,5|
+| 24  | Colombia               |          39.195|           142|                  78,9|
 | 25  | Sweden                 |           7.514|             0|                  73,8|
-| 26  | Hungary                |           6.965|           181|                  71,2|
-| 27  | Switzerland            |           5.985|             9|                  70,3|
-| 28  | Romania                |          13.385|           121|                  68,8|
-| 29  | Croatia                |           2.640|            78|                  64,6|
-| 30  | Luxembourg             |             392|             0|                  64,5|
+| 26  | Hungary                |           7.130|           165|                  72,9|
+| 27  | Switzerland            |           6.154|           169|                  72,3|
+| 28  | Romania                |          13.494|           109|                  69,3|
+| 29  | Luxembourg             |             410|            18|                  67,4|
+| 30  | Croatia                |           2.705|            65|                  66,2|
 
 *af: Emil Thranholm, mail: <ethranholm@hotmail.com>*
