@@ -320,6 +320,7 @@ kable(corona %>%
   select(land, confirmed, udv_confirmed, per_cap100k, per_cap_roll7) %>% 
   dplyr::arrange(desc(udv_confirmed)) %>% 
   top_n(7, udv_confirmed),
+      format = "simple",
       row.names = TRUE,
       col.names = c("Land", "Total antal smittede", "Nye smittetilfælde", "Nye tilfælde per 100.000", "Nye tilfælde per 100.000, 7 dages rullende gennemsnit"),
       align = c("l", "r", "r", "r", "r"),
@@ -348,7 +349,8 @@ kable(corona %>%
       align = c("l", "r", "r", "r", "r"),
       digits = 1,
       format.args = list(big.mark = ".", scientific = FALSE,
-                         decimal.mark = ",")
+                         decimal.mark = ","),
+      format = "simple"
 )
 ```
 
@@ -845,7 +847,8 @@ kable(corona %>%
   align = c("l", "r", "r", "r"),
   digits = 1,
   format.args = list(big.mark = ".", scientific = FALSE,
-                         decimal.mark = ",")
+                         decimal.mark = ","),
+  format = "simple"
 )
 ```
 
@@ -863,7 +866,8 @@ kable(corona %>%
   align = c("l", "r", "r", "r"),
   digits = 1,
   format.args = list(big.mark = ".", scientific = FALSE,
-                         decimal.mark = ",")
+                         decimal.mark = ","),
+  format = "simple"
 )
 ```
 
@@ -910,7 +914,8 @@ kable(corona %>%
   align = c("l", "r", "r", "r"),
   digits = 1,
   format.args = list(big.mark = ".", scientific = FALSE,
-                         decimal.mark = ",")
+                         decimal.mark = ","),
+  format = "simple"
 )
 ```
 
