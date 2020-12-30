@@ -134,8 +134,6 @@ Følgende kort viser smittetrykket i de europæiske lande.
 
 ##### Kort 1: Smittetryk i Europa, smittede per 100.000 per uge målt som gennemsnit over 14 dage
 
-    ## `summarise()` ungrouping output (override with `.groups` argument)
-
 ![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-10-1.png)
 
 Nedenstående kort viser udviklingen i smittetrykket. Tallene er

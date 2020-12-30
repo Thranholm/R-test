@@ -513,7 +513,8 @@ label_geo <- eu_map_data %>%
             ny_roll_7=round(max(ny_roll_7),0),
             per_cap_roll7=round(max(per_cap_roll7),0),
             rejse_vej=round(max(rejse_vej),0),
-            rejse_vej_diff=round(max(rejse_vej_diff),0)
+            rejse_vej_diff=round(max(rejse_vej_diff),0),
+            .groups = "drop_last"
             )
 
 ## Til at fjerne akser
