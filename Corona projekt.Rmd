@@ -72,6 +72,9 @@ corona_lang <- corona_df_tidy %>%
   dplyr::mutate(indc = str_match(indc, c("confirmed", "deaths", "recovered"))) %>% 
   pivot_wider(names_from = indc, values_from = value) %>% 
   dplyr::mutate(land=str_trim(land, side = "both")) %>% 
+  dplyr::mutate(date=
+                  if_else(ymd(date)<ymd("2020-01-22"), 
+                      ymd(date) %m+% years(1), ymd(date))) %>% 
   arrange(-desc(land), -desc(date))
 
 # Får dato-sortering rigtig.
@@ -619,6 +622,9 @@ corona_lang <- corona_df_tidy %>%
   dplyr::mutate(indc = str_match(indc, c("confirmed", "deaths", "recovered"))) %>% 
   tidyr::pivot_wider(names_from = indc, values_from = value) %>% 
   dplyr::mutate(land=str_trim(land, side = "both")) %>% 
+  dplyr::mutate(date=
+                  if_else(ymd(date)<ymd("2020-01-22"), 
+                      ymd(date) %m+% years(1), ymd(date))) %>% 
   arrange(-desc(land), -desc(date))
 
 # Får dato-sortering rigtig.
