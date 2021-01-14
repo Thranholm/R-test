@@ -354,6 +354,28 @@ kable(corona %>%
 )
 ```
 
+Tabellen nedenfor viser udvikling i smittede for de lande, der er flest nye tilfælde per 100.000. Dog afgrænset til lande, hvor befolkningen er større end 1 mio.
+
+##### Tabel 3: Top 15 i verden smittetilfælde per 100.000
+```{r echo=FALSE}
+kable(corona %>% 
+  group_by(land) %>% 
+  filter(date==today()-1 & population > 1*10**6) %>% 
+  select(land, confirmed, udv_confirmed, per_cap100k, per_cap_roll7) %>% 
+  dplyr::arrange(desc(per_cap100k)) %>% 
+  top_n(15, per_cap100k) %>% 
+  head(15),
+    row.names = TRUE,
+    col.names = c("Land", "Total antal smittede", "Nye smittetilfælde", "Nye tilfælde per 100.000", "Nye tilfælde per 100.000, 7 dages rullende gennemsnit"),
+    align = c("l", "r", "r", "r", "r"),
+    digits = 1,
+    format.args = list(big.mark = ".", scientific = FALSE,
+                        decimal.mark = ","),
+    format = "simple"
+  )
+```
+
+
 ### Grafer og kort
 Smitteudviklingen illustreres ved hjælp af flere grafer og kort nedenfor.
 
@@ -849,7 +871,7 @@ strftime(max(big_ones$date), "%d-%m-%Y")
 
 Nedenstående tabel viser udvikling i dødsfald i udv_deaths `r strftime(max(big_ones$date), "%d-%m-%Y")` og total antal dødsfald i deaths. Første tabel viser det for udvalgte mindre Europæiske lande, mens det efterfølgende viser på verdensplan.
 
-##### Tabel 3: Udvikling i dødsfald udvalgte europæiske lande
+##### Tabel 4: Udvikling i dødsfald udvalgte europæiske lande
 ```{r echo=FALSE}
 kable(corona %>% 
   group_by(land) %>% 
@@ -869,7 +891,7 @@ kable(corona %>%
 )
 ```
 
-##### Tabel 4: Udvikling i dødsfald, flest nye dødsfald verdensplan
+##### Tabel 5: Udvikling i dødsfald, flest nye dødsfald verdensplan
 ```{r echo=FALSE}
 kable(corona %>% 
   group_by(land) %>% 
@@ -914,7 +936,7 @@ ggplot(big_ones, aes(x = days_3_death, y=ny_roll_7)) +
 
 Følgende tabel er sorteret efter antal dødsfald per 100.000 indbyggere
 
-##### Tabel 5: Dødsfald per 100.000 indbyggere
+##### Tabel 6: Dødsfald per 100.000 indbyggere
 ```{r echo=FALSE}
 kable(corona %>% 
   group_by(land) %>% 

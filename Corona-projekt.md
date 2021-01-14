@@ -50,7 +50,7 @@ smittetilfælde:
 
 |     | Land           |  Total antal smittede|  Nye smittetilfælde|  Nye tilfælde per 100.000|  Nye tilfælde per 100.000, 7 dages rullende gennemsnit|
 |-----|:---------------|---------------------:|-------------------:|-------------------------:|------------------------------------------------------:|
-| 1   | US             |            23.071.895|             232.943|                      71,3|                                                   75,1|
+| 1   | US             |            23.077.247|             238.295|                      72,9|                                                   75,3|
 | 2   | Brazil         |             8.256.536|              60.899|                      29,1|                                                   26,1|
 | 3   | United Kingdom |             3.220.953|              47.662|                      71,7|                                                   80,8|
 | 4   | Spain          |             2.176.089|              38.869|                      83,1|                                                   59,1|
@@ -66,6 +66,30 @@ smittetilfælde:
 | 14  | Indonesia      |               858.043|              11.278|                       4,2|                                                    3,7|
 | 15  | Czechia        |               855.600|              10.801|                     101,6|                                                  105,7|
 
+Tabellen nedenfor viser udvikling i smittede for de lande, der er flest
+nye tilfælde per 100.000. Dog afgrænset til lande, hvor befolkningen er
+større end 1 mio.
+
+##### Tabel 3: Top 15 i verden smittetilfælde per 100.000
+
+|     | Land           |  Total antal smittede|  Nye smittetilfælde|  Nye tilfælde per 100.000|  Nye tilfælde per 100.000, 7 dages rullende gennemsnit|
+|-----|:---------------|---------------------:|-------------------:|-------------------------:|------------------------------------------------------:|
+| 1   | Israel         |               520.060|               9.997|                     112,5|                                                   91,0|
+| 2   | Portugal       |               507.108|              10.556|                     102,6|                                                   84,0|
+| 3   | Czechia        |               855.600|              10.801|                     101,6|                                                  105,7|
+| 4   | Slovenia       |               143.679|               2.092|                     100,9|                                                   82,4|
+| 5   | Spain          |             2.176.089|              38.869|                      83,1|                                                   59,1|
+| 6   | Panama         |               288.408|               3.315|                      79,4|                                                   80,2|
+| 7   | Ireland        |               159.144|               3.553|                      73,0|                                                  111,5|
+| 8   | US             |            23.077.247|             238.295|                      72,9|                                                   75,3|
+| 9   | Lebanon        |               231.936|               4.988|                      72,8|                                                   66,8|
+| 10  | United Kingdom |             3.220.953|              47.662|                      71,7|                                                   80,8|
+| 11  | Slovakia       |               215.055|               3.576|                      65,7|                                                   49,9|
+| 12  | Latvia         |                52.032|               1.255|                      65,1|                                                   50,9|
+| 13  | Estonia        |                34.991|                 853|                      64,5|                                                   46,7|
+| 14  | Lithuania      |               163.042|               1.694|                      60,5|                                                   55,2|
+| 15  | Sweden         |               512.203|               5.337|                      52,5|                                                   59,6|
+
 ### Grafer og kort
 
 Smitteudviklingen illustreres ved hjælp af flere grafer og kort
@@ -73,14 +97,14 @@ nedenfor.
 
 ##### Figur 1: Graf over nye smittetilfælde nordisk lande og udvalgte europæiske lande, 7 dages rullende gennemsnit
 
-![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-4-1.png)
+![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-5-1.png)
 
 Vær opmærksom på at y-aksen af logaritme transformert. X-aksen viser
 antal dage siden 3 smittetilfælde.
 
 ##### Figur 2: Graf over nye tilfælde store lande, 7 dages rullende gennemsnit
 
-![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-5-1.png)
+![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-6-1.png)
 
 Denne figur viser de store europæiske lande samt USA og Brasilien.
 Y-aksen er logaritme transformeret og x-aksen er dage siden 3
@@ -88,7 +112,7 @@ smittetilfælde
 
 ##### Figur 3: Graf over nye tilfælde lande med 10 flest nye tilfælde, 7 dages rullende gennemsnit
 
-![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-6-1.png)
+![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-7-1.png)
 
 Denne figur viser et 7 dages rullende gennemsnit af nye tilfælde for de
 10 lande med flest nye smittetilfælde 13-01-2021.
@@ -100,14 +124,14 @@ antal dage siden 1000 registrerede smittetilfælde
 
 ##### Figur 4: Hele Europa, 7 dages rullende gennemsnit
 
-![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-7-1.png)
+![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-8-1.png)
 
 Følgende figur er samme som ovenstående men med fokus på øverste højre
 hjørne.
 
 ##### Figur 5: Hele Europa fokuseret, 7 dages rullende gennemsnit
 
-![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-8-1.png)
+![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-9-1.png)
 
 ### Den danske rejsevejledning
 
@@ -128,13 +152,13 @@ være under for at der igen åbnes for rejser.
 
 ##### Figur 6: Udvikling i smittetrykket i Europa, smittede per 100.000 per uge målt som gennemsnit over 14 dage
 
-![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-9-1.png)
+![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-10-1.png)
 
 Følgende kort viser smittetrykket i de europæiske lande.
 
 ##### Kort 1: Smittetryk i Europa, smittede per 100.000 per uge målt som gennemsnit over 14 dage
 
-![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-10-1.png)
+![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-11-1.png)
 
 Nedenstående kort viser udviklingen i smittetrykket. Tallene er
 forskellen mellem det nuværende smittetryk og smittetrykket for en uge
@@ -147,7 +171,7 @@ positiv eller negativ retning.
 
 ##### Kort 2: udvikling i smittetryk, 7 dage siden
 
-![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-11-1.png)
+![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-12-1.png)
 
 Nedenstående kort viser udviklingen i smittetrykket sammenlignet med i
 går. Her skal man dog være opmærksom på, at denne kan være mere følsom
@@ -162,7 +186,7 @@ indikation på, hvor hurtigt smitten er stigende eller aftagende.
 
 ##### Kort 3: Udvikling i smittetryk sammenlignet med i går
 
-![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-12-1.png)
+![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-13-1.png)
 
 Udvikling i dødsfald
 ====================
@@ -171,7 +195,7 @@ Nedenstående tabel viser udvikling i dødsfald i udv\_deaths 13-01-2021
 og total antal dødsfald i deaths. Første tabel viser det for udvalgte
 mindre Europæiske lande, mens det efterfølgende viser på verdensplan.
 
-##### Tabel 3: Udvikling i dødsfald udvalgte europæiske lande
+##### Tabel 4: Udvikling i dødsfald udvalgte europæiske lande
 
 |     | Land        |  Total antal dødsfald|  Nye dødsfald|  Nye dødsfald, 7 dages rullende gennemsnit|
 |-----|:------------|---------------------:|-------------:|------------------------------------------:|
@@ -186,11 +210,11 @@ mindre Europæiske lande, mens det efterfølgende viser på verdensplan.
 | 9   | Finland     |                   602|             0|                                        3,7|
 | 10  | Iceland     |                    29|             0|                                        0,0|
 
-##### Tabel 4: Udvikling i dødsfald, flest nye dødsfald verdensplan
+##### Tabel 5: Udvikling i dødsfald, flest nye dødsfald verdensplan
 
 |     | Land           |  Total antal dødsfald|  Nye dødsfald|  Nye dødsfald, 7 dages rullende gennemsnit|
 |-----|:---------------|---------------------:|-------------:|------------------------------------------:|
-| 1   | US             |               384.653|         3.848|                                    3.360,4|
+| 1   | US             |               384.764|         3.959|                                    3.376,3|
 | 2   | United Kingdom |                84.910|         1.568|                                    1.062,9|
 | 3   | Brazil         |               205.964|         1.274|                                      998,6|
 | 4   | Mexico         |               136.917|         1.235|                                      990,0|
@@ -212,15 +236,15 @@ transformeret.
 
 ##### Figur 6: Udvikling nye dødsfald udvalgte europæiske lande, 7-dages rullende gennemsnit
 
-![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-16-1.png)
+![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-17-1.png)
 
 ##### Figur 7: Udvikling nye dødsfald udvalgte store lande, 7-dages rullende gennemsnit
 
-![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-17-1.png)
+![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-18-1.png)
 
 Følgende tabel er sorteret efter antal dødsfald per 100.000 indbyggere
 
-##### Tabel 5: Dødsfald per 100.000 indbyggere
+##### Tabel 6: Dødsfald per 100.000 indbyggere
 
 |     | Land                   |  Total dødsfald|  Nye dødsfald|  Dødsfald per 100.000|
 |-----|:-----------------------|---------------:|-------------:|---------------------:|
@@ -236,7 +260,7 @@ Følgende tabel er sorteret efter antal dødsfald per 100.000 indbyggere
 | 10  | Peru                   |          38.399|            64|                 120,0|
 | 11  | Bulgaria               |           8.349|            70|                 118,8|
 | 12  | Moldova                |           3.193|            17|                 118,0|
-| 13  | US                     |         384.653|         3.848|                 117,7|
+| 13  | US                     |         384.764|         3.959|                 117,8|
 | 14  | Spain                  |          52.878|           195|                 113,0|
 | 15  | Andorra                |              87|             1|                 113,0|
 | 16  | Hungary                |          10.948|            95|                 112,0|
