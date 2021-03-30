@@ -305,6 +305,8 @@ Denne rapport følger udviklingen i corona-situationen på baggrund
 af udvalgte tabeller med nøgletal og figurer. Det primære fokus i 
 denne rapport på udviklingen i Europa.
 
+*OBS: Danmarks tal er påvirket af at der i en periode har været inkluderet smittede for hurtig-test (ikke pcr-test), hvilket kan gøre at smitteudviklingen er lidt misvisende. Derudover kan der ske store udsving omkring påske grundet de mange helligdage. Tallene forventes at være normale igen torsdag den 8. april.*
+
 *note: ikke alle kommentarer til tabeller er retvisende på nuværende tidspunkt, da koden er blevet opdateret for at forbedre tabel-layout og titler, mens teksten stadig mangler gennemgang*
 
 ## Udvikling i antal smittede
