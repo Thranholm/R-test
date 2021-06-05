@@ -480,6 +480,8 @@ Følgende graf viser udviklingen i smittetrykket i de europæiske lande. Notér,
 
 I enkelte tilfælde er der lande, der nedjusterer antallet af smittede, således at antallet af nye smittede kan på dagen for nedjusteringen blive negativ. I disse tilfælde er der manuelt sat et 0 som antallet af nye smittede, da de negative nye smittede kan have ret stor påvirkning på tallene, der udregnes over længere tidsperioder. Et eksempel er Spanien, der 2. marts nedjusterede det samlede antal smittede med omkring 75.000.
 
+OBS: smittetallene er påvirket af testaktiviteten i de forskellige lande. Danmark ligger på en klar førsteplads i test blandt landene i Europa, hvorfor de danske tal vil være en smule overestimeret i forhold til lande med lavere testaktivitet. Derfor er det totale smittetryk i alle lande muligvis ikke retvisende, dog kan tabellerne med udviklingen i smittetryk give en god indikator for udviklingen af smitte i de enkelte lande.
+
 ##### Figur 6: Udvikling i smittetrykket i Europa, smittede per 100.000 per uge målt som gennemsnit over 14 dage
 
 ```{r echo=FALSE, warning=FALSE, fig.width=10, fig.asp=0.6}
