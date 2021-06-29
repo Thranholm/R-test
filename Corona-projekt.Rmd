@@ -594,7 +594,7 @@ ggplot(eu_map_data, aes(x=long, y=lat)) +
   geom_polygon(aes(fill=rejse_vej_diff1, group=group), colour="white") + 
   coord_fixed(1.3) +
   geom_text(aes(label = rejse_vej_diff1), data=label_geo, size=3) +
-  scale_fill_gradient2(low = "green", mid = c("green", "yellow", "red"), high = "red", midpoint = 10) +
+  scale_fill_gradient2(low = "green", mid = c("green", "yellow", "red"), high = "red", midpoint = 0) +
   theme_bw() +
   labs(title = "Udvikling i smittetryk sammenlignet med i går") +
   ditch_the_axes
