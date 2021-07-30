@@ -80,7 +80,7 @@ større end 1 mio.
 | 7   | South Africa   |            2.422.151 |             30.928 |                     53,5 |                                                  19,7 |
 | 8   | Eswatini       |               24.848 |                601 |                     52,9 |                                                  37,3 |
 | 9   | United Kingdom |            5.828.316 |             30.871 |                     46,5 |                                                  43,3 |
-| 10  | Kazakhstan     |              625.165 |              7.778 |                     42,6 |                                                  39,0 |
+| 10  | Kazakhstan     |              625.165 |              7.778 |                     42,6 |                                                  85,4 |
 | 11  | Iran           |            3.826.447 |             34.433 |                     42,1 |                                                  35,4 |
 | 12  | Libya          |              246.200 |              2.730 |                     40,9 |                                                  40,1 |
 | 13  | France         |            6.142.282 |             25.429 |                     38,0 |                                                  31,2 |
@@ -146,6 +146,22 @@ transformeret. Den røde linje markerer et smittetryk på 30, som er den
 danske grænse for at der frarådes ikke-nødvendige rejser til landet.
 Mens den grønne linje ved smittetryk 20 markerer den grænse landet skal
 være under for at der igen åbnes for rejser.
+
+I enkelte tilfælde er der lande, der nedjusterer antallet af smittede,
+således at antallet af nye smittede kan på dagen for nedjusteringen
+blive negativ. I disse tilfælde er der manuelt sat et 0 som antallet af
+nye smittede, da de negative nye smittede kan have ret stor påvirkning
+på tallene, der udregnes over længere tidsperioder. Et eksempel er
+Spanien, der 2. marts nedjusterede det samlede antal smittede med
+omkring 75.000.
+
+OBS: smittetallene er påvirket af testaktiviteten i de forskellige
+lande. Danmark ligger på en klar førsteplads i test blandt landene i
+Europa, hvorfor de danske tal vil være en smule overestimeret i forhold
+til lande med lavere testaktivitet. Derfor er det totale smittetryk i
+alle lande muligvis ikke retvisende, dog kan tabellerne med udviklingen
+i smittetryk give en god indikator for udviklingen af smitte i de
+enkelte lande.
 
 ##### Figur 6: Udvikling i smittetrykket i Europa, smittede per 100.000 per uge målt som gennemsnit over 14 dage
 
