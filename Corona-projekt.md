@@ -254,7 +254,7 @@ transformeret.
 
 ![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-18-1.png)
 
-Følgende tabel er sorteret efter antal dødsfald per 100.000 indbyggere
+Følgende tabel er sorteret efter antal dødsfald per 100.000 indbyggere:
 
 ##### Tabel 6: Dødsfald per 100.000 indbyggere
 

@@ -835,7 +835,7 @@ ggplot(big_ones, aes(x = days_3_death, y=ny_roll_7)) +
 ```
 
 
-Følgende tabel er sorteret efter antal dødsfald per 100.000 indbyggere
+Følgende tabel er sorteret efter antal dødsfald per 100.000 indbyggere:
 
 ##### Tabel 6: Dødsfald per 100.000 indbyggere
 ```{r echo=FALSE}
@@ -858,6 +858,7 @@ kable(corona %>%
   format = "simple"
 )
 ```
+
 
 
 *af: Emil Thranholm, mail: [ethranholm@hotmail.com](mailto:ethranholm@hotmail.com)*
