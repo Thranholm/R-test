@@ -446,7 +446,7 @@ ggplot(europa, aes(x = days_1000_case, y=rejse_vej)) +
   theme(legend.position = "none") +
   coord_cartesian(xlim = c(max(europa$days_1000_case, na.rm = TRUE)-70,
                            max(europa$days_1000_case, na.rm = TRUE)+1),
-                  ylim = c(10,1000))
+                  ylim = c(10,1500))
 ```
 
 
