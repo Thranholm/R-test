@@ -1,6 +1,6 @@
 # Emils corona-blog
 
-*Tallene viser de registerende tal per 05-01-2022*
+*Tallene viser de registerende tal per 07-01-2022*
 
 *kilde: <https://github.com/pomber/covid19>*
 
@@ -17,7 +17,7 @@ titler, mens teksten stadig mangler gennemgang*
 ### Nøgletal
 
 Denne tabel præsenterer antallet af smittede og vigtigere nye
-smittefilfælde registret: 05-01-2022. I denne første tabel er fokus på
+smittefilfælde registret: 07-01-2022. I denne første tabel er fokus på
 de nordiske lande samt udvalge mindre europæiske land. Ønsker til
 tilføjelse af specifikke lande kan skrives til:
 <ethranholm@hotmail.com>.
@@ -26,19 +26,19 @@ tilføjelse af specifikke lande kan skrives til:
 
 |     | Land        | Total antal smittede | Nye smittetilfælde | Nye tilfælde per 100.000 | Nye tilfælde per 100.000, 7 dages rullende gennemsnit |
 |-----|:------------|---------------------:|-------------------:|-------------------------:|------------------------------------------------------:|
-| 1   | Switzerland |            1.422.932 |             31.118 |                    365,5 |                                                 215,4 |
-| 2   | Denmark     |              903.652 |             28.762 |                    496,4 |                                                 328,9 |
-| 3   | Belgium     |            2.179.710 |             27.796 |                    243,1 |                                                 129,9 |
-| 4   | Netherlands |            3.282.146 |             27.199 |                    157,8 |                                                 110,6 |
-| 5   | Sweden      |            1.375.267 |             17.514 |                    172,1 |                                                 100,5 |
-| 6   | Czechia     |            2.503.374 |             10.229 |                     96,2 |                                                  53,2 |
-| 7   | Austria     |            1.304.086 |              9.761 |                    110,4 |                                                  52,2 |
-| 8   | Norway      |              420.857 |              8.385 |                    157,9 |                                                  90,5 |
-| 9   | Finland     |              289.622 |              6.791 |                    123,1 |                                                 130,2 |
-| 10  | Iceland     |               33.901 |              1.361 |                    385,9 |                                                 347,8 |
+| 1   | Sweden      |            1.416.650 |             41.383 |                    406,7 |                                                 143,0 |
+| 2   | Netherlands |            3.346.598 |             37.430 |                    217,2 |                                                 135,5 |
+| 3   | Switzerland |            1.483.212 |             28.038 |                    329,3 |                                                 252,7 |
+| 4   | Belgium     |            2.231.686 |             24.694 |                    216,0 |                                                 157,9 |
+| 5   | Denmark     |              948.499 |             18.852 |                    325,4 |                                                 339,6 |
+| 6   | Finland     |              305.522 |              9.921 |                    179,9 |                                                 117,1 |
+| 7   | Austria     |            1.321.725 |              8.786 |                     99,4 |                                                  69,7 |
+| 8   | Czechia     |            2.517.475 |              6.679 |                     62,8 |                                                  56,1 |
+| 9   | Norway      |              434.896 |              6.160 |                    116,0 |                                                 109,3 |
+| 10  | Iceland     |               36.447 |              1.208 |                    342,5 |                                                 380,2 |
 
 Confirmed er antallet af smittetilfælde i alt siden januar.
-Udv_confirmed er antallet af nye smittetilfælde 05-01-2022.
+Udv_confirmed er antallet af nye smittetilfælde 07-01-2022.
 
 Følgende tabel viser de 15 lande med det højeste registrede nye
 smittetilfælde:
@@ -47,21 +47,21 @@ smittetilfælde:
 
 |     | Land           | Total antal smittede | Nye smittetilfælde | Nye tilfælde per 100.000 | Nye tilfælde per 100.000, 7 dages rullende gennemsnit |
 |-----|:---------------|---------------------:|-------------------:|-------------------------:|------------------------------------------------------:|
-| 1   | US             |           57.702.394 |            643.660 |                    197,0 |                                                 175,9 |
-| 2   | France         |           11.027.112 |            332.308 |                    496,2 |                                                 296,1 |
-| 3   | United Kingdom |           13.918.510 |            195.235 |                    293,8 |                                                 276,9 |
-| 4   | Italy          |            6.756.035 |            189.088 |                    312,9 |                                                 213,2 |
-| 5   | Spain          |            6.922.466 |            137.180 |                    293,1 |                                                 241,0 |
-| 6   | Argentina      |            5.915.695 |             95.159 |                    213,9 |                                                 115,4 |
-| 7   | India          |           35.109.286 |             90.928 |                      6,7 |                                                   3,0 |
-| 8   | Australia      |              684.229 |             75.426 |                    301,9 |                                                 184,6 |
-| 9   | Germany        |            7.388.045 |             67.337 |                     81,2 |                                                  44,6 |
-| 10  | Turkey         |            9.720.831 |             66.467 |                     80,7 |                                                  61,3 |
-| 11  | Greece         |            1.388.309 |             43.386 |                    404,3 |                                                 337,6 |
-| 12  | Portugal       |            1.499.976 |             39.570 |                    384,8 |                                                 235,9 |
-| 13  | Canada         |            2.394.518 |             38.981 |                    105,2 |                                                 106,7 |
-| 14  | Switzerland    |            1.422.932 |             31.118 |                    365,5 |                                                 215,4 |
-| 15  | Denmark        |              903.652 |             28.762 |                    496,4 |                                                 328,9 |
+| 1   | US             |           59.388.529 |            900.832 |                    275,7 |                                                 203,2 |
+| 2   | France         |           11.623.327 |            333.317 |                    497,7 |                                                 329,7 |
+| 3   | Spain          |            7.164.906 |            242.440 |                    518,1 |                                                 265,6 |
+| 4   | United Kingdom |           14.280.816 |            180.066 |                    270,9 |                                                 272,8 |
+| 5   | India          |           35.368.372 |            141.986 |                     10,5 |                                                   5,4 |
+| 6   | Argentina      |            6.135.836 |            110.533 |                    248,4 |                                                 154,6 |
+| 7   | Italy          |            7.083.762 |            108.297 |                    179,2 |                                                 226,5 |
+| 8   | Australia      |              860.550 |             98.092 |                    392,6 |                                                 261,7 |
+| 9   | Turkey         |            9.852.458 |             63.214 |                     76,8 |                                                  63,9 |
+| 10  | Germany        |            7.499.776 |             52.621 |                     63,5 |                                                  52,8 |
+| 11  | Canada         |            2.480.993 |             44.525 |                    120,2 |                                                 108,3 |
+| 12  | Sweden         |            1.416.650 |             41.383 |                    406,7 |                                                 143,0 |
+| 13  | Netherlands    |            3.346.598 |             37.430 |                    217,2 |                                                 135,5 |
+| 14  | Greece         |            1.451.354 |             29.334 |                    273,3 |                                                 320,1 |
+| 15  | Switzerland    |            1.483.212 |             28.038 |                    329,3 |                                                 252,7 |
 
 Tabellen nedenfor viser udvikling i smittede for de lande, der er flest
 nye tilfælde per 100.000. Dog afgrænset til lande, hvor befolkningen er
@@ -71,21 +71,21 @@ større end 1 mio.
 
 |     | Land           | Total antal smittede | Nye smittetilfælde | Nye tilfælde per 100.000 | Nye tilfælde per 100.000, 7 dages rullende gennemsnit |
 |-----|:---------------|---------------------:|-------------------:|-------------------------:|------------------------------------------------------:|
-| 1   | Denmark        |              903.652 |             28.762 |                    496,4 |                                                 328,9 |
-| 2   | France         |           11.027.112 |            332.308 |                    496,2 |                                                 296,1 |
-| 3   | Cyprus         |              188.380 |              5.202 |                    437,4 |                                                 365,8 |
-| 4   | Greece         |            1.388.309 |             43.386 |                    404,3 |                                                 337,6 |
-| 5   | Portugal       |            1.499.976 |             39.570 |                    384,8 |                                                 235,9 |
-| 6   | Switzerland    |            1.422.932 |             31.118 |                    365,5 |                                                 215,4 |
-| 7   | Ireland        |              884.855 |             17.656 |                    362,7 |                                                 402,0 |
-| 8   | Italy          |            6.756.035 |            189.088 |                    312,9 |                                                 213,2 |
-| 9   | Australia      |              684.229 |             75.426 |                    301,9 |                                                 184,6 |
-| 10  | United Kingdom |           13.918.510 |            195.235 |                    293,8 |                                                 276,9 |
-| 11  | Spain          |            6.922.466 |            137.180 |                    293,1 |                                                 241,0 |
-| 12  | Belgium        |            2.179.710 |             27.796 |                    243,1 |                                                 129,9 |
-| 13  | Argentina      |            5.915.695 |             95.159 |                    213,9 |                                                 115,4 |
-| 14  | Croatia        |              736.486 |              8.587 |                    210,1 |                                                 114,5 |
-| 15  | US             |           57.702.394 |            643.660 |                    197,0 |                                                 175,9 |
+| 1   | Spain          |            7.164.906 |            242.440 |                    518,1 |                                                 265,6 |
+| 2   | France         |           11.623.327 |            333.317 |                    497,7 |                                                 329,7 |
+| 3   | Ireland        |              930.598 |             21.926 |                    450,5 |                                                 416,9 |
+| 4   | Cyprus         |              197.401 |              5.244 |                    440,9 |                                                 367,3 |
+| 5   | Sweden         |            1.416.650 |             41.383 |                    406,7 |                                                 143,0 |
+| 6   | Australia      |              860.550 |             98.092 |                    392,6 |                                                 261,7 |
+| 7   | Switzerland    |            1.483.212 |             28.038 |                    329,3 |                                                 252,7 |
+| 8   | Denmark        |              948.499 |             18.852 |                    325,4 |                                                 339,6 |
+| 9   | US             |           59.388.529 |            900.832 |                    275,7 |                                                 203,2 |
+| 10  | Greece         |            1.451.354 |             29.334 |                    273,3 |                                                 320,1 |
+| 11  | United Kingdom |           14.280.816 |            180.066 |                    270,9 |                                                 272,8 |
+| 12  | Argentina      |            6.135.836 |            110.533 |                    248,4 |                                                 154,6 |
+| 13  | Netherlands    |            3.346.598 |             37.430 |                    217,2 |                                                 135,5 |
+| 14  | Belgium        |            2.231.686 |             24.694 |                    216,0 |                                                 157,9 |
+| 15  | Slovenia       |              482.927 |              4.067 |                    196,1 |                                                 130,0 |
 
 ### Grafer og kort
 
@@ -112,7 +112,7 @@ smittetilfælde
 ![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-7-1.png)
 
 Denne figur viser et 7 dages rullende gennemsnit af nye tilfælde for de
-10 lande med flest nye smittetilfælde 05-01-2022.
+10 lande med flest nye smittetilfælde 07-01-2022.
 
 #### Smitteudvikling i hele Europa
 
@@ -203,7 +203,7 @@ indikation på, hvor hurtigt smitten er stigende eller aftagende.
 
 # Udvikling i dødsfald
 
-Nedenstående tabel viser udvikling i dødsfald i udv_deaths 05-01-2022 og
+Nedenstående tabel viser udvikling i dødsfald i udv_deaths 07-01-2022 og
 total antal dødsfald i deaths. Første tabel viser det for udvalgte
 mindre Europæiske lande, mens det efterfølgende viser på verdensplan.
 
@@ -211,36 +211,36 @@ mindre Europæiske lande, mens det efterfølgende viser på verdensplan.
 
 |     | Land        | Total antal dødsfald | Nye dødsfald | Nye dødsfald, 7 dages rullende gennemsnit |
 |-----|:------------|---------------------:|-------------:|------------------------------------------:|
-| 1   | Switzerland |               12.303 |           74 |                                      18,7 |
-| 2   | Czechia     |               36.397 |           71 |                                      60,3 |
-| 3   | Norway      |                1.349 |           42 |                                       6,3 |
-| 4   | Netherlands |               21.497 |           39 |                                      25,6 |
-| 5   | Sweden      |               15.369 |           39 |                                      10,3 |
-| 6   | Finland     |                1.624 |           25 |                                      10,9 |
-| 7   | Belgium     |               28.429 |           22 |                                      23,1 |
-| 8   | Austria     |               13.802 |           18 |                                      16,1 |
-| 9   | Denmark     |                3.338 |           15 |                                      11,0 |
-| 10  | Iceland     |                   39 |            1 |                                       0,3 |
+| 1   | Czechia     |               36.507 |           58 |                                      54,0 |
+| 2   | Netherlands |               21.536 |           25 |                                      20,6 |
+| 3   | Switzerland |               12.339 |           14 |                                      17,4 |
+| 4   | Belgium     |               28.459 |           13 |                                      18,3 |
+| 5   | Denmark     |                3.359 |           10 |                                      11,0 |
+| 6   | Sweden      |               15.377 |            8 |                                       9,6 |
+| 7   | Austria     |               13.830 |            7 |                                      13,9 |
+| 8   | Finland     |                1.638 |            6 |                                      10,6 |
+| 9   | Norway      |                1.350 |            1 |                                       6,4 |
+| 10  | Iceland     |                   39 |            0 |                                       0,3 |
 
 ##### Tabel 5: Udvikling i dødsfald, flest nye dødsfald verdensplan
 
 |     | Land           | Total antal dødsfald | Nye dødsfald | Nye dødsfald, 7 dages rullende gennemsnit |
 |-----|:---------------|---------------------:|-------------:|------------------------------------------:|
-| 1   | US             |              832.118 |        1.986 |                                   1.222,7 |
-| 2   | Russia         |              306.710 |          804 |                                     832,0 |
-| 3   | Poland         |               98.666 |          632 |                                     422,7 |
-| 4   | Germany        |              113.373 |          444 |                                     252,3 |
-| 5   | United Kingdom |              149.761 |          344 |                                     172,0 |
-| 6   | India          |              482.876 |          325 |                                     288,0 |
-| 7   | Ukraine        |              103.014 |          297 |                                     209,4 |
-| 8   | France         |              125.797 |          246 |                                     205,6 |
-| 9   | Italy          |              138.276 |          231 |                                     169,3 |
-| 10  | Vietnam        |               33.475 |          230 |                                     228,3 |
-| 11  | Spain          |               89.837 |          148 |                                      72,3 |
-| 12  | Turkey         |               83.075 |          143 |                                     165,4 |
-| 13  | Mexico         |              299.842 |          131 |                                     128,3 |
-| 14  | South Africa   |               91.561 |          110 |                                      89,4 |
-| 15  | Canada         |               30.581 |           90 |                                      39,1 |
+| 1   | US             |              836.603 |        2.615 |                                   1.546,7 |
+| 2   | Russia         |              308.258 |          770 |                                     798,1 |
+| 3   | India          |              483.463 |          285 |                                     282,4 |
+| 4   | Germany        |              113.905 |          269 |                                     256,3 |
+| 5   | Vietnam        |               33.877 |          233 |                                     211,9 |
+| 6   | United Kingdom |              150.223 |          230 |                                     161,0 |
+| 7   | Italy          |              138.697 |          223 |                                     185,0 |
+| 8   | Ukraine        |              103.434 |          209 |                                     192,3 |
+| 9   | France         |              126.202 |          200 |                                     210,4 |
+| 10  | Turkey         |               83.388 |          157 |                                     146,7 |
+| 11  | South Africa   |               92.252 |          140 |                                     158,1 |
+| 12  | Mexico         |              300.101 |          131 |                                      96,1 |
+| 13  | Philippines    |               51.871 |          128 |                                      52,4 |
+| 14  | Poland         |               99.428 |          117 |                                     339,1 |
+| 15  | Hungary        |               39.780 |          101 |                                      84,9 |
 
 Figurerne nedenfor viser nye dødsfald som rullende 7-dages gennemsnit.
 X-aksen er antal dage siden 3 dødsfald og y-aksen er logaritme
@@ -260,35 +260,35 @@ Følgende tabel er sorteret efter antal dødsfald per 100.000 indbyggere:
 
 |     | Land                   | Total dødsfald | Nye dødsfald | Dødsfald per 100.000 |
 |-----|:-----------------------|---------------:|-------------:|---------------------:|
-| 1   | Peru                   |        202.867 |            0 |                634,2 |
-| 2   | Bulgaria               |         31.303 |           66 |                445,6 |
-| 3   | Bosnia and Herzegovina |         13.547 |           30 |                407,6 |
-| 4   | Hungary                |         39.599 |           82 |                405,1 |
-| 5   | North Macedonia        |          8.000 |            4 |                383,8 |
-| 6   | Moldova                |         10.328 |            9 |                381,7 |
-| 7   | Georgia                |         14.041 |           32 |                376,8 |
-| 8   | Czechia                |         36.397 |           71 |                342,4 |
-| 9   | Croatia                |         12.731 |           32 |                311,4 |
-| 10  | Slovakia               |         16.824 |           36 |                308,9 |
-| 11  | San Marino             |            103 |            1 |                304,9 |
-| 12  | Romania                |         58.896 |           30 |                302,6 |
+| 1   | Peru                   |        202.981 |           47 |                634,5 |
+| 2   | Bulgaria               |         31.471 |           96 |                448,0 |
+| 3   | Bosnia and Herzegovina |         13.568 |            0 |                408,2 |
+| 4   | Hungary                |         39.780 |          101 |                406,9 |
+| 5   | North Macedonia        |          8.012 |           10 |                384,4 |
+| 6   | Moldova                |         10.350 |           11 |                382,5 |
+| 7   | Georgia                |         14.128 |           46 |                379,1 |
+| 8   | Czechia                |         36.507 |           58 |                343,4 |
+| 9   | Croatia                |         12.805 |           41 |                313,2 |
+| 10  | Slovakia               |         16.896 |           25 |                310,2 |
+| 11  | San Marino             |            103 |            0 |                304,9 |
+| 12  | Romania                |         58.971 |           31 |                302,9 |
 | 13  | Brazil                 |        619.654 |            0 |                295,8 |
-| 14  | Slovenia               |          5.629 |            6 |                271,4 |
-| 15  | Armenia                |          7.989 |            3 |                270,7 |
-| 16  | Lithuania              |          7.475 |           13 |                266,8 |
-| 17  | Argentina              |        117.346 |           52 |                263,7 |
-| 18  | Colombia               |        130.140 |           40 |                262,1 |
-| 19  | Poland                 |         98.666 |          632 |                259,8 |
-| 20  | US                     |        832.118 |        1.986 |                254,7 |
-| 21  | Belgium                |         28.429 |           22 |                248,7 |
-| 22  | Paraguay               |         16.653 |            8 |                239,4 |
-| 23  | Latvia                 |          4.613 |           13 |                239,4 |
-| 24  | Mexico                 |        299.842 |          131 |                237,6 |
-| 25  | Ukraine                |        103.014 |          297 |                230,9 |
-| 26  | Italy                  |        138.276 |          231 |                228,9 |
-| 27  | United Kingdom         |        149.761 |          344 |                225,3 |
-| 28  | Tunisia                |         25.617 |           11 |                221,5 |
-| 29  | Trinidad and Tobago    |          2.973 |           22 |                213,9 |
-| 30  | Russia                 |        306.710 |          804 |                212,3 |
+| 14  | Slovenia               |          5.644 |           10 |                272,1 |
+| 15  | Armenia                |          7.997 |            4 |                270,9 |
+| 16  | Lithuania              |          7.504 |           11 |                267,9 |
+| 17  | Argentina              |        117.428 |           42 |                263,9 |
+| 18  | Colombia               |        130.250 |           59 |                262,3 |
+| 19  | Poland                 |         99.428 |          117 |                261,8 |
+| 20  | US                     |        836.603 |        2.615 |                256,1 |
+| 21  | Belgium                |         28.459 |           13 |                248,9 |
+| 22  | Latvia                 |          4.642 |           17 |                240,9 |
+| 23  | Paraguay               |         16.658 |            0 |                239,5 |
+| 24  | Mexico                 |        300.101 |          131 |                237,8 |
+| 25  | Ukraine                |        103.434 |          209 |                231,8 |
+| 26  | Italy                  |        138.697 |          223 |                229,5 |
+| 27  | United Kingdom         |        150.223 |          230 |                226,0 |
+| 28  | Tunisia                |         25.643 |           13 |                221,7 |
+| 29  | Trinidad and Tobago    |          3.010 |           18 |                216,6 |
+| 30  | Russia                 |        308.258 |          770 |                213,4 |
 
 *af: Emil Thranholm, mail: <ethranholm@hotmail.com>*
