@@ -44,6 +44,26 @@ rm(list = ls())
 corona <- GET("https://pomber.github.io/covid19/timeseries.json")
 corona
 corona_df <- as.data.frame(fromJSON(rawToChar(corona$content)))
+
+
+### Data for tests
+test <- GET("https://covid.ourworldindata.org/data/owid-covid-data.json")
+test
+test2 <- fromJSON(rawToChar(test$content))
+
+test_df <- bind_rows(lapply(test2, data.frame, stringsAsFactors = FALSE)) %>% 
+  select(continent, location, starts_with("data."))
+
+names(test_df) <- sub("data.", "", names(test_df))
+names(test_df)
+
+test_df2 <- test_df %>% 
+  select(location, date, total_cases, new_cases, total_vaccinations, 
+         new_vaccinations, total_tests, new_tests, positive_rate) %>% 
+         mutate(location = if_else(location == "United States", "US", location),
+                date = date(date))
+
+
 ## Fjerner datoen for alle lande, og gemmer kun ét datofelt
 corona_df_tidy <- corona_df %>% 
   dplyr::mutate(date = Thailand.date) %>% 
@@ -171,6 +191,7 @@ koblet <- inner_join(koblet, befolk1,
                      by = "country")
 koblet <- inner_join(koblet, popu_dens1,
                      by = "country")
+
 x <- koblet %>% 
   filter(is.na(iso))
 #View(x)
@@ -190,6 +211,8 @@ koblet1 <- left_join(sub_reg2, koblet, by = c("M49" = "iso"))
 koblet1$country <- NULL
 ## Joiner verdensdele, regioner og befolkning på
 corona <- left_join(corona, koblet1, by= c("Country_Number" = "M49"))
+## Joiner testtal på
+corona <- left_join(corona, test_df2, by = c("date" = "date", "land" = "location"))
 ### Data er klar ###
 #View(corona)
 ### Laver lags for at udregne stigning
@@ -235,7 +258,14 @@ corona <- corona %>%
   mutate(per_cap_roll7=rollmean(per_cap100k, k=7, fill=NA, align = "right")) %>% 
   mutate(per_cap_roll14=rollmean(per_cap100k, k=14, fill = NA, align = "right")) %>% 
   mutate(ny_7=rollsum(udv_confirmed, k=7, fill = NA, align = "right")) %>% 
-  mutate(rejse_vej=(rollmean(ny_7, k=14, fill=NA, align = "right")/population)*100000)
+  mutate(rejse_vej=(rollmean(ny_7, k=14, fill=NA, align = "right")/population)*100000) %>% 
+  mutate(positiv_pct = udv_confirmed/new_tests*100) %>% 
+  ## Rullende positiv procent
+  mutate(rul_positiv_pct = 
+           rollsum(udv_confirmed, k=7, fill = NA, align = "right")/
+           rollsum(new_tests, k=7, fill = NA, align = "right")*100) %>% 
+  mutate(positive_rate = positive_rate*100)
+
 corona_nordic <- corona %>% 
   filter(location=="Nordic Countries" | land=="Czechia" | land=="Switzerland" |
            land=="Belgium" | land=="Netherlands") 
@@ -252,7 +282,9 @@ max(big_ones$date)
 
 _Tallene viser de registerende tal per `r strftime(max(big_ones$date), "%d-%m-%Y")`_
 
-*kilde: https://github.com/pomber/covid19*
+*kilder:*
+*https://github.com/pomber/covid19*
+*https://github.com/owid/covid-19-data/blob/master/public/data/README.md*
 
 Denne rapport følger udviklingen i corona-situationen på baggrund
 af udvalgte tabeller med nøgletal og figurer. Det primære fokus i 
@@ -467,9 +499,11 @@ eu_geo <- map_data("world", region = c(europa_lande,
 eu_geo <- eu_geo %>% 
   filter(!(region=="Russia"))
 til_geo <- corona %>% 
-  group_by(Country_Number) %>% 
-  mutate(rejse_vej_diff=rejse_vej-lag(rejse_vej, 7)) %>% 
-  mutate(rejse_vej_diff1=rejse_vej-lag(rejse_vej, 1)) %>% 
+  group_by(Country_Number) %>%
+  mutate(rejse_vej_diff=rejse_vej-lag(rejse_vej, 7)) %>%
+  mutate(rejse_vej_diff1=rejse_vej-lag(rejse_vej, 1)) %>%
+  mutate(rejse_vej_density=(rejse_vej/density)) %>% 
+  fill(rul_positiv_pct, .direction = "downup") %>% 
   mutate(land=case_when(
     land=="Czechia" ~ "Czech Republic",
     land=="United Kingdom" ~ "UK",
@@ -479,7 +513,9 @@ til_geo <- corona %>%
   )) %>% 
   filter(date == max(date))
   
+
 eu_map_data <- left_join(eu_geo, til_geo, by = c("region" = "land"))
+
 label_geo <- eu_map_data %>% 
   group_by(region) %>% 
   summarise(long=mean(long), lat=mean(lat),
@@ -488,8 +524,13 @@ label_geo <- eu_map_data %>%
             rejse_vej=round(max(rejse_vej),0),
             rejse_vej_diff=round(max(rejse_vej_diff),0),
             rejse_vej_diff1=round(max(rejse_vej_diff1),0),
+            rejse_vej_density=round(max(rejse_vej_density),2),
+            rul_positiv_pct=round(max(rul_positiv_pct),2),
+            positive_rate=round(max(positive_rate),2),
             .groups = "drop_last"
             )
+
+
 ## Til at fjerne akser
 ditch_the_axes <- theme(
   axis.text = element_blank(),
@@ -540,6 +581,25 @@ ggplot(eu_map_data, aes(x=long, y=lat)) +
   labs(title = "Udvikling i smittetryk sammenlignet med i går") +
   ditch_the_axes
 ```
+
+### Positiv procent
+
+Kortet nedenfor viser seneste registrerede positiv-procent for de europæiske lande. Det bør noteres at tallene er forbundet med en vis usikkerhed, da der ikke er samme systematik i indmeldelse af antallet test sammenlignet med antallet af smittede og dødsfald. Derfor er tallene i mange tilfælde indhentet gennem landenes sundhedsmyndigheder, der offentliggøre tallene på forskellig vis og med forskellige frekvens. Der kan læses nærmere om dataen fra kilden her: https://github.com/owid/covid-19-data/blob/master/public/data/README.md
+
+Grundet de forskellige tidspunkter for indberetning af test, så kan der opstår tilfælde hvor test bliver offentliggjort lørdag, hvor antallet af smittede først opdateres efter weekenden. Dette kan føre til meget høje positive procenter og misvisende procenter for de enkelte dage. Derfor er positiv procenterne udregnet som et gennemsnit over de seneste 7 dage med tilgængelig data. Dette betyder at tallene for nogle lande kan være flere uger gamle. Dog giver kortet et meget sjovt overblik.
+
+##### Kort 4: Positiv procent
+```{r warning=FALSE, echo=FALSE, fig.width=10, fig.asp=0.6}
+ggplot(eu_map_data, aes(x=long, y=lat)) +
+  geom_polygon(aes(fill=rul_positiv_pct, group=group), colour="white") + 
+  coord_fixed(1.3) +
+  geom_text(aes(label = rul_positiv_pct), data=label_geo, size=3) +
+  scale_fill_gradient2(low = "green", mid = "yellow", high = "red") +
+  theme_bw() +
+  labs(title = "Positiv procent") +
+  ditch_the_axes
+```
+
 
 
 # Udvikling i dødsfald

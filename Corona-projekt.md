@@ -2,7 +2,8 @@
 
 *Tallene viser de registerende tal per 11-01-2022*
 
-*kilde: <https://github.com/pomber/covid19>*
+*kilder:* *<https://github.com/pomber/covid19>*
+*<https://github.com/owid/covid-19-data/blob/master/public/data/README.md>*
 
 Denne rapport følger udviklingen i corona-situationen på baggrund af
 udvalgte tabeller med nøgletal og figurer. Det primære fokus i denne
@@ -201,6 +202,29 @@ indikation på, hvor hurtigt smitten er stigende eller aftagende.
 
 ![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-13-1.png)
 
+### Positiv procent
+
+Kortet nedenfor viser seneste registrerede positiv-procent for de
+europæiske lande. Det bør noteres at tallene er forbundet med en vis
+usikkerhed, da der ikke er samme systematik i indmeldelse af antallet
+test sammenlignet med antallet af smittede og dødsfald. Derfor er
+tallene i mange tilfælde indhentet gennem landenes sundhedsmyndigheder,
+der offentliggøre tallene på forskellig vis og med forskellige frekvens.
+Der kan læses nærmere om dataen fra kilden her:
+<https://github.com/owid/covid-19-data/blob/master/public/data/README.md>
+
+Grundet de forskellige tidspunkter for indberetning af test, så kan der
+opstår tilfælde hvor test bliver offentliggjort lørdag, hvor antallet af
+smittede først opdateres efter weekenden. Dette kan føre til meget høje
+positive procenter og misvisende procenter for de enkelte dage. Derfor
+er positiv procenterne udregnet som et gennemsnit over de seneste 7 dage
+med tilgængelig data. Dette betyder at tallene for nogle lande kan være
+flere uger gamle. Dog giver kortet et meget sjovt overblik.
+
+##### Kort 4: Positiv procent
+
+![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-14-1.png)
+
 # Udvikling i dødsfald
 
 Nedenstående tabel viser udvikling i dødsfald i udv_deaths 11-01-2022 og
@@ -248,11 +272,11 @@ transformeret.
 
 ##### Figur 6: Udvikling nye dødsfald udvalgte europæiske lande, 7-dages rullende gennemsnit
 
-![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-17-1.png)
+![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-18-1.png)
 
 ##### Figur 7: Udvikling nye dødsfald udvalgte store lande, 7-dages rullende gennemsnit
 
-![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-18-1.png)
+![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-19-1.png)
 
 Følgende tabel er sorteret efter antal dødsfald per 100.000 indbyggere:
 
