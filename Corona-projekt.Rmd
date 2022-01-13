@@ -283,7 +283,9 @@ max(big_ones$date)
 _Tallene viser de registerende tal per `r strftime(max(big_ones$date), "%d-%m-%Y")`_
 
 *kilder:*
+
 *https://github.com/pomber/covid19*
+
 *https://github.com/owid/covid-19-data/blob/master/public/data/README.md*
 
 Denne rapport følger udviklingen i corona-situationen på baggrund
@@ -502,7 +504,8 @@ til_geo <- corona %>%
   group_by(Country_Number) %>%
   mutate(rejse_vej_diff=rejse_vej-lag(rejse_vej, 7)) %>%
   mutate(rejse_vej_diff1=rejse_vej-lag(rejse_vej, 1)) %>%
-  mutate(rejse_vej_density=(rejse_vej/density)) %>% 
+  mutate(rejse_vej_density=(rejse_vej/density)) %>%
+  group_by(Country_Number, year(date), maanednr) %>% 
   fill(rul_positiv_pct, .direction = "downup") %>% 
   mutate(land=case_when(
     land=="Czechia" ~ "Czech Republic",
@@ -511,6 +514,8 @@ til_geo <- corona %>%
     land=="Kosovo" ~ "Koso",
     TRUE ~ land
   )) %>% 
+  ungroup() %>% 
+  group_by(Country_Number) %>% 
   filter(date == max(date))
   
 
@@ -586,7 +591,7 @@ ggplot(eu_map_data, aes(x=long, y=lat)) +
 
 Kortet nedenfor viser seneste registrerede positiv-procent for de europæiske lande. Det bør noteres at tallene er forbundet med en vis usikkerhed, da der ikke er samme systematik i indmeldelse af antallet test sammenlignet med antallet af smittede og dødsfald. Derfor er tallene i mange tilfælde indhentet gennem landenes sundhedsmyndigheder, der offentliggøre tallene på forskellig vis og med forskellige frekvens. Der kan læses nærmere om dataen fra kilden her: https://github.com/owid/covid-19-data/blob/master/public/data/README.md
 
-Grundet de forskellige tidspunkter for indberetning af test, så kan der opstår tilfælde hvor test bliver offentliggjort lørdag, hvor antallet af smittede først opdateres efter weekenden. Dette kan føre til meget høje positive procenter og misvisende procenter for de enkelte dage. Derfor er positiv procenterne udregnet som et gennemsnit over de seneste 7 dage med tilgængelig data. Dette betyder at tallene for nogle lande kan være flere uger gamle. Dog giver kortet et meget sjovt overblik.
+Grundet de forskellige tidspunkter for indberetning af test, så kan der opstår tilfælde hvor test bliver offentliggjort lørdag, hvor antallet af smittede først opdateres efter weekenden. Dette kan føre til meget høje positive procenter og misvisende procenter for de enkelte dage. Derfor er positiv procenterne udregnet som et gennemsnit over de seneste 7 dage med tilgængelig data. Dette betyder at tallene for nogle lande kan lidt gamle, dog maksimalt en måned gamle. Kortet kan være lidt mangelfuldt omkring månedsskifte. Der arbejdes på noget smartere.
 
 ##### Kort 4: Positiv procent
 ```{r warning=FALSE, echo=FALSE, fig.width=10, fig.asp=0.6}
