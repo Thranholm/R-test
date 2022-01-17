@@ -452,7 +452,7 @@ ggplot(europa, aes(x = days_1000_case, y=ny_roll_7)) +
   theme(legend.position = "none") +
   coord_cartesian(xlim = c(max(europa$days_1000_case, na.rm = TRUE)-70,
                            max(europa$days_1000_case, na.rm = TRUE)+1),
-                  ylim = c(50,200000))
+                  ylim = c(50,max(europa$ny_roll_7)))
 ```
 
 ### Den danske rejsevejledning
@@ -480,7 +480,7 @@ ggplot(europa, aes(x = days_1000_case, y=rejse_vej)) +
   theme(legend.position = "none") +
   coord_cartesian(xlim = c(max(europa$days_1000_case, na.rm = TRUE)-70,
                            max(europa$days_1000_case, na.rm = TRUE)+1),
-                  ylim = c(10,2500))
+                  ylim = c(10,max(europa$rejse_vej)))
 ```
 
 
