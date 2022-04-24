@@ -28,7 +28,9 @@ jobs:
       
       - name: Install rmarkdown
         run: Rscript -e 'install.packages("rmarkdown")'
-      - name: Render README
+      - name: Install pacman
+        run: Rscript -e 'install.packages("pacman")'
+      - name: Render rapport
         run: Rscript -e 'rmarkdown::render("Corona-projekt.Rmd")'
       
       - name: Commit results
