@@ -288,6 +288,8 @@ _Tallene viser de registerende tal per `r strftime(max(big_ones$date), "%d-%m-%Y
 
 *https://github.com/owid/covid-19-data/blob/master/public/data/README.md*
 
+Jeg tester
+
 Denne rapport følger udviklingen i corona-situationen på baggrund
 af udvalgte tabeller med nøgletal og figurer. Det primære fokus i 
 denne rapport på udviklingen i Europa.
