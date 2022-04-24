@@ -6,7 +6,7 @@ library(usethis)
 
 
 
-
+lubridate::now()
 use_github_action("render-markdown")
 
 use_github_action("opdatering",
