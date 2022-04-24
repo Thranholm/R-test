@@ -26,11 +26,11 @@ jobs:
 
       - uses: r-lib/actions/setup-renv@v1
       
-      - name: Render Rmarkdown files
-        run: |
-          RMD_PATH=($(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '[.]Rmd$'))
-          Rscript -e 'for (f in commandArgs(TRUE)) if (file.exists(f)) rmarkdown::render(f)' ${RMD_PATH[*]}
-
+      - name: Install rmarkdown
+        run: Rscript -e 'install.packages("rmarkdown")'
+      - name: Render README
+        run: Rscript -e 'rmarkdown::render("Corona-projekt.Rmd")'
+      
       - name: Commit results
         run: |
           git config --local user.name "$GITHUB_ACTOR"
