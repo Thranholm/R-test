@@ -1,65 +1,3 @@
-    ## Installing package into '/Users/runner/work/R-test/R-test/renv/library/R-4.2/x86_64-apple-darwin17.0'
-    ## (as 'lib' is unspecified)
-
-    ## also installing the dependencies 'generics', 'cpp11'
-
-    ## 
-    ## lubridate installed
-
-    ## Installing package into '/Users/runner/work/R-test/R-test/renv/library/R-4.2/x86_64-apple-darwin17.0'
-    ## (as 'lib' is unspecified)
-
-    ## also installing the dependencies 'colorspace', 'sys', 'bit', 'ps', 'rematch', 'farver', 'labeling', 'munsell', 'RColorBrewer', 'viridisLite', 'askpass', 'bit64', 'prettyunits', 'processx', 'backports', 'ellipsis', 'assertthat', 'blob', 'DBI', 'lifecycle', 'tidyselect', 'vctrs', 'withr', 'data.table', 'gargle', 'uuid', 'cellranger', 'curl', 'ids', 'rematch2', 'gtable', 'isoband', 'scales', 'pkgconfig', 'mime', 'openssl', 'fansi', 'utf8', 'clipr', 'vroom', 'tzdb', 'progress', 'callr', 'selectr', 'broom', 'cli', 'crayon', 'dbplyr', 'dplyr', 'dtplyr', 'forcats', 'googledrive', 'googlesheets4', 'ggplot2', 'haven', 'hms', 'httr', 'modelr', 'pillar', 'purrr', 'readr', 'readxl', 'reprex', 'rstudioapi', 'rvest', 'tibble', 'tidyr', 'xml2'
-
-    ## installing the source packages 'ps', 'vctrs', 'uuid', 'scales', 'broom', 'haven'
-
-    ## 
-    ## tidyverse installed
-
-    ## Installing package into '/Users/runner/work/R-test/R-test/renv/library/R-4.2/x86_64-apple-darwin17.0'
-    ## (as 'lib' is unspecified)
-
-    ## 
-    ## cowplot installed
-
-    ## Installing package into '/Users/runner/work/R-test/R-test/renv/library/R-4.2/x86_64-apple-darwin17.0'
-    ## (as 'lib' is unspecified)
-
-    ## installing the source package 'zoo'
-
-    ## 
-    ## zoo installed
-
-    ## Installing package into '/Users/runner/work/R-test/R-test/renv/library/R-4.2/x86_64-apple-darwin17.0'
-    ## (as 'lib' is unspecified)
-
-    ## also installing the dependency 'quadprog'
-
-    ## 
-    ## directlabels installed
-
-    ## Installing package into '/Users/runner/work/R-test/R-test/renv/library/R-4.2/x86_64-apple-darwin17.0'
-    ## (as 'lib' is unspecified)
-
-    ## also installing the dependencies 'sp', 'Rcpp', 'RgoogleMaps', 'png', 'plyr', 'rjson', 'jpeg', 'bitops'
-
-    ## installing the source package 'sp'
-
-    ## 
-    ## ggmap installed
-
-    ## Installing package into '/Users/runner/work/R-test/R-test/renv/library/R-4.2/x86_64-apple-darwin17.0'
-    ## (as 'lib' is unspecified)
-
-    ## 
-    ## maps installed
-
-    ## Installing package into '/Users/runner/work/R-test/R-test/renv/library/R-4.2/x86_64-apple-darwin17.0'
-    ## (as 'lib' is unspecified)
-
-    ## 
-    ## mapdata installed
-
 Emils corona-blog
 =================
 
@@ -70,8 +8,6 @@ Emils corona-blog
 *<a href="https://github.com/pomber/covid19" class="uri">https://github.com/pomber/covid19</a>*
 
 *<a href="https://github.com/owid/covid-19-data/blob/master/public/data/README.md" class="uri">https://github.com/owid/covid-19-data/blob/master/public/data/README.md</a>*
-
-Jeg tester
 
 Denne rapport følger udviklingen i corona-situationen på baggrund af
 udvalgte tabeller med nøgletal og figurer. Det primære fokus i denne
