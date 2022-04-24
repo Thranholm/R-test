@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-```{r echo=FALSE, results="hide", warning=FALSE}
+```{r echo=FALSE, results="hide", warning=FALSE, message=FALSE}
 ### Corona-monitorering Smittede ###
 library(pacman)
 pacman::p_load(lubridate, tidyverse, httr, jsonlite, stringr, ggplot2, 
@@ -287,8 +287,6 @@ _Tallene viser de registerende tal per `r strftime(max(big_ones$date), "%d-%m-%Y
 *https://github.com/pomber/covid19*
 
 *https://github.com/owid/covid-19-data/blob/master/public/data/README.md*
-
-Jeg tester
 
 Denne rapport følger udviklingen i corona-situationen på baggrund
 af udvalgte tabeller med nøgletal og figurer. Det primære fokus i 
