@@ -42,9 +42,9 @@ jobs:
       - name: Install dependencies
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
-          p_load(lubridate, tidyverse, httr, jsonlite, stringr, ggplot2, 
-               RColorBrewer, cowplot, zoo, directlabels, scales,
-               ggmap, maps, mapdata, knitr)
+          install.packages(c("lubridate", "tidyverse", "httr", "jsonlite", "stringr", "ggplot2", 
+               "RColorBrewer", "cowplot", "zoo", "directlabels", "scales",
+               "ggmap", "maps", "mapdata", "knitr"))
         shell: Rscript {0}
         
       - name: Render rapport
