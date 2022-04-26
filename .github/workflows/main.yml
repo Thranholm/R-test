@@ -30,8 +30,9 @@ jobs:
         run: Rscript -e 'install.packages("rmarkdown")'
       - name: Install pacman
         run: Rscript -e 'install.packages("pacman")'
+        
       - name: cache R packages 
-        id: cache Rpackages
+        id: cache
         uses: actions/cache@v3.0.2
         with:
           path: ${{ env.R_LIBS_USER }}
