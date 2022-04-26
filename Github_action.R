@@ -3,7 +3,7 @@
 
 install.packages("usethis")
 library(usethis)
-
+?rmarkdown::render
 
 lubridate::now()
 use_github_action("render-markdown")
