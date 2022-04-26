@@ -1,12 +1,13 @@
-# Emils corona-blog
+Emils corona-blog
+=================
 
 *Tallene viser de registerende tal per 25-04-2022*
 
 *kilder:*
 
-*<https://github.com/pomber/covid19>*
+*<a href="https://github.com/pomber/covid19" class="uri">https://github.com/pomber/covid19</a>*
 
-*<https://github.com/owid/covid-19-data/blob/master/public/data/README.md>*
+*<a href="https://github.com/owid/covid-19-data/blob/master/public/data/README.md" class="uri">https://github.com/owid/covid-19-data/blob/master/public/data/README.md</a>*
 
 Denne rapport følger udviklingen i corona-situationen på baggrund af
 udvalgte tabeller med nøgletal og figurer. Det primære fokus i denne
@@ -30,6 +31,7 @@ tilføjelse af specifikke lande kan skrives til:
 
 ##### Tabel 1: Nordiske og udvalgte europæiske lande smittetilfælde
 
+<<<<<<< HEAD
 |     | Land        | Total antal smittede | Nye smittetilfælde | Nye tilfælde per 100.000 | Nye tilfælde per 100.000, 7 dages rullende gennemsnit |
 |-----|:------------|---------------------:|-------------------:|-------------------------:|------------------------------------------------------:|
 | 1   | Netherlands |            8.220.975 |              5.139 |                     29,8 |                                                  21,6 |
@@ -45,12 +47,40 @@ tilføjelse af specifikke lande kan skrives til:
 
 Confirmed er antallet af smittetilfælde i alt siden januar.
 Udv_confirmed er antallet af nye smittetilfælde 25-04-2022.
+=======
+<table>
+<colgroup>
+<col style="width: 2%" />
+<col style="width: 3%" />
+<col style="width: 16%" />
+<col style="width: 14%" />
+<col style="width: 19%" />
+<col style="width: 42%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">Land</th>
+<th style="text-align: right;">Total antal smittede</th>
+<th style="text-align: right;">Nye smittetilfælde</th>
+<th style="text-align: right;">Nye tilfælde per 100.000</th>
+<th style="text-align: right;">Nye tilfælde per 100.000, 7 dages rullende gennemsnit</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+
+Confirmed er antallet af smittetilfælde i alt siden januar.
+Udv\_confirmed er antallet af nye smittetilfælde 24-04-2022.
+>>>>>>> 897179a52b5f28ec4bb88a46de0cf9d8e95ca0ec
 
 Følgende tabel viser de 15 lande med det højeste registrede nye
 smittetilfælde:
 
 ##### Tabel 2: Top 15 i verden smittetilfælde
 
+<<<<<<< HEAD
 |     | Land           | Total antal smittede | Nye smittetilfælde | Nye tilfælde per 100.000 | Nye tilfælde per 100.000, 7 dages rullende gennemsnit |
 |-----|:---------------|---------------------:|-------------------:|-------------------------:|------------------------------------------------------:|
 | 1   | Germany        |           24.337.394 |            136.798 |                    165,0 |                                                 151,3 |
@@ -68,6 +98,30 @@ smittetilfælde:
 | 13  | Vietnam        |           10.571.772 |              8.270 |                      8,7 |                                                  14,3 |
 | 14  | Russia         |           17.880.154 |              7.529 |                      5,2 |                                                   5,9 |
 | 15  | Brazil         |           30.355.919 |              6.456 |                      3,1 |                                                   6,5 |
+=======
+<table>
+<colgroup>
+<col style="width: 2%" />
+<col style="width: 3%" />
+<col style="width: 16%" />
+<col style="width: 14%" />
+<col style="width: 19%" />
+<col style="width: 42%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">Land</th>
+<th style="text-align: right;">Total antal smittede</th>
+<th style="text-align: right;">Nye smittetilfælde</th>
+<th style="text-align: right;">Nye tilfælde per 100.000</th>
+<th style="text-align: right;">Nye tilfælde per 100.000, 7 dages rullende gennemsnit</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+>>>>>>> 897179a52b5f28ec4bb88a46de0cf9d8e95ca0ec
 
 Tabellen nedenfor viser udvikling i smittede for de lande, der er flest
 nye tilfælde per 100.000. Dog afgrænset til lande, hvor befolkningen er
@@ -75,6 +129,7 @@ større end 1 mio.
 
 ##### Tabel 3: Top 15 i verden smittetilfælde per 100.000
 
+<<<<<<< HEAD
 |     | Land                | Total antal smittede | Nye smittetilfælde | Nye tilfælde per 100.000 | Nye tilfælde per 100.000, 7 dages rullende gennemsnit |
 |-----|:--------------------|---------------------:|-------------------:|-------------------------:|------------------------------------------------------:|
 | 1   | Germany             |           24.337.394 |            136.798 |                    165,0 |                                                 151,3 |
@@ -92,6 +147,30 @@ større end 1 mio.
 | 13  | Trinidad and Tobago |              145.021 |                458 |                     33,0 |                                                  26,7 |
 | 14  | Netherlands         |            8.220.975 |              5.139 |                     29,8 |                                                  21,6 |
 | 15  | Bahrain             |              566.679 |                407 |                     25,9 |                                                  28,2 |
+=======
+<table>
+<colgroup>
+<col style="width: 2%" />
+<col style="width: 3%" />
+<col style="width: 16%" />
+<col style="width: 14%" />
+<col style="width: 19%" />
+<col style="width: 42%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">Land</th>
+<th style="text-align: right;">Total antal smittede</th>
+<th style="text-align: right;">Nye smittetilfælde</th>
+<th style="text-align: right;">Nye tilfælde per 100.000</th>
+<th style="text-align: right;">Nye tilfælde per 100.000, 7 dages rullende gennemsnit</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+>>>>>>> 897179a52b5f28ec4bb88a46de0cf9d8e95ca0ec
 
 ### Grafer og kort
 
@@ -216,7 +295,7 @@ test sammenlignet med antallet af smittede og dødsfald. Derfor er
 tallene i mange tilfælde indhentet gennem landenes sundhedsmyndigheder,
 der offentliggøre tallene på forskellig vis og med forskellige frekvens.
 Der kan læses nærmere om dataen fra kilden her:
-<https://github.com/owid/covid-19-data/blob/master/public/data/README.md>
+<a href="https://github.com/owid/covid-19-data/blob/master/public/data/README.md" class="uri">https://github.com/owid/covid-19-data/blob/master/public/data/README.md</a>
 
 Grundet de forskellige tidspunkter for indberetning af test, så kan der
 opstår tilfælde hvor test bliver offentliggjort lørdag, hvor antallet af
@@ -231,14 +310,21 @@ omkring månedsskifte. Der arbejdes på noget smartere.
 
 ![](Corona-projekt_files/figure-markdown_github/unnamed-chunk-14-1.png)
 
-# Udvikling i dødsfald
+Udvikling i dødsfald
+====================
 
+<<<<<<< HEAD
 Nedenstående tabel viser udvikling i dødsfald i udv_deaths 25-04-2022 og
 total antal dødsfald i deaths. Første tabel viser det for udvalgte
+=======
+Nedenstående tabel viser udvikling i dødsfald i udv\_deaths 24-04-2022
+og total antal dødsfald i deaths. Første tabel viser det for udvalgte
+>>>>>>> 897179a52b5f28ec4bb88a46de0cf9d8e95ca0ec
 mindre Europæiske lande, mens det efterfølgende viser på verdensplan.
 
 ##### Tabel 4: Udvikling i dødsfald udvalgte europæiske lande
 
+<<<<<<< HEAD
 |     | Land        | Total antal dødsfald | Nye dødsfald | Nye dødsfald, 7 dages rullende gennemsnit |
 |-----|:------------|---------------------:|-------------:|------------------------------------------:|
 | 1   | Denmark     |                6.154 |           21 |                                      15,4 |
@@ -271,6 +357,51 @@ mindre Europæiske lande, mens det efterfølgende viser på verdensplan.
 | 13  | Australia      |                7.052 |           46 |                                      35,4 |
 | 14  | Japan          |               29.344 |           39 |                                      41,7 |
 | 15  | Indonesia      |              156.133 |           33 |                                      32,9 |
+=======
+<table>
+<colgroup>
+<col style="width: 3%" />
+<col style="width: 5%" />
+<col style="width: 25%" />
+<col style="width: 15%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">Land</th>
+<th style="text-align: right;">Total antal dødsfald</th>
+<th style="text-align: right;">Nye dødsfald</th>
+<th style="text-align: right;">Nye dødsfald, 7 dages rullende gennemsnit</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+
+##### Tabel 5: Udvikling i dødsfald, flest nye dødsfald verdensplan
+
+<table>
+<colgroup>
+<col style="width: 3%" />
+<col style="width: 5%" />
+<col style="width: 25%" />
+<col style="width: 15%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">Land</th>
+<th style="text-align: right;">Total antal dødsfald</th>
+<th style="text-align: right;">Nye dødsfald</th>
+<th style="text-align: right;">Nye dødsfald, 7 dages rullende gennemsnit</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+>>>>>>> 897179a52b5f28ec4bb88a46de0cf9d8e95ca0ec
 
 Figurerne nedenfor viser nye dødsfald som rullende 7-dages gennemsnit.
 X-aksen er antal dage siden 3 dødsfald og y-aksen er logaritme
@@ -288,6 +419,7 @@ Følgende tabel er sorteret efter antal dødsfald per 100.000 indbyggere:
 
 ##### Tabel 6: Dødsfald per 100.000 indbyggere
 
+<<<<<<< HEAD
 |     | Land                   | Total dødsfald | Nye dødsfald | Dødsfald per 100.000 |
 |-----|:-----------------------|---------------:|-------------:|---------------------:|
 | 1   | Peru                   |        212.761 |           19 |                665,1 |
@@ -320,5 +452,9 @@ Følgende tabel er sorteret efter antal dødsfald per 100.000 indbyggere:
 | 28  | United Kingdom         |        174.326 |          341 |                262,3 |
 | 29  | Mexico                 |        324.134 |            5 |                256,9 |
 | 30  | Russia                 |        367.521 |          155 |                254,4 |
+=======
+|     | Land |  Total dødsfald|  Nye dødsfald|  Dødsfald per 100.000|
+|:----|:-----|---------------:|-------------:|---------------------:|
+>>>>>>> 897179a52b5f28ec4bb88a46de0cf9d8e95ca0ec
 
 *af: Emil Thranholm, mail: <ethranholm@hotmail.com>*

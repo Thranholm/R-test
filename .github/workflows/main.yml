@@ -5,7 +5,7 @@ on:
     paths: ['**.Rmd']
   workflow_dispatch:
   schedule:
-    - cron: "0 11 * * *"
+    - cron: "0 9 * * *"
 
 name: render-rmarkdown
 
@@ -31,21 +31,17 @@ jobs:
       - name: Install pacman
         run: Rscript -e 'install.packages("pacman")'
       - name: cache R packages 
-        id: cache
+        id: cache Rpackages
         uses: actions/cache@v3.0.2
         with:
           path: ${{ env.R_LIBS_USER }}
-          key: ${{ runner.os }}-${{ hashFiles('**/lockfiles') }}
-          restore-keys: |
-            ${{ runner.os }}-
+          key: r-${{ hashFiles('DESCRIPTION') }}
             
       - name: Install dependencies
         if: steps.cache.outputs.cache-hit != 'true'
-        run: |
-          install.packages(c("lubridate", "tidyverse", "httr", "jsonlite", "stringr", "ggplot2", 
+        run: Rscript -e 'install.packages(c("lubridate", "tidyverse", "httr", "jsonlite", "stringr", "ggplot2", 
                "RColorBrewer", "cowplot", "zoo", "directlabels", "scales",
-               "ggmap", "maps", "mapdata", "knitr"))
-        shell: Rscript {0}
+               "ggmap", "maps", "mapdata", "knitr"))'
         
       - name: Render rapport
         run: Rscript -e 'rmarkdown::render("Corona-projekt.Rmd")'
