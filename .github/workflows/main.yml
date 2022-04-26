@@ -30,6 +30,8 @@ jobs:
         run: Rscript -e 'install.packages("rmarkdown")'
       - name: Install pacman
         run: Rscript -e 'install.packages("pacman")'
+      - name: Install tidyverse
+        run: Rscript -e 'install.packages("tidyverse")'
         
       - name: cache R packages 
         id: cache
