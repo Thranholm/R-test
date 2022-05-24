@@ -108,6 +108,7 @@ x <- corona %>%
   filter(row_number(land)==1) %>% 
   filter(is.na(Continent_Name))
 #View(x)
+
 corona <- corona %>% 
   dplyr::mutate(Continent_Name=if_else(land=="Brunei", "Asia", Continent_Name)) %>% 
   dplyr::mutate(Continent_Name=if_else(land=="Burma", "Asia", Continent_Name)) %>% 
@@ -121,6 +122,7 @@ corona <- corona %>%
   dplyr::mutate(Continent_Name=if_else(land=="Holy See", "Europe", Continent_Name)) %>% 
   dplyr::mutate(Continent_Name=if_else(land=="Kosovo", "Europe", Continent_Name)) %>% 
   dplyr::mutate(Continent_Name=if_else(land=="Korea South", "Asia", Continent_Name)) %>% 
+  dplyr::mutate(Continent_Name=if_else(land=="Korea North", "Asia", Continent_Name)) %>% 
   dplyr::mutate(Continent_Name=if_else(land=="Kyrgyzstan", "Asia", Continent_Name)) %>% 
   dplyr::mutate(Continent_Name=if_else(land=="Laos", "Asia", Continent_Name)) %>%
   dplyr::mutate(Continent_Name=if_else(land=="Libya", "Africa", Continent_Name)) %>%
@@ -134,6 +136,7 @@ corona <- corona %>%
   dplyr::mutate(Continent_Name=if_else(land=="Cruise Ship", "Asia", Continent_Name)) %>% 
   dplyr::mutate(Continent_Name=if_else(land=="West Bank and Gaza", "Asia", Continent_Name))
 sum(is.na(corona$Continent_Name))
+
 x <- corona %>% 
   group_by(land) %>% 
   filter(row_number(land)==1) %>% 
@@ -151,6 +154,7 @@ corona <- corona %>%
   dplyr::mutate(Country_Number=if_else(land=="Guinea Bissau", 624, as.double(Country_Number))) %>% 
   dplyr::mutate(Country_Number=if_else(land=="Holy See", 336, as.double(Country_Number))) %>% 
   #dplyr::mutate(Country_Number=if_else(land=="Kosovo", NA, as.double(Country_Number))) %>% 
+  dplyr::mutate(Country_Number=if_else(land=="Korea North", 408, as.double(Country_Number))) %>% 
   dplyr::mutate(Country_Number=if_else(land=="Korea South", 410, as.double(Country_Number))) %>% 
   dplyr::mutate(Country_Number=if_else(land=="Kyrgyzstan", 417, as.double(Country_Number))) %>% 
   dplyr::mutate(Country_Number=if_else(land=="Laos", 418, as.double(Country_Number))) %>%
@@ -213,6 +217,7 @@ koblet1$country <- NULL
 corona <- left_join(corona, koblet1, by= c("Country_Number" = "M49"))
 ## Joiner testtal på
 corona <- left_join(corona, test_df2, by = c("date" = "date", "land" = "location"))
+
 ### Data er klar ###
 #View(corona)
 ### Laver lags for at udregne stigning
@@ -698,6 +703,7 @@ corona <- corona %>%
   dplyr::mutate(Continent_Name=if_else(land=="Guinea Bissau", "Africa", Continent_Name)) %>% 
   dplyr::mutate(Continent_Name=if_else(land=="Holy See", "Europe", Continent_Name)) %>% 
   dplyr::mutate(Continent_Name=if_else(land=="Kosovo", "Europe", Continent_Name)) %>% 
+  dplyr::mutate(Continent_Name=if_else(land=="Korea North", "Asia", Continent_Name)) %>% 
   dplyr::mutate(Continent_Name=if_else(land=="Korea South", "Asia", Continent_Name)) %>% 
   dplyr::mutate(Continent_Name=if_else(land=="Kyrgyzstan", "Asia", Continent_Name)) %>% 
   dplyr::mutate(Continent_Name=if_else(land=="Laos", "Asia", Continent_Name)) %>%
@@ -729,6 +735,7 @@ corona <- corona %>%
   dplyr::mutate(Country_Number=if_else(land=="Guinea Bissau", 624, as.double(Country_Number))) %>% 
   dplyr::mutate(Country_Number=if_else(land=="Holy See", 336, as.double(Country_Number))) %>% 
   #dplyr::mutate(Country_Number=if_else(land=="Kosovo", NA, as.double(Country_Number))) %>% 
+  dplyr::mutate(Country_Number=if_else(land=="Korea North", 408, as.double(Country_Number))) %>% 
   dplyr::mutate(Country_Number=if_else(land=="Korea South", 410, as.double(Country_Number))) %>% 
   dplyr::mutate(Country_Number=if_else(land=="Kyrgyzstan", 417, as.double(Country_Number))) %>% 
   dplyr::mutate(Country_Number=if_else(land=="Laos", 418, as.double(Country_Number))) %>%
