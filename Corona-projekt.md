@@ -291,35 +291,35 @@ Følgende tabel er sorteret efter antal dødsfald per 100.000 indbyggere:
 
 |     | Land                   |  Total dødsfald|  Nye dødsfald|  Dødsfald per 100.000|
 |-----|:-----------------------|---------------:|-------------:|---------------------:|
-| 1   | Korea North            |               6|             0|               8.955,2|
-| 2   | Korea North            |               6|             0|               2.000,0|
-| 3   | Korea North            |               6|             0|               1.006,7|
-| 4   | Peru                   |         213.116|            10|                 666,2|
-| 5   | Bulgaria               |          37.106|            13|                 528,2|
-| 6   | Hungary                |          46.446|             0|                 475,1|
-| 7   | Bosnia and Herzegovina |          15.785|             2|                 474,9|
-| 8   | Georgia                |          16.811|             0|                 451,1|
-| 9   | North Macedonia        |           9.297|             0|                 446,0|
-| 10  | Moldova                |          11.521|             0|                 425,7|
-| 11  | Croatia                |          15.968|             2|                 390,6|
-| 12  | Czechia                |          40.270|             4|                 378,8|
-| 13  | Slovakia               |          20.081|             6|                 368,7|
-| 14  | San Marino             |             115|             0|                 340,4|
-| 15  | Romania                |          65.654|             2|                 337,3|
-| 16  | Lithuania              |           9.134|             0|                 326,0|
-| 17  | Slovenia               |           6.630|             1|                 319,7|
-| 18  | Brazil                 |         665.891|            37|                 317,9|
-| 19  | Chile                  |          57.810|             8|                 308,7|
-| 20  | US                     |       1.002.377|           204|                 306,8|
-| 21  | Poland                 |         116.268|             0|                 306,2|
-| 22  | Latvia                 |           5.815|             2|                 301,7|
-| 23  | Armenia                |           8.624|             1|                 292,2|
-| 24  | Argentina              |         128.825|             0|                 289,5|
-| 25  | Colombia               |         139.833|             0|                 281,6|
-| 26  | Trinidad and Tobago    |           3.895|             2|                 280,2|
-| 27  | Belgium                |          31.710|            35|                 277,3|
-| 28  | Greece                 |          29.711|            21|                 276,9|
-| 29  | Italy                  |         166.032|            80|                 274,8|
-| 30  | Paraguay               |          18.885|             0|                 271,5|
+| 1   | Peru                   |         213.116|            10|                 666,2|
+| 2   | Bulgaria               |          37.106|            13|                 528,2|
+| 3   | Hungary                |          46.446|             0|                 475,1|
+| 4   | Bosnia and Herzegovina |          15.785|             2|                 474,9|
+| 5   | Georgia                |          16.811|             0|                 451,1|
+| 6   | North Macedonia        |           9.297|             0|                 446,0|
+| 7   | Moldova                |          11.521|             0|                 425,7|
+| 8   | Croatia                |          15.968|             2|                 390,6|
+| 9   | Czechia                |          40.270|             4|                 378,8|
+| 10  | Slovakia               |          20.081|             6|                 368,7|
+| 11  | San Marino             |             115|             0|                 340,4|
+| 12  | Romania                |          65.654|             2|                 337,3|
+| 13  | Lithuania              |           9.134|             0|                 326,0|
+| 14  | Slovenia               |           6.630|             1|                 319,7|
+| 15  | Brazil                 |         665.891|            37|                 317,9|
+| 16  | Chile                  |          57.810|             8|                 308,7|
+| 17  | US                     |       1.002.377|           204|                 306,8|
+| 18  | Poland                 |         116.268|             0|                 306,2|
+| 19  | Latvia                 |           5.815|             2|                 301,7|
+| 20  | Armenia                |           8.624|             1|                 292,2|
+| 21  | Argentina              |         128.825|             0|                 289,5|
+| 22  | Colombia               |         139.833|             0|                 281,6|
+| 23  | Trinidad and Tobago    |           3.895|             2|                 280,2|
+| 24  | Belgium                |          31.710|            35|                 277,3|
+| 25  | Greece                 |          29.711|            21|                 276,9|
+| 26  | Italy                  |         166.032|            80|                 274,8|
+| 27  | Paraguay               |          18.885|             0|                 271,5|
+| 28  | United Kingdom         |         178.744|           108|                 268,9|
+| 29  | Mexico                 |         324.768|           151|                 257,4|
+| 30  | Russia                 |         370.795|            74|                 256,6|
 
 *af: Emil Thranholm, mail: <ethranholm@hotmail.com>*
