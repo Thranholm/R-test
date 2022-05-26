@@ -1,5 +1,6 @@
 
 
+library(rmarkdown)
 
 install.packages("usethis")
 library(usethis)
