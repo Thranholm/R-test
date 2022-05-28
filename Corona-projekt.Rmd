@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library(pacman)
 pacman::p_load(lubridate, tidyverse, httr, jsonlite, stringr, ggplot2, 
                RColorBrewer, cowplot, zoo, directlabels, scales,
-               ggmap, maps, mapdata, knitr)
+               ggmap, maps, knitr)
 #p_update()
 rm(list = ls())
 #### Specifik danmark data #####
