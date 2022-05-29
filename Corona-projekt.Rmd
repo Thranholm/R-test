@@ -13,9 +13,9 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r echo=FALSE, results="hide", warning=FALSE, message=FALSE}
 ### Corona-monitorering Smittede ###
 library(pacman)
-pacman::p_load(lubridate, tidyverse, httr, jsonlite, stringr, ggplot2, 
+pacman::p_load(lubridate, knitr, tidyverse, httr, jsonlite, stringr, ggplot2, 
                RColorBrewer, cowplot, zoo, directlabels, scales,
-               ggmap, maps, knitr)
+               ggmap, maps)
 #p_update()
 rm(list = ls())
 #### Specifik danmark data #####
