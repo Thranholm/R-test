@@ -496,12 +496,14 @@ Følgende kort viser smittetrykket i de europæiske lande.
 europa_lande <-  europa %>% 
   ungroup(Country_Number) %>% 
   filter(!(land=="Norway")) %>% 
-  select(land)
-europa_lande <- unique(europa_lande$land)
-  
+  select(land) %>% 
+  distinct(land) %>% 
+  pull(land)
+
 eu_geo <- map_data("world", region = c(europa_lande,
                                        "Czech Republic", "UK", "Macedonia", "Kosovo", "Turkey",
                                        "Norway(?!:Svalbard)", "Cyprus"))
+
 eu_geo <- eu_geo %>% 
   filter(!(region=="Russia"))
 til_geo <- corona %>% 
