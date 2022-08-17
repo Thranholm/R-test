@@ -3,6 +3,8 @@ title: "Corona rapport"
 output: 
   md_document:
     variant: markdown_github
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
